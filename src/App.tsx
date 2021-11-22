@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import { Layout, Menu } from "antd";
 import "antd/dist/antd.css";
@@ -9,10 +9,26 @@ import VaccinePage from "./pages/vaccine";
 import UserPage from "./pages/user";
 import LoginPage from "./pages/login";
 
+import io from "socket.io-client";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+const socket = io("http://localhost:3001").connect();
+
 const { Header, Content, Footer } = Layout;
 function App() {
+  const handleRealtimeData = (data: any) => {
+    toast(`${data.date} ${data.city} ${data.num}명 확진 발생`);
+  };
+  useEffect(() => {
+    socket.on("realtime", handleRealtimeData);
+    return () => {
+      socket.off("realtime", handleRealtimeData);
+    };
+  }, []);
   return (
     <Layout className="layout">
+      <ToastContainer />
       <Router basename="/db-covid-map">
         <Header>
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["1"]}>
