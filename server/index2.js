@@ -3,9 +3,9 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-app.use(require('./area'));
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
+app.use(require('./area'));
 app.use(errorHandler);
 
 app.listen(3000);
