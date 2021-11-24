@@ -109,7 +109,7 @@ function  dailyInfo_list(req, res, next){
 
     pool.getConnection(function(err,conn){
 
-        const sql = 'SELECT * FROM daily_data WHERE update_date = ?';
+        const sql = 'SELECT * FROM daily_data WHERE update_date >= ?';
         conn.query(sql,date, function(err, results){
             if(err){
                 err.code = 500;
