@@ -2,15 +2,14 @@ const express = require('express');
 const router = express.Router();
 const pool = require('./dbConnection');
 
-router.get('/distLevels/:date', distLevel_list); //
-router.get('/covidInfos/:date', covidInfo_list);
-router.get('/covidInfos/:date/district', covidDistrict_list);
-router.get('/vaccInfos/:date', vaccInfo_list);
-router.get('/dailyInfos/:date', dailyInfo_list); //
+router.get('/distLevels', distLevel_list); //
+router.get('/covidInfos', covidInfo_list);
+router.get('/covidInfos/district', covidDistrict_list);
+router.get('/vaccInfos', vaccInfo_list);
+router.get('/dailyInfos', dailyInfo_list); //
 
 function  distLevel_list(req, res, next){
-    const date = req.params.date;
-
+    const date = req.query.date;
     pool.getConnection(function(err,conn){
         if(err){
             err.code = 500;
@@ -35,7 +34,7 @@ function  distLevel_list(req, res, next){
 };
 
 function covidInfo_list(req, res, next){
-    const date = req.params.date;
+    const date = req.query.date;
 
     pool.getConnection(function(err,conn){
         if(err){
@@ -61,7 +60,7 @@ function covidInfo_list(req, res, next){
 };
 
 function  covidDistrict_list(req, res, next){
-    const date = req.params.date;
+    const date = req.query.date;
 
     pool.getConnection(function(err,conn){
 
@@ -83,7 +82,7 @@ function  covidDistrict_list(req, res, next){
 };
 
 function  vaccInfo_list(req, res, next){
-    const date = req.params.date;
+    const date = req.query.date;
 
     pool.getConnection(function(err,conn){
 
@@ -105,7 +104,7 @@ function  vaccInfo_list(req, res, next){
 };
 
 function  dailyInfo_list(req, res, next){
-    const date = req.params.date;
+    const date = req.query.date;
 
     pool.getConnection(function(err,conn){
 

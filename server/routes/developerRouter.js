@@ -2,12 +2,13 @@ const express = require('express');
 const router = express.Router();
 const pool = require('./dbConnection');
 
-router.put('/distlevelInfo/:level', modify_distlevelInfo); //거리두기 단계 정보 수정
-router.delete('/realtime', delete_realtime);//실시간테이블 관리 - 지난 날짜 삭제 
+router.put('/distlevelInfo', modify_distlevelInfo); //거리두기 단계 정보 수정
+router.delete('/realtime', delete_realtime);//실시간테이블 관리 -> 지난 날짜 삭제 
 
 
 function modify_distlevelInfo(req, res, next){ 
-    const level = req.params.level;
+    const level = req.query.level;
+
     const dist_level = req.body.dist_level;
     const dist_info = req.body.dist_info;
     const dist_standard = req.body.dist_standard;
@@ -48,8 +49,8 @@ function modify_distlevelInfo(req, res, next){
 
 
 function delete_realtime(req, res, next){
-    const date = req.body.date;
-    
+    const date = req.query.date;
+
     pool.getConnection(function(err,conn){
         if(err){
             err.code = 500;
