@@ -8,7 +8,7 @@ const dbConfig ={
 };
 
 const pool = mysql.createPool(dbConfig); //연결커넥션 범위
-pool.getConnection(function(err,conn){
+pool.getConnection(function(err){
     if(err){
         console.error('db connection error:', err);
         return; //커넥션 종료
