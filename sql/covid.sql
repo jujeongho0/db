@@ -65,13 +65,13 @@ CREATE TABLE user (
     user_vaccinated varchar(5),             -- 접종 백신 여부 (미접종 / 1차접종 / 2차 접종 / 부스터샷 접종)
     user_vaccinated_date date,              -- 백신 접종 날짜
     user_state varchar(10),
-    primary key (user_rnn)
+    primary key (user_rrn)
 );
 
 CREATE TABLE real_time_confirmed (
     real_time date not null,                -- 실시간 확진자 업데이트 시간
     real_area varchar(10) not null,         -- 실시간 확진자 발견된 지역
-    real_confirmed int not null             -- 실시간 지역별 확진자 수
+    real_confirmed int not null,            -- 실시간 지역별 확진자 수
     primary key (real_time),
     primary key (real_area)
 )

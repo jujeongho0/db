@@ -7,7 +7,7 @@ const Area_jsonFile = fs.readFileSync('../temp_json/AREA.json', 'utf8');
 const Area_jsonData = JSON.parse(Area_jsonFile.toString().trim());
 // console.log(Area_jsonData);
 const area_result = Area_jsonData.AREA.map(v => `INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
-VALUES('${v.DATE}','${v.NAME}'',${v.CONFIRMED},${v.ISOLATED},${v.DESEASED},${v.RECOVERED},${v.DIST_LEVEL});`).join('\n');
+VALUES('${v.DATE}','${v.NAME}',${v.CONFIRMED},${v.ISOLATED},${v.DESEASED},${v.RECOVERED},${v.DIST_LEVEL});`).join('\n');
 // console.log(area_result);
 
 
