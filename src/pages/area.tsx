@@ -32,8 +32,10 @@ const StyleArea = styled.div`
 `;
 const dateFormat = "YYYY/MM/DD";
 function AreaPage() {
-  const [date, setDate] = useState(moment().format(dateFormat));
-
+  const [rangeDate, setRangeDate] = useState({
+    start: moment().format(dateFormat) as any,
+    end: moment().format(dateFormat) as any,
+  });
   const [area, setArea] = useState("");
   const transAreaData = useMemo(() => {
     const newObj: { [key: string]: ReturnType<() => typeof areaData.AREA[0]> } =
@@ -44,13 +46,37 @@ function AreaPage() {
     });
     return newObj;
   }, []);
+
   return (
     <div>
+      {/* <label>
+        <input type="radio" name="date" value="daily" />
+        일별 데이터
+      </label>
+      <label>
+        <input type="radio" name="date" value="summary" />
+        일별 종합 데이터
+      </label> */}
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <DatePicker
+        {/* <DatePicker
           onChange={(e) => e && setDate(e.format(dateFormat))}
           defaultValue={moment("2021-11-14", dateFormat)}
           format={dateFormat}
+        /> */}
+        <DatePicker.RangePicker
+          ranges={{
+            Today: [
+              moment("2021-11-14", dateFormat),
+              moment("2021-11-14", dateFormat),
+            ],
+          }}
+          onChange={(e) =>
+            e &&
+            setRangeDate({
+              start: e[0]?.format(dateFormat),
+              end: e[1]?.format(dateFormat),
+            })
+          }
         />
       </div>
       <StyleArea>

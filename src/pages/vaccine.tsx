@@ -28,8 +28,10 @@ const StyleVaccine = styled.div`
 
 const dateFormat = "YYYY/MM/DD";
 function VaccinePage() {
-  const [date, setDate] = useState(moment().format(dateFormat));
-
+  const [rangeDate, setRangeDate] = useState({
+    start: moment().format(dateFormat) as any,
+    end: moment().format(dateFormat) as any,
+  });
   return (
     <StyleVaccine>
       <div className="chart">
@@ -71,10 +73,20 @@ function VaccinePage() {
           />
         </AreaChart>
         <p>백신별 데이터</p>
-        <DatePicker
-          onChange={(e) => e && setDate(e.format(dateFormat))}
-          defaultValue={moment("2021-11-14", dateFormat)}
-          format={dateFormat}
+        <DatePicker.RangePicker
+          ranges={{
+            Today: [
+              moment("2021-11-14", dateFormat),
+              moment("2021-11-14", dateFormat),
+            ],
+          }}
+          onChange={(e) =>
+            e &&
+            setRangeDate({
+              start: e[0]?.format(dateFormat),
+              end: e[1]?.format(dateFormat),
+            })
+          }
         />
       </div>
     </StyleVaccine>
