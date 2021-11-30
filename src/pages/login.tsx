@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Form, Input, Button, Checkbox } from "antd";
 import styled from "styled-components";
+import axios from "axios";
+import { Navigate } from "react-router-dom";
+import { useRecoilState } from "recoil";
+import { loginState } from "../App";
 
 const StyleLogin = styled.div`
   label {
@@ -24,13 +28,22 @@ const StyleLogin = styled.div`
 function LoginPage() {
   const [frontNum, setFrontNum] = useState("");
   const [backNum, setBackNum] = useState("");
+  const [login, setLogin] = useRecoilState(loginState);
 
-  const handleLogin = () => {
+  const handleLogin = async () => {
     const RRN = `${frontNum}-${backNum}`;
-    console.log(RRN);
+    const response = await axios.post("http://localhost:3001/login", {
+      rrn: RRN,
+    });
+    if (response.data.status == "fail") {
+      alert("로그인 실패");
+    } else {
+      setLogin(true);
+    }
   };
   return (
     <StyleLogin>
+      {login && <Navigate to="/user" />}
       <h1>COVID-19 알림이 로그인</h1>
       <div className="RRN">
         <Form.Item
