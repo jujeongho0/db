@@ -31,7 +31,7 @@ const StyleArea = styled.div`
     margin-bottom: 5px;
   }
 `;
-const dateFormat = "YYYY/MM/DD";
+const dateFormat = "YYYY-MM-DD";
 function AreaPage() {
   const [rangeDate, setRangeDate] = useState({
     start: moment().format(dateFormat) as any,
@@ -56,7 +56,8 @@ function AreaPage() {
         "http://localhost:3001/covid/covidInfos",
         {
           params: {
-            date: "2021-11-30",
+            start_date: rangeDate.start,
+            end_date: rangeDate.end,
           },
         }
       );
@@ -64,7 +65,7 @@ function AreaPage() {
       setAreaData(response.data);
     };
     fetch();
-  }, []);
+  }, [rangeDate]);
 
   return (
     <div>

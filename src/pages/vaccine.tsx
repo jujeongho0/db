@@ -26,13 +26,16 @@ const StyleVaccine = styled.div`
   text-align: center;
 `;
 
-const dateFormat = "YYYY/MM/DD";
+const dateFormat = "YYYY-MM-DD";
 function VaccinePage() {
   const [rangeDate, setRangeDate] = useState({
     start: moment().format(dateFormat) as any,
     end: moment().format(dateFormat) as any,
   });
-  const [vaccineData, setVaccineData] = useState<any>([]);
+  const [vaccineData, setVaccineData] = useState<any>({
+    range: false,
+    data: [],
+  });
 
   useEffect(() => {
     console.log("AA", vaccineData);
@@ -44,28 +47,30 @@ function VaccinePage() {
         "http://localhost:3001/covid/vaccInfos",
         {
           params: {
-            date: "2021-11-30",
+            start_date: rangeDate.start,
+            end_date: rangeDate.end,
           },
         }
       );
-      setVaccineData(
-        response.data.data.map((v: any) => {
+      setVaccineData({
+        range: response.data.range,
+        data: response.data.data.map((v: any) => {
           Object.keys(v).forEach((f) => {
             if (v[f] == null) v[f] = 0;
           });
           return v;
-        })
-      );
+        }),
+      });
     };
     fetch();
-  }, []);
+  }, [rangeDate]);
   return (
     <StyleVaccine>
       <div className="chart">
         <AreaChart
           width={1200}
           height={600}
-          data={vaccineData}
+          data={vaccineData.data}
           margin={{
             top: 10,
             right: 30,
@@ -79,21 +84,21 @@ function VaccinePage() {
           <Tooltip />
           <Area
             type="monotone"
-            dataKey="vacc_once"
+            dataKey={vaccineData.range ? "sum(vacc_once)" : "vacc_once"}
             stackId="1"
             stroke="#8884d8"
             fill="#8884d8"
           />
           <Area
             type="monotone"
-            dataKey="vacc_fully"
+            dataKey={vaccineData.range ? "sum(vacc_fully)" : "vacc_fully"}
             stackId="1"
             stroke="#82ca9d"
             fill="#82ca9d"
           />
           <Area
             type="monotone"
-            dataKey="vacc_boost"
+            dataKey={vaccineData.range ? "sum(vacc_boost)" : "vacc_boost"}
             stackId="1"
             stroke="#ffc658"
             fill="#ffc658"
