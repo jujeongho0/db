@@ -6,7 +6,8 @@ CREATE TABLE daily_data (
     daily_deseased    int not null,                 -- 일일 사망자 수
     daily_recovered   int not null,                 -- 일일 격리해제자 수
     daily_vacc_once   int not null,                 -- 일일 1차 접종자 수
-    daily_vacc_fully  int not null,                 -- 일일 2차 접종자 수
+    daily_vacc_fully  int not null,
+    daily_boost       int not null,                 -- 일일 2차 접종자 수
     primary key (update_date)
 );
 
@@ -19,18 +20,16 @@ CREATE TABLE area (
     area_deseased int not null,                     -- 사망자 수
     area_recovered int not null,                    -- 격리해제자 수
     area_dist_level int,
-    primary key (area_name),
-    foreign key (update_date) references daily_data (update_date)
+    primary key (area_name, update_date)
 );
 
 -- DISTRICT TABLE (지역구 별 데이터)
-CREATE TABLE distirct (
+CREATE TABLE district (
     update_date date not null,                      -- 데이터 업데이트 날짜
     area_name varchar(10) not null,                 -- 지역구 이름
     district varchar(10) not null,                  -- 자치구 이름
     district_confirmed int not null,                -- 지역별 확진자 수
-    primary key (district),
-    foreign key (update_date) references daily_data (update_date),
+    primary key (district, update_date),
     foreign key (area_name) references area (area_name)
 );
 
@@ -50,8 +49,7 @@ CREATE TABLE vaccine (
     vacc_once int not null,                         -- 백신 1차 접종자 수
     vacc_fully int,                                 -- 백신 2차 접종자 수
     vacc_boost int,                                 -- 백신 부스터샷 접종자 수
-    primary key (vacc_name),
-    foreign key (update_date) references daily_data (update_date)
+    primary key (vacc_name, update_date)
 );
 
 -- USER TABLE (사용자 데이터)
@@ -72,6 +70,5 @@ CREATE TABLE real_time_confirmed (
     real_time date not null,                -- 실시간 확진자 업데이트 시간
     real_area varchar(10) not null,         -- 실시간 확진자 발견된 지역
     real_confirmed int not null,            -- 실시간 지역별 확진자 수
-    primary key (real_time),
-    primary key (real_area)
+    primary key (real_time, real_area)
 )

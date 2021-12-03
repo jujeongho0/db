@@ -6,8 +6,8 @@ const Daily_jsonFile = fs.readFileSync('../크롤링 데이터/DAILY_TEMP.json',
 // console.log(Area_jsonFile);
 const Daily_jsonData = JSON.parse(Daily_jsonFile.toString().trim());
 // console.log(Area_jsonData);
-const daily_result = Daily_jsonData.DAILY.map(v => `INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('${v.DATE}','${v.CONFIRMED}',${v.CONFIRMED},${v.ISOLATED},${v.DESEASED},${v.RECOVERED},${v.VACC_ONCE},${v.VACC_FULLY},${v.VACC_BOOST});`).join('\n');
+const daily_result = Daily_jsonData.DAILY.map(v => `INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('${v.DATE}','${v.CONFIRMED}',${v.ISOLATED},${v.DESEASED},${v.RECOVERED},${v.VACC_ONCE},${v.VACC_FULLY},${v.VACC_BOOST});`).join('\n');
 // console.log(area_result);
 
 

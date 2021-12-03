@@ -1,559 +1,559 @@
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-02-26','6010',6010,-788,583,1183,28175,5008,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-02-27','4985',4985,-919,728,1908,29715,5075,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-02-28','5170',5170,977,866,881,30633,5120,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-01','4088',4088,-1449,802,1416,32293,5187,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-02','3218',3218,-634,762,780,98915,5289,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-03','6003',6003,906,917,1326,168504,5421,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-04','4944',4944,772,790,750,239034,5735,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-05','5286',5286,-674,764,777,309840,5921,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-06','6024',6024,1750,717,1615,328004,5958,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-07','4892',4892,-1019,794,1061,330181,5984,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-08','4940',4940,1202,777,1038,397945,6070,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-09','4497',4497,443,1100,1608,461723,6244,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-10','5093',5093,663,842,1052,516201,6330,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-11','6352',6352,-898,825,1153,561072,6538,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-12','5480',5480,299,944,1667,599623,6649,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-13','4395',4395,654,583,1518,603663,6710,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-14','5488',5488,-134,699,1833,604987,6733,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-15','4900',4900,1203,704,1625,618532,6810,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-16','3041',3041,-1153,724,664,638252,6940,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-17','3437',3437,-619,780,1305,658915,7031,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-18','5451',5451,-2234,725,1485,678887,7240,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-19','5531',5531,1457,889,1090,696535,7376,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-20','5612',5612,-385,795,1565,698009,7757,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-21','5166',5166,-247,760,961,698221,8086,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-22','4271',4271,164,819,1074,702311,8459,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-23','6067',6067,866,798,866,724615,9217,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-24','3209',3209,-183,650,1376,755575,10533,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-25','5085',5085,1856,896,1196,790721,11810,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-26','5446',5446,1323,718,1047,816181,13340,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-27','5661',5661,367,693,1540,817836,13450,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-28','6503',6503,89,587,1699,818088,13506,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-29','4676',4676,-123,743,1667,846420,14572,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-30','4831',4831,428,929,824,876891,16872,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-03-31','4241',4241,457,829,806,901545,21834,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-01','4794',4794,-657,773,1320,939741,29289,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-02','5027',5027,-1716,843,981,980246,36030,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-03','3248',3248,-1279,460,1196,989241,36707,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-04','4129',4129,-477,901,1559,990064,36837,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-05','4685',4685,-215,789,1145,1028399,37302,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-06','4571',4571,-574,969,1141,1068644,43464,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-07','4751',4751,791,759,1335,1108079,52946,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-08','5975',5975,-1498,936,1062,1146939,62984,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-09','6247',6247,-1650,835,1416,1182540,70667,0);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-10','4802',4802,-115,648,1598,1192271,71923,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-11','5420',5420,-1467,980,1257,1192860,72054,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-12','3263',3263,910,753,1530,1233196,72355,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-13','5571',5571,-109,865,893,1279070,72621,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-14','4366',4366,1083,913,1438,1326190,72959,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-15','5977',5977,299,845,897,1420615,73283,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-16','5752',5752,-986,970,1542,1524820,73839,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-17','5755',5755,2332,698,1727,1554811,74101,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-18','3885',3885,-464,738,1172,1559967,74241,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-19','5412',5412,1300,861,979,1683559,74527,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-20','3600',3600,289,770,981,1815579,74886,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-21','5532',5532,-1339,700,1491,1949048,75369,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-22','4318',4318,-777,842,1720,2081673,94426,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-23','5030',5030,877,455,1438,2242526,114485,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-24','4558',4558,843,817,1515,2308059,120584,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-25','3579',3579,-1596,760,1462,2314674,121125,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-26','3015',3015,87,607,1377,2457977,143085,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-27','4010',4010,-524,865,1446,2635464,165348,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-28','5028',5028,-1825,901,1791,2868093,186289,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-29','4243',4243,-637,854,1052,3130953,216854,1);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-04-30','4049',4049,-908,823,1577,3409553,247173,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-01','4282',4282,-388,594,1278,3450148,255231,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-02','4397',4397,-821,792,1215,3451996,255768,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-03','4955',4955,-400,673,1517,3539193,286738,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-04','5013',5013,-1863,824,1491,3615017,318455,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-05','4722',4722,-817,804,1526,3621136,344226,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-06','6188',6188,-1322,712,1507,3679685,418301,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-07','6353',6353,-715,807,1557,3728604,495728,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-08','5125',5125,1447,739,1448,3741160,523805,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-09','4493',4493,-1217,627,928,3741448,528792,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-10','3932',3932,-518,740,1562,3755819,606855,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-11','4239',4239,-1243,701,1215,3765201,688079,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-12','5479',5479,746,889,1188,3772157,771504,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-13','3916',3916,2079,697,1118,3781723,850067,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-14','3601',3601,513,770,1377,3793632,930816,2);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-15','5520',5520,-1066,691,1219,3795452,961327,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-16','5455',5455,562,708,1535,3795912,966580,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-17','3985',3985,506,690,943,3809979,1067411,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-18','4578',4578,-775,840,1613,3823183,1209677,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-19','5334',5334,1172,703,1670,3825669,1303132,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-20','6260',6260,930,709,1000,3838750,1514869,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-21','4482',4482,-1264,863,929,3854120,1740818,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-22','4888',4888,1163,789,1772,3859723,1776910,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-23','4590',4590,-7,590,1502,3860260,1779783,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-24','3657',3657,888,615,1265,3932719,1885094,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-25','5711',5711,-1275,677,816,4011661,1978925,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-26','4556',4556,637,591,1068,4100044,2046919,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-27','5222',5222,859,872,906,4762861,2102428,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-28','5516',5516,-1632,808,1296,5308612,2167964,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-29','5635',5635,-256,624,1488,5473767,2177034,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-30','4690',4690,-487,946,999,5478934,2177277,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-05-31','5490',5490,-1077,637,977,5866365,2204787,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-01','4431',4431,-1387,748,838,6434959,2231617,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-02','5389',5389,-1098,871,1456,6818759,2254721,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-03','3853',3853,106,552,1763,7163661,2281012,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-04','3794',3794,-816,770,898,7533652,2311337,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-05','4659',4659,268,745,1252,7674250,2314060,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-06','5070',5070,156,805,1550,7677563,2314272,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-07','4210',4210,-1249,907,659,8573148,2335315,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-08','4318',4318,-400,566,1718,9320602,2361541,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-09','5423',5423,258,591,1032,9915523,2386481,3);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-10','5001',5001,782,1157,1109,10684096,2422313,4);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-11','5691',5691,-392,822,1051,11512269,2458196,4);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-12','4166',4166,446,653,1730,11901885,2463552,4);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-13','5638',5638,-288,646,1630,11930012,2464046,5);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-14','4751',4751,-588,725,1286,12700515,2551362,5);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-15','3806',3806,-2047,777,1106,13348622,2648702,5);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-16','4648',4648,1949,831,1211,13918000,2754438,5);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-17','4571',4571,1178,844,868,14362100,2858741,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-18','4483',4483,2182,661,1100,14900279,2956336,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-19','6147',6147,2837,864,1995,15117106,2973778,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-20','4625',4625,-1402,850,1852,15118041,2974807,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-21','5010',5010,528,580,914,15166191,3089599,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-22','5098',5098,-2628,888,1380,15215674,3213110,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-23','4945',4945,-2010,810,943,15260475,3332960,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-24','5433',5433,-16,527,942,15306821,3440931,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-25','6455',6455,-1590,819,1870,15371532,3538073,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-26','3836',3836,275,765,1724,15383212,3562065,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-27','4234',4234,-423,842,1587,15383512,3563146,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-28','5230',5230,2484,741,953,15397418,3707864,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-29','6076',6076,265,816,917,15414911,3852971,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-06-30','5560',5560,1467,791,1198,15430380,3989944,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-01','5194',5194,-774,609,1609,15435579,4110821,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-02','2943',2943,121,748,1489,15441472,4231974,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-03','4547',4547,1208,1027,953,15443463,4249180,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-04','5088',5088,94,630,979,15443736,4250023,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-05','4307',4307,-203,828,1054,15498994,4327106,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-06','5922',5922,813,828,1373,15538142,4418660,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-07','6510',6510,-1591,801,1732,15574275,4508391,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-08','3958',3958,259,776,1525,15613048,4615387,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-09','5037',5037,-284,819,1533,15672122,4764748,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-10','6000',6000,1314,619,601,15685434,4804528,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-11','4244',4244,650,909,1336,15686220,4805883,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-12','5208',5208,-338,876,1063,15718109,4900188,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-13','5422',5422,-199,703,1672,15826811,5010883,6);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-14','4962',4962,-807,703,1306,15939532,5133876,7);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-15','5571',5571,-1371,687,856,16063162,5277193,8);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-16','4574',4574,-203,744,1040,16198464,5462252,8);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-17','3484',3484,220,793,1197,16233344,5499442,10);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-18','4739',4739,1473,741,1616,16235996,5500274,10);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-19','4745',4745,-713,728,1106,16396613,5572345,10);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-20','4114',4114,-586,844,1432,16547792,5634394,10);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-21','2858',2858,514,703,1634,16687914,5674484,10);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-22','5749',5749,-988,782,1040,16828937,5734822,10);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-23','5566',5566,-58,771,1143,16976052,5795316,11);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-24','5546',5546,-1988,915,1408,17005670,5806869,12);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-25','5202',5202,-1380,801,1398,17007483,5807222,12);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-26','4141',4141,865,858,846,17627368,5872652,12);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-27','5229',5229,-666,712,1677,18010021,5921812,12);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-28','6249',6249,-56,891,1760,18490756,5964918,12);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-29','5988',5988,618,952,826,18839015,6008765,12);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-30','4756',4756,-2491,725,1454,19336726,6069562,12);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-07-31','5817',5817,3,826,1238,19552738,6083443,12);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-01','4667',4667,-186,843,1595,19580926,6084234,15);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-02','5602',5602,1041,773,1658,20058520,6121031,15);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-03','4466',4466,-1280,886,1010,20279689,6228750,16);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-04','4702',4702,1161,793,1637,20446616,6339416,17);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-05','6255',6255,-238,866,922,20640986,6466874,17);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-06','5205',5205,-1462,647,606,20898095,6623377,18);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-07','4729',4729,-105,627,1460,21020326,6659638,18);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-08','4008',4008,-998,715,1365,21048321,6662122,18);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-09','4810',4810,-1390,751,881,21486126,6836554,19);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-10','3372',3372,1582,933,1729,21750561,7006474,21);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-11','5751',5751,631,869,1154,21929600,7170393,22);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-12','5156',5156,-576,726,1410,22099390,7877930,22);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-13','4260',4260,338,714,1093,22343929,8499451,22);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-14','4261',4261,-58,834,1534,22487588,8682395,22);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-15','5248',5248,-735,823,1174,22506263,8688152,25);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-16','5986',5986,-587,728,1379,23178996,8945150,25);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-17','4189',4189,-274,870,808,23905226,9441925,28);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-18','5510',5510,-1005,821,1462,24430103,9762348,30);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-19','5757',5757,268,929,766,24935976,10056554,34);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-20','4445',4445,-388,990,1854,25627928,10390318,35);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-21','4846',4846,1059,756,1112,25993351,10514316,40);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-22','6379',6379,1606,909,1622,26033721,10516767,44);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-23','3917',3917,-2010,845,1297,26422266,11232147,46);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-24','5743',5743,-1892,754,1357,26828381,11828040,52);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-25','3967',3967,-1411,731,1331,27207012,12295349,55);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-26','3945',3945,1419,764,713,27861371,12712297,57);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-27','4602',4602,-1028,860,1148,28464607,13256372,64);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-28','4445',4445,767,803,1493,28741179,13506085,75);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-29','4382',4382,-964,755,1693,28757486,13519902,80);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-30','5361',5361,933,774,1239,29147495,14110413,82);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-08-31','5221',5221,199,483,853,29395464,14625424,86);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-01','5338',5338,-516,692,1150,29574268,15143530,96);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-02','3963',3963,969,758,1815,29760759,15625527,105);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-03','4018',4018,79,855,793,29994440,16308273,111);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-04','4996',4996,-1186,664,1061,30113342,16560308,111);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-05','5656',5656,276,918,1859,30121955,16566040,111);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-06','4198',4198,-1384,699,1208,30866095,17191757,114);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-07','3197',3197,953,521,1407,31440918,17601504,122);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-08','5610',5610,1804,690,1752,31827081,17896601,126);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-09','4116',4116,-466,773,807,32267299,18177251,130);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-10','4261',4261,-850,874,747,32920481,18584392,132);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-11','4268',4268,-1598,819,1180,33249079,18787120,133);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-12','5461',5461,118,807,1946,33270953,18809866,133);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-13','4002',4002,-988,980,1222,34099160,19225837,139);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-14','4303',4303,-154,734,1218,34701490,19440429,149);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-15','5480',5480,-875,778,1647,35077910,19870725,156);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-16','4299',4299,-407,867,1276,35508720,20174834,162);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-17','4037',4037,-2213,757,1541,36169890,20608225,163);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-18','5322',5322,-768,800,1396,36562473,20793858,164);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-19','3745',3745,773,663,1202,36583808,20819731,169);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-20','3897',3897,2522,834,1702,36613863,20833753,174);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-21','5134',5134,-160,707,1479,36620458,20838103,178);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-22','5121',5121,-710,747,1515,36648072,20854052,186);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-23','4105',4105,804,795,1666,37210249,21226387,191);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-24','4192',4192,-2095,622,1626,37827645,21637309,194);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-25','4961',4961,540,664,710,38141040,21852223,205);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-26','5224',5224,-1584,726,819,38167542,21875432,208);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-27','4512',4512,1904,860,1422,38585105,22584210,220);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-28','4561',4561,342,702,1848,38842824,23271675,228);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-29','5123',5123,1481,818,1037,39074678,23794608,242);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-09-30','3183',3183,-762,754,1576,39419308,24333609,252);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-01','5457',5457,321,716,1331,39656371,25193122,264);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-02','5043',5043,559,716,1176,39781194,25598668,266);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-03','4889',4889,443,690,1045,39784642,25632077,275);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-04','5661',5661,-1090,830,999,39810244,25842145,290);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-05','6431',6431,-458,748,879,39855645,26606622,302);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-06','4466',4466,1143,720,1049,39892944,27115704,317);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-07','4978',4978,-2167,836,1222,39930040,27825116,328);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-08','4762',4762,-751,846,1680,39975316,28922891,347);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-09','4948',4948,-2055,665,1557,39986195,29026544,382);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-10','4103',4103,187,705,920,39988952,29044443,387);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-11','3588',3588,-993,668,1482,40082701,29210659,398);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-12','4231',4231,-49,799,1742,40189558,29810422,1101);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-13','4240',4240,-290,983,1584,40247391,30220554,2456);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-14','4043',4043,1511,797,894,40302465,30677482,4165);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-15','4149',4149,1457,735,1605,40392160,31396907,6459);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-16','5402',5402,-770,728,1456,40456603,31751584,6567);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-17','4428',4428,-1644,666,1675,40458524,31770916,6570);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-18','5315',5315,718,847,1831,40530447,32400732,8033);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-19','3955',3955,1087,655,1377,40567903,32847219,10092);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-20','5820',5820,669,748,1680,40637002,33170596,14373);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-21','5451',5451,-1559,618,1411,40696864,33578847,20222);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-22','5255',5255,-207,614,1641,40763022,34211641,26365);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-23','5347',5347,-223,600,970,40814591,34545379,26917);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-24','5293',5293,-83,691,1322,40818461,34561833,26928);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-25','5270',5270,384,844,1246,40897026,34994245,35951);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-26','4312',4312,472,835,1067,40938311,35274708,48949);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-27','4721',4721,-136,1039,956,41016118,35532519,62263);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-28','4917',4917,-1027,623,680,41079362,36155719,71624);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-29','4526',4526,1031,827,1154,41140018,36856961,81604);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-30','4505',4505,1023,651,1914,41176387,37215136,84925);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-10-31','4810',4810,-939,721,956,41179316,37236209,85148);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-01','4061',4061,781,689,1005,41262677,37355152,119676);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-02','5210',5210,-717,783,1260,41305449,37442579,176419);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-03','4096',4096,1247,722,1495,41370651,37518309,233908);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-04','5845',5845,927,753,1419,41431479,37642233,279075);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-05','4097',4097,-720,895,1087,41503065,37804300,337621);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-06','4042',4042,399,982,765,41548525,37867093,359947);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-07','5466',5466,-24,775,1221,41550700,37871354,360617);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-08','5241',5241,-948,883,1714,41667707,38034861,545095);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-09','5040',5040,716,709,1130,41713847,38160755,645986);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-10','5465',5465,-418,941,1431,41782815,38267812,741629);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-11','4743',4743,-1836,678,1634,41847309,38376321,850060);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-12','4956',4956,614,600,1215,41925950,38525329,994876);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-13','3802',3802,264,729,1256,41981386,38626394,1045694);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-14','2001',2001,46,12,1943,41983682,38629684,1047932);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-15','2124',2124,437,22,1665,42046223,38718305,1213120);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-16','3182',3182,1580,21,1578,42080212,38765550,1354746);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-17','3285',3285,1767,29,1487,42126146,38831969,1490341);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-18','3022',3022,1852,28,1142,42171533,38892270,1620897);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-19','3206',3206,-2475,29,5652,42221339,38969640,1776327);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-20','3115',3115,1707,30,1372,42248414,39008550,1818527);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-21','2820',2820,1845,24,951,42249818,39010652,1820500);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-22','2698',2698,821,30,1846,42299503,39098612,1970851);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-23','4108',4108,2258,34,1814,42328293,39142533,2116725);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-24','3933',3933,2425,39,1470,42375505,39204042,2277101);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-25','3897',3897,1694,39,1694,42423892,39271382,2481806);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-26','4063',4063,-2576,52,6586,42479980,39358718,2777045);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-27','3918',3918,1697,56,2165,42512585,39404579,2849262);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-28','3306',3306,1970,32,1299,42513564,39406349,2851899);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-29','3024',3024,528,44,2450,42544682,39512382,3029224);
-INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
-VALUES('2021-11-30','4781',4781,2651,35,2100,42567865,39562213,3219138);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-02-26','6010',-788,583,1183,28175,5008,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-02-27','4985',-919,728,1908,29715,5075,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-02-28','5170',977,866,881,30633,5120,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-01','4088',-1449,802,1416,32293,5187,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-02','3218',-634,762,780,98915,5289,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-03','6003',906,917,1326,168504,5421,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-04','4944',772,790,750,239034,5735,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-05','5286',-674,764,777,309840,5921,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-06','6024',1750,717,1615,328004,5958,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-07','4892',-1019,794,1061,330181,5984,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-08','4940',1202,777,1038,397945,6070,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-09','4497',443,1100,1608,461723,6244,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-10','5093',663,842,1052,516201,6330,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-11','6352',-898,825,1153,561072,6538,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-12','5480',299,944,1667,599623,6649,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-13','4395',654,583,1518,603663,6710,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-14','5488',-134,699,1833,604987,6733,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-15','4900',1203,704,1625,618532,6810,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-16','3041',-1153,724,664,638252,6940,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-17','3437',-619,780,1305,658915,7031,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-18','5451',-2234,725,1485,678887,7240,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-19','5531',1457,889,1090,696535,7376,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-20','5612',-385,795,1565,698009,7757,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-21','5166',-247,760,961,698221,8086,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-22','4271',164,819,1074,702311,8459,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-23','6067',866,798,866,724615,9217,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-24','3209',-183,650,1376,755575,10533,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-25','5085',1856,896,1196,790721,11810,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-26','5446',1323,718,1047,816181,13340,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-27','5661',367,693,1540,817836,13450,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-28','6503',89,587,1699,818088,13506,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-29','4676',-123,743,1667,846420,14572,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-30','4831',428,929,824,876891,16872,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-03-31','4241',457,829,806,901545,21834,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-01','4794',-657,773,1320,939741,29289,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-02','5027',-1716,843,981,980246,36030,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-03','3248',-1279,460,1196,989241,36707,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-04','4129',-477,901,1559,990064,36837,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-05','4685',-215,789,1145,1028399,37302,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-06','4571',-574,969,1141,1068644,43464,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-07','4751',791,759,1335,1108079,52946,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-08','5975',-1498,936,1062,1146939,62984,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-09','6247',-1650,835,1416,1182540,70667,0);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-10','4802',-115,648,1598,1192271,71923,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-11','5420',-1467,980,1257,1192860,72054,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-12','3263',910,753,1530,1233196,72355,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-13','5571',-109,865,893,1279070,72621,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-14','4366',1083,913,1438,1326190,72959,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-15','5977',299,845,897,1420615,73283,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-16','5752',-986,970,1542,1524820,73839,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-17','5755',2332,698,1727,1554811,74101,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-18','3885',-464,738,1172,1559967,74241,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-19','5412',1300,861,979,1683559,74527,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-20','3600',289,770,981,1815579,74886,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-21','5532',-1339,700,1491,1949048,75369,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-22','4318',-777,842,1720,2081673,94426,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-23','5030',877,455,1438,2242526,114485,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-24','4558',843,817,1515,2308059,120584,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-25','3579',-1596,760,1462,2314674,121125,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-26','3015',87,607,1377,2457977,143085,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-27','4010',-524,865,1446,2635464,165348,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-28','5028',-1825,901,1791,2868093,186289,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-29','4243',-637,854,1052,3130953,216854,1);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-04-30','4049',-908,823,1577,3409553,247173,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-01','4282',-388,594,1278,3450148,255231,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-02','4397',-821,792,1215,3451996,255768,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-03','4955',-400,673,1517,3539193,286738,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-04','5013',-1863,824,1491,3615017,318455,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-05','4722',-817,804,1526,3621136,344226,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-06','6188',-1322,712,1507,3679685,418301,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-07','6353',-715,807,1557,3728604,495728,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-08','5125',1447,739,1448,3741160,523805,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-09','4493',-1217,627,928,3741448,528792,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-10','3932',-518,740,1562,3755819,606855,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-11','4239',-1243,701,1215,3765201,688079,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-12','5479',746,889,1188,3772157,771504,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-13','3916',2079,697,1118,3781723,850067,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-14','3601',513,770,1377,3793632,930816,2);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-15','5520',-1066,691,1219,3795452,961327,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-16','5455',562,708,1535,3795912,966580,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-17','3985',506,690,943,3809979,1067411,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-18','4578',-775,840,1613,3823183,1209677,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-19','5334',1172,703,1670,3825669,1303132,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-20','6260',930,709,1000,3838750,1514869,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-21','4482',-1264,863,929,3854120,1740818,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-22','4888',1163,789,1772,3859723,1776910,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-23','4590',-7,590,1502,3860260,1779783,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-24','3657',888,615,1265,3932719,1885094,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-25','5711',-1275,677,816,4011661,1978925,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-26','4556',637,591,1068,4100044,2046919,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-27','5222',859,872,906,4762861,2102428,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-28','5516',-1632,808,1296,5308612,2167964,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-29','5635',-256,624,1488,5473767,2177034,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-30','4690',-487,946,999,5478934,2177277,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-05-31','5490',-1077,637,977,5866365,2204787,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-01','4431',-1387,748,838,6434959,2231617,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-02','5389',-1098,871,1456,6818759,2254721,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-03','3853',106,552,1763,7163661,2281012,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-04','3794',-816,770,898,7533652,2311337,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-05','4659',268,745,1252,7674250,2314060,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-06','5070',156,805,1550,7677563,2314272,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-07','4210',-1249,907,659,8573148,2335315,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-08','4318',-400,566,1718,9320602,2361541,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-09','5423',258,591,1032,9915523,2386481,3);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-10','5001',782,1157,1109,10684096,2422313,4);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-11','5691',-392,822,1051,11512269,2458196,4);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-12','4166',446,653,1730,11901885,2463552,4);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-13','5638',-288,646,1630,11930012,2464046,5);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-14','4751',-588,725,1286,12700515,2551362,5);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-15','3806',-2047,777,1106,13348622,2648702,5);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-16','4648',1949,831,1211,13918000,2754438,5);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-17','4571',1178,844,868,14362100,2858741,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-18','4483',2182,661,1100,14900279,2956336,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-19','6147',2837,864,1995,15117106,2973778,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-20','4625',-1402,850,1852,15118041,2974807,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-21','5010',528,580,914,15166191,3089599,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-22','5098',-2628,888,1380,15215674,3213110,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-23','4945',-2010,810,943,15260475,3332960,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-24','5433',-16,527,942,15306821,3440931,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-25','6455',-1590,819,1870,15371532,3538073,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-26','3836',275,765,1724,15383212,3562065,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-27','4234',-423,842,1587,15383512,3563146,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-28','5230',2484,741,953,15397418,3707864,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-29','6076',265,816,917,15414911,3852971,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-06-30','5560',1467,791,1198,15430380,3989944,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-01','5194',-774,609,1609,15435579,4110821,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-02','2943',121,748,1489,15441472,4231974,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-03','4547',1208,1027,953,15443463,4249180,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-04','5088',94,630,979,15443736,4250023,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-05','4307',-203,828,1054,15498994,4327106,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-06','5922',813,828,1373,15538142,4418660,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-07','6510',-1591,801,1732,15574275,4508391,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-08','3958',259,776,1525,15613048,4615387,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-09','5037',-284,819,1533,15672122,4764748,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-10','6000',1314,619,601,15685434,4804528,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-11','4244',650,909,1336,15686220,4805883,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-12','5208',-338,876,1063,15718109,4900188,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-13','5422',-199,703,1672,15826811,5010883,6);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-14','4962',-807,703,1306,15939532,5133876,7);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-15','5571',-1371,687,856,16063162,5277193,8);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-16','4574',-203,744,1040,16198464,5462252,8);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-17','3484',220,793,1197,16233344,5499442,10);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-18','4739',1473,741,1616,16235996,5500274,10);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-19','4745',-713,728,1106,16396613,5572345,10);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-20','4114',-586,844,1432,16547792,5634394,10);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-21','2858',514,703,1634,16687914,5674484,10);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-22','5749',-988,782,1040,16828937,5734822,10);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-23','5566',-58,771,1143,16976052,5795316,11);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-24','5546',-1988,915,1408,17005670,5806869,12);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-25','5202',-1380,801,1398,17007483,5807222,12);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-26','4141',865,858,846,17627368,5872652,12);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-27','5229',-666,712,1677,18010021,5921812,12);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-28','6249',-56,891,1760,18490756,5964918,12);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-29','5988',618,952,826,18839015,6008765,12);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-30','4756',-2491,725,1454,19336726,6069562,12);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-07-31','5817',3,826,1238,19552738,6083443,12);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-01','4667',-186,843,1595,19580926,6084234,15);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-02','5602',1041,773,1658,20058520,6121031,15);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-03','4466',-1280,886,1010,20279689,6228750,16);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-04','4702',1161,793,1637,20446616,6339416,17);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-05','6255',-238,866,922,20640986,6466874,17);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-06','5205',-1462,647,606,20898095,6623377,18);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-07','4729',-105,627,1460,21020326,6659638,18);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-08','4008',-998,715,1365,21048321,6662122,18);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-09','4810',-1390,751,881,21486126,6836554,19);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-10','3372',1582,933,1729,21750561,7006474,21);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-11','5751',631,869,1154,21929600,7170393,22);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-12','5156',-576,726,1410,22099390,7877930,22);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-13','4260',338,714,1093,22343929,8499451,22);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-14','4261',-58,834,1534,22487588,8682395,22);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-15','5248',-735,823,1174,22506263,8688152,25);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-16','5986',-587,728,1379,23178996,8945150,25);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-17','4189',-274,870,808,23905226,9441925,28);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-18','5510',-1005,821,1462,24430103,9762348,30);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-19','5757',268,929,766,24935976,10056554,34);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-20','4445',-388,990,1854,25627928,10390318,35);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-21','4846',1059,756,1112,25993351,10514316,40);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-22','6379',1606,909,1622,26033721,10516767,44);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-23','3917',-2010,845,1297,26422266,11232147,46);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-24','5743',-1892,754,1357,26828381,11828040,52);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-25','3967',-1411,731,1331,27207012,12295349,55);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-26','3945',1419,764,713,27861371,12712297,57);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-27','4602',-1028,860,1148,28464607,13256372,64);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-28','4445',767,803,1493,28741179,13506085,75);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-29','4382',-964,755,1693,28757486,13519902,80);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-30','5361',933,774,1239,29147495,14110413,82);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-08-31','5221',199,483,853,29395464,14625424,86);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-01','5338',-516,692,1150,29574268,15143530,96);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-02','3963',969,758,1815,29760759,15625527,105);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-03','4018',79,855,793,29994440,16308273,111);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-04','4996',-1186,664,1061,30113342,16560308,111);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-05','5656',276,918,1859,30121955,16566040,111);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-06','4198',-1384,699,1208,30866095,17191757,114);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-07','3197',953,521,1407,31440918,17601504,122);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-08','5610',1804,690,1752,31827081,17896601,126);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-09','4116',-466,773,807,32267299,18177251,130);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-10','4261',-850,874,747,32920481,18584392,132);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-11','4268',-1598,819,1180,33249079,18787120,133);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-12','5461',118,807,1946,33270953,18809866,133);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-13','4002',-988,980,1222,34099160,19225837,139);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-14','4303',-154,734,1218,34701490,19440429,149);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-15','5480',-875,778,1647,35077910,19870725,156);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-16','4299',-407,867,1276,35508720,20174834,162);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-17','4037',-2213,757,1541,36169890,20608225,163);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-18','5322',-768,800,1396,36562473,20793858,164);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-19','3745',773,663,1202,36583808,20819731,169);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-20','3897',2522,834,1702,36613863,20833753,174);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-21','5134',-160,707,1479,36620458,20838103,178);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-22','5121',-710,747,1515,36648072,20854052,186);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-23','4105',804,795,1666,37210249,21226387,191);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-24','4192',-2095,622,1626,37827645,21637309,194);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-25','4961',540,664,710,38141040,21852223,205);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-26','5224',-1584,726,819,38167542,21875432,208);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-27','4512',1904,860,1422,38585105,22584210,220);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-28','4561',342,702,1848,38842824,23271675,228);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-29','5123',1481,818,1037,39074678,23794608,242);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-09-30','3183',-762,754,1576,39419308,24333609,252);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-01','5457',321,716,1331,39656371,25193122,264);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-02','5043',559,716,1176,39781194,25598668,266);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-03','4889',443,690,1045,39784642,25632077,275);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-04','5661',-1090,830,999,39810244,25842145,290);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-05','6431',-458,748,879,39855645,26606622,302);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-06','4466',1143,720,1049,39892944,27115704,317);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-07','4978',-2167,836,1222,39930040,27825116,328);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-08','4762',-751,846,1680,39975316,28922891,347);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-09','4948',-2055,665,1557,39986195,29026544,382);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-10','4103',187,705,920,39988952,29044443,387);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-11','3588',-993,668,1482,40082701,29210659,398);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-12','4231',-49,799,1742,40189558,29810422,1101);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-13','4240',-290,983,1584,40247391,30220554,2456);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-14','4043',1511,797,894,40302465,30677482,4165);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-15','4149',1457,735,1605,40392160,31396907,6459);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-16','5402',-770,728,1456,40456603,31751584,6567);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-17','4428',-1644,666,1675,40458524,31770916,6570);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-18','5315',718,847,1831,40530447,32400732,8033);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-19','3955',1087,655,1377,40567903,32847219,10092);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-20','5820',669,748,1680,40637002,33170596,14373);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-21','5451',-1559,618,1411,40696864,33578847,20222);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-22','5255',-207,614,1641,40763022,34211641,26365);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-23','5347',-223,600,970,40814591,34545379,26917);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-24','5293',-83,691,1322,40818461,34561833,26928);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-25','5270',384,844,1246,40897026,34994245,35951);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-26','4312',472,835,1067,40938311,35274708,48949);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-27','4721',-136,1039,956,41016118,35532519,62263);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-28','4917',-1027,623,680,41079362,36155719,71624);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-29','4526',1031,827,1154,41140018,36856961,81604);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-30','4505',1023,651,1914,41176387,37215136,84925);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-10-31','4810',-939,721,956,41179316,37236209,85148);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-01','4061',781,689,1005,41262677,37355152,119676);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-02','5210',-717,783,1260,41305449,37442579,176419);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-03','4096',1247,722,1495,41370651,37518309,233908);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-04','5845',927,753,1419,41431479,37642233,279075);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-05','4097',-720,895,1087,41503065,37804300,337621);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-06','4042',399,982,765,41548525,37867093,359947);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-07','5466',-24,775,1221,41550700,37871354,360617);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-08','5241',-948,883,1714,41667707,38034861,545095);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-09','5040',716,709,1130,41713847,38160755,645986);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-10','5465',-418,941,1431,41782815,38267812,741629);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-11','4743',-1836,678,1634,41847309,38376321,850060);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-12','4956',614,600,1215,41925950,38525329,994876);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-13','3802',264,729,1256,41981386,38626394,1045694);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-14','2001',46,12,1943,41983682,38629684,1047932);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-15','2124',437,22,1665,42046223,38718305,1213120);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-16','3182',1580,21,1578,42080212,38765550,1354746);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-17','3285',1767,29,1487,42126146,38831969,1490341);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-18','3022',1852,28,1142,42171533,38892270,1620897);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-19','3206',-2475,29,5652,42221339,38969640,1776327);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-20','3115',1707,30,1372,42248414,39008550,1818527);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-21','2820',1845,24,951,42249818,39010652,1820500);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-22','2698',821,30,1846,42299503,39098612,1970851);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-23','4108',2258,34,1814,42328293,39142533,2116725);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-24','3933',2425,39,1470,42375505,39204042,2277101);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-25','3897',1694,39,1694,42423892,39271382,2481806);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-26','4063',-2576,52,6586,42479980,39358718,2777045);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-27','3918',1697,56,2165,42512585,39404579,2849262);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-28','3306',1970,32,1299,42513564,39406349,2851899);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-29','3024',528,44,2450,42544682,39512382,3029224);
+INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully, daily_boost)
+VALUES('2021-11-30','4781',2651,35,2100,42567865,39562213,3219138);
 INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
 VALUES('2021-02-26','서울',1424,496,13,453,1);
 INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
