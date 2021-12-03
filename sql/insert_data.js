@@ -1,8 +1,18 @@
 const fs = require('fs');
 
 
+// DAILY TABLE
+const Daily_jsonFile = fs.readFileSync('../크롤링 데이터/DAILY_TEMP.json', 'utf8');
+// console.log(Area_jsonFile);
+const Daily_jsonData = JSON.parse(Daily_jsonFile.toString().trim());
+// console.log(Area_jsonData);
+const daily_result = Daily_jsonData.DAILY.map(v => `INSERT INTO daily_data(update_date, daily_confirmed, daily_isolated, daily_deseased, daily_recovered, daily_vacc_once, daily_vacc_fully)
+VALUES('${v.DATE}','${v.CONFIRMED}',${v.CONFIRMED},${v.ISOLATED},${v.DESEASED},${v.RECOVERED},${v.VACC_ONCE},${v.VACC_FULLY},${v.VACC_BOOST});`).join('\n');
+// console.log(area_result);
+
+
 // AREA TABLE
-const Area_jsonFile = fs.readFileSync('../temp_json/AREA.json', 'utf8');
+const Area_jsonFile = fs.readFileSync('../크롤링 데이터/AREA_TEMP.json', 'utf8');
 // console.log(Area_jsonFile);
 const Area_jsonData = JSON.parse(Area_jsonFile.toString().trim());
 // console.log(Area_jsonData);
@@ -12,7 +22,7 @@ VALUES('${v.DATE}','${v.NAME}',${v.CONFIRMED},${v.ISOLATED},${v.DESEASED},${v.RE
 
 
 // DISTRCT TABLE
-const District_jsonFile = fs.readFileSync('../temp_json/DISTRICT.json', 'utf8');
+const District_jsonFile = fs.readFileSync('../크롤링 데이터/DISTRICT_TEMP.json', 'utf8');
 // console.log(District_jsonFile);
 const District_jsonData = JSON.parse(District_jsonFile.toString().trim());
 // console.log(District_jsonData);
@@ -22,7 +32,7 @@ VALUES('${v.DATE}','${v.AREA}','${v.DISTRICT}',${v.CONFIRMED});`).join('\n');
 
 
 // VACCINE TABLE
-const Vaccine_jsonFile = fs.readFileSync('../temp_json/VACCINE.json', 'utf8');
+const Vaccine_jsonFile = fs.readFileSync('../크롤링 데이터/VACCINE_TEMP.json', 'utf8');
 // console.log(Vaccine_jsonFile);
 const Vaccine_jsonData = JSON.parse(Vaccine_jsonFile.toString().trim());
 // console.log(Vaccine_jsonData);
@@ -31,6 +41,6 @@ VALUES('${v.DATE}','${v.NAME}',${v.VACC_ONCE},${v.VACC_FULLY}, ${v.VACC_BOOST});
 // console.log(vaccine_result);
 
 // Fianl_DATA
-final_result = area_result + '\n' + district_result + '\n' + vaccine_result;
+final_result = daily_result + '\n' + area_result + '\n' + district_result + '\n' + vaccine_result;
 console.log(final_result);
 fs.writeFileSync("result.txt", final_result, {encoding: 'utf8'});
