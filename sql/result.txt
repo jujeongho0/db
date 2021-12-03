@@ -26138,27 +26138,27 @@ INSERT INTO social_dist(dist_level, dist_info, dist_standard, dist_gathering)
 VALUES('2','지역 유행(인원 제한)','인구 10만명당 1명 이상',8);
 INSERT INTO social_dist(dist_level, dist_info, dist_standard, dist_gathering)
 VALUES('1','지속적 억제상태 유지','인구 10만명당 1명 미만',null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('정석화', '9603011234567', 'M', '경기', '화이자', null, '2차접종', '2021-10-15', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('강선규', '9604011234567', 'M', '서울', '얀센', null, '2차접종', '2021-11-15', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('주정호', '9605011234567', 'M', '인천', '모더나', null, '2차접종', '2021-09-23', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('김영희', '9606011234567', 'W', '대구', '화이자', null, '2차접종', '2021-11-07', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('김덕배', '9607011234567', 'M', '부산', '얀센', null, '1차접종', '2021-10-13', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('조현석', '8408011234567', 'M', '대전', '모더나', null, '1차접종', '2021-10-11', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('아주대', '7609011234567', 'M', '충남', '아스트라제네카', null, '1차접종', '2021-08-15', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('김순자', '8603011234567', 'W', '광주', '화이자', null, '미접종', null, null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('홍길동', '7303011234567', 'M', '전북', '얀센', null, '2차접종', '2021-09-15', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('이순신', '0003011234567', 'M', '경기', '모더나', null, '1차접종', '2021-11-23', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('유관순', '0303011234567', 'W', '서울', '화이자', null, '2차접종', '2021-09-15', null);
-INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
-VALUES ('김유신', '8803011234567', 'M', '인천', '모더나', null, '2차접종', '2021-11-11', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('정석화', '9603011234567', 'M', '용인', '수지', '화이자', null, '2차접종', '2021-10-15', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('강선규', '9604011234567', 'M', '서울', '강남', '얀센', null, '2차접종', '2021-11-15', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('주정호', '9605011234567', 'M', '수원', '영통', null, '2차접종', '2021-09-23', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('김영희', '9606011234567', 'W', '서울', '강북', null, '2차접종', '2021-11-07', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('김덕배', '9607011234567', 'M', '서울', '마포', null, '1차접종', '2021-10-13', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('조현석', '8408011234567', 'M', '서울', '영등포', '모더나', null, '1차접종', '2021-10-11', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('아주대', '7609011234567', 'M', '수원', '영통', '아스트라제네카', null, '1차접종', '2021-08-15', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('김순자', '8603011234567', 'W', '서울', '성동', '화이자', null, '미접종', null, null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('홍길동', '7303011234567', 'M', '서울', '관악', '얀센', null, '2차접종', '2021-09-15', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('이순신', '0003011234567', 'M', '서울', '용산','모더나', null, '1차접종', '2021-11-23', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('유관순', '0303011234567', 'W', '서울', '송파', '화이자', null, '2차접종', '2021-09-15', null);
+INSERT INTO user(user_name, user_rrn, user_sex, user_area, user_district, user_vacc_name, user_vacc_boost_name, user_vaccinated, user_vaccinated_date, user_state)
+VALUES ('김유신', '8803011234567', 'M', '서울', '종로', '모더나', null, '2차접종', '2021-11-11', null);
