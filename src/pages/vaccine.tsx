@@ -1,5 +1,5 @@
 import { Calendar, DatePicker } from "antd";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   AreaChart,
   Area,
@@ -9,8 +9,8 @@ import {
   Tooltip,
 } from "recharts";
 import styled from "styled-components";
-import VaccineData from "../test/VACCINE.json";
 import moment from "moment";
+import axios from "axios";
 
 const StyleVaccine = styled.div`
   display: flex;
@@ -32,13 +32,40 @@ function VaccinePage() {
     start: moment().format(dateFormat) as any,
     end: moment().format(dateFormat) as any,
   });
+  const [vaccineData, setVaccineData] = useState<any>([]);
+
+  useEffect(() => {
+    console.log("AA", vaccineData);
+  }, [vaccineData]);
+
+  useEffect(() => {
+    const fetch = async () => {
+      const response = await axios.get(
+        "http://localhost:3001/covid/vaccInfos",
+        {
+          params: {
+            date: "2021-11-30",
+          },
+        }
+      );
+      setVaccineData(
+        response.data.data.map((v: any) => {
+          Object.keys(v).forEach((f) => {
+            if (v[f] == null) v[f] = 0;
+          });
+          return v;
+        })
+      );
+    };
+    fetch();
+  }, []);
   return (
     <StyleVaccine>
       <div className="chart">
         <AreaChart
           width={1200}
           height={600}
-          data={VaccineData.VACCINE["2021-11-14"]}
+          data={vaccineData}
           margin={{
             top: 10,
             right: 30,
@@ -47,26 +74,26 @@ function VaccinePage() {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="NAME" />
+          <XAxis dataKey="vacc_name" />
           <YAxis />
           <Tooltip />
           <Area
             type="monotone"
-            dataKey="VACC_ONCE"
+            dataKey="vacc_once"
             stackId="1"
             stroke="#8884d8"
             fill="#8884d8"
           />
           <Area
             type="monotone"
-            dataKey="VACC_FULLY"
+            dataKey="vacc_fully"
             stackId="1"
             stroke="#82ca9d"
             fill="#82ca9d"
           />
           <Area
             type="monotone"
-            dataKey="VACC_BOOST"
+            dataKey="vacc_boost"
             stackId="1"
             stroke="#ffc658"
             fill="#ffc658"

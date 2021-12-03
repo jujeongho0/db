@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Korea, { DistLevel } from "../components/Korea";
 import {
   BarChart,
@@ -14,6 +14,7 @@ import areaData from "../test/AREA.json";
 import AreaDetailGraph from "../components/AreaDetailGraph";
 import { Button, DatePicker } from "antd";
 import moment from "moment";
+import axios from "axios";
 
 const StyleArea = styled.div`
   display: flex;
@@ -37,14 +38,32 @@ function AreaPage() {
     end: moment().format(dateFormat) as any,
   });
   const [area, setArea] = useState("");
-  const transAreaData = useMemo(() => {
-    const newObj: { [key: string]: ReturnType<() => typeof areaData.AREA[0]> } =
-      {};
-    areaData.AREA.forEach((item) => {
-      newObj[item.NAME] = item;
-      delete newObj.NAME;
-    });
-    return newObj;
+  const [areaData, setAreaData] = useState<any>([]);
+  const [findData, setFindData] = useState<any>(null);
+
+  useEffect(() => {
+    console.log("find", findData);
+  }, [findData]);
+
+  useEffect(() => {
+    if ((areaData?.data?.length ?? 0) > 0 && area != "")
+      setFindData(areaData.data.find((v: any) => v.area_name == area));
+  }, [areaData, area]);
+
+  useEffect(() => {
+    const fetch = async () => {
+      const response = await axios.get(
+        "http://localhost:3001/covid/covidInfos",
+        {
+          params: {
+            date: "2021-11-30",
+          },
+        }
+      );
+      console.log("AA", response.data);
+      setAreaData(response.data);
+    };
+    fetch();
   }, []);
 
   return (
@@ -90,7 +109,7 @@ function AreaPage() {
               <BarChart
                 width={900}
                 height={600}
-                data={areaData.AREA}
+                data={areaData.data}
                 margin={{
                   top: 5,
                   right: 30,
@@ -99,15 +118,15 @@ function AreaPage() {
                 }}
               >
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="NAME" />
+                <XAxis dataKey="area_name" />
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="CONFIRMED" fill="#d88484" />
-                <Bar dataKey="ISOLATED" fill="#8884d8" />
-                <Bar dataKey="DESEASED" fill="#4b4b4b" />
-                <Bar dataKey="RECOVERED" fill="#82ca9d" />
-                <Bar dataKey="DIST_LEVEL" fill="#898dff" />
+                <Bar dataKey="area_confirmed" fill="#d88484" />
+                <Bar dataKey="area_isolated" fill="#8884d8" />
+                <Bar dataKey="area_deseased" fill="#4b4b4b" />
+                <Bar dataKey="area_recovered" fill="#82ca9d" />
+                <Bar dataKey="area_dist_level" fill="#898dff" />
               </BarChart>
               <p>지역별 전일 대비 그래프</p>
             </div>
@@ -116,26 +135,26 @@ function AreaPage() {
               <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>
                 {area} 전일 대비 데이터
               </h1>
-              <p>{transAreaData[area].DATE} 기준</p>
+              <p>{findData?.update_date} 기준</p>
               <div className="area_num">
-                확진자 수 : {transAreaData[area].CONFIRMED}명
+                확진자 수 : {findData?.area_confirmed}명
               </div>
               <div className="area_num">
-                거리두기 : {transAreaData[area].DIST_LEVEL}단계
-              </div>
-
-              <div className="area_num">
-                격리자 수 : {transAreaData[area].ISOLATED}명
+                거리두기 : {findData?.area_dist_level}단계
               </div>
 
               <div className="area_num">
-                완치자 수 : {transAreaData[area].RECOVERED}명
+                격리자 수 : {findData?.area_recovered}명
               </div>
 
               <div className="area_num">
-                사망자 수 : {transAreaData[area].DESEASED}명
+                완치자 수 : {findData?.area_recovered}명
               </div>
-              <div className="chart">
+
+              <div className="area_num">
+                사망자 수 : {findData?.area_deseased}명
+              </div>
+              {/* <div className="chart">
                 <BarChart
                   width={800}
                   height={250}
@@ -171,7 +190,7 @@ function AreaPage() {
                   <Bar dataKey="value" fill="#d88484" />
                 </BarChart>
                 <p>그래프</p>
-              </div>
+              </div> */}
               <Button type="primary" onClick={() => setArea("")}>
                 이전 그래프로
               </Button>
