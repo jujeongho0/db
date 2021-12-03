@@ -62,7 +62,6 @@ CREATE TABLE user (
     user_vacc_boost_name varchar(10),       -- 추가 접종 백신 종류
     user_vaccinated varchar(5),             -- 접종 백신 여부 (미접종 / 1차접종 / 2차 접종 / 부스터샷 접종)
     user_vaccinated_date date,              -- 백신 접종 날짜
-    user_state varchar(10),
     primary key (user_rrn)
 );
 
