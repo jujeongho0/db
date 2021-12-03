@@ -15,10 +15,10 @@ function login(req, res, next) {
       err.code = 500;
       return next(err);
     }
-    const sql = "SELECT user_rrn FROM user WHERE user_rrn = ?";
+    const sql = "SELECT * FROM user WHERE user_rrn = ?";
     conn.query(sql, rrn, function (err, result) {
-      if (rrn == result[0].user_rrn) res.send({ msg: "success" });
-      else res.send({ msg: "fail" });
+      if (result.length) res.send({ msg: "success", result: result[0] });
+      else if (!result.length) res.send({ msg: "fail" });
       conn.release();
     });
   });

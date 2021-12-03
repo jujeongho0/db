@@ -19,7 +19,7 @@ const StyleUser = styled.div`
     position: relative;
     margin-top: 100px;
     width: 400px;
-    height: 750px;
+    height: 650px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -43,7 +43,7 @@ const StyleUser = styled.div`
 `;
 
 function UserPage() {
-  const [login, setLogin] = useRecoilState(loginState);
+  const [userInfo, setLogin] = useRecoilState(loginState);
   const [status, setStatus] = useState("정상");
 
   const menu = (
@@ -62,58 +62,40 @@ function UserPage() {
       "http://localhost:3001/user_info_change",
       { status }
     );
-    console.log(response.data);
+    console.log(userInfo);
   };
+  console.log("AA", userInfo);
   return (
     <StyleUser>
-      {!login ? (
+      {userInfo == null ? (
         <Navigate to="/login" />
       ) : (
         <div className="box">
-          <h1>{"강선규"}님 유저 정보</h1>
-          <QRCode
-            value={`https://www.google.co.kr/search?q=${encodeURI(
-              "강선규,수원,남성,모더나,2차완료,2021.11.04"
-            )}`}
-          />
-          <div>
+          <h1>{userInfo.user_name}님 유저 정보</h1>
+          <QRCode value={JSON.stringify(userInfo)} />
+          <div style={{ marginTop: "5px" }}>
             백신접종여부
-            <p className="vaccine">
-              {"모더나"} 2차 완료 ({"2021.11.04"})
+            <p className="vaccine" style={{ marginBottom: "0px" }}>
+              {userInfo.user_vacc_name} {userInfo.user_vaccinated}
+            </p>
+            <p className="vaccine" style={{ marginBottom: "10px" }}>
+              {userInfo.user_vaccinated_date.split("T")[0]} 완료
             </p>
           </div>
 
           <div className="info">
-            주민등록번호 <p>000104-*******</p>
+            주민등록번호 <p>{userInfo.user_rrn.substr(0, 6)}-*******</p>
           </div>
           <div className="info">
-            성별 <p>남성</p>
+            성별 <p>{userInfo.user_sex}</p>
           </div>
 
           <div className="info">
-            지역 <p>수원</p>
+            지역{" "}
+            <p>
+              {userInfo.user_area} {userInfo.user_district}
+            </p>
           </div>
-
-          <div className="info">
-            <div>
-              <Dropdown overlay={menu} trigger={["click"]}>
-                <a
-                  className="ant-dropdown-link"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  현재상태 <DownOutlined />
-                </a>
-              </Dropdown>
-            </div>
-            <div>{status}</div>
-          </div>
-
-          <Button
-            onClick={handleSave}
-            style={{ position: "absolute", bottom: "20px", right: "20px" }}
-          >
-            저장
-          </Button>
         </div>
       )}
     </StyleUser>

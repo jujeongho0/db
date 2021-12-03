@@ -20,25 +20,26 @@ import io from "socket.io-client";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { atom, RecoilRoot, useRecoilState } from "recoil";
-const socket = io("http://localhost:3001").connect();
+
+// const socket = io("http://localhost:3001").connect();
 
 const { Header, Content, Footer } = Layout;
 
 export const loginState = atom({
   key: "loginState", // unique ID (with respect to other atoms/selectors)
-  default: false, // default value (aka initial value)
+  default: null as any, // default value (aka initial value)
 });
 
 function App() {
-  const handleRealtimeData = (data: any) => {
-    toast(`${data.date} ${data.city} ${data.num}명 확진 발생`);
-  };
-  useEffect(() => {
-    socket.on("realtime", handleRealtimeData);
-    return () => {
-      socket.off("realtime", handleRealtimeData);
-    };
-  }, []);
+  // const handleRealtimeData = (data: any) => {
+  //   toast(`${data.date} ${data.city} ${data.num}명 확진 발생`);
+  // };
+  // useEffect(() => {
+  //   socket.on("realtime", handleRealtimeData);
+  //   return () => {
+  //     socket.off("realtime", handleRealtimeData);
+  //   };
+  // }, []);
   const [menu, setMenu] = React.useState("1");
   const [login, setLogin] = useRecoilState(loginState);
 
@@ -74,7 +75,7 @@ function App() {
                 cursor: "pointer",
               }}
             >
-              <Link to={"/login"} onClick={() => login && setLogin(false)}>
+              <Link to={"/login"} onClick={() => login && setLogin(null)}>
                 {!login ? "로그인" : "로그아웃"}
               </Link>
             </div>

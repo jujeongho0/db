@@ -58,12 +58,18 @@ def getTodayDistrcit():
                     break
         else:
             district = "전체"
-        today.append({
+        today_info = {
+            "date": item['datetime'],
             "area": area,
             "district": district,
             "num": item['cases'],
-        })
+        }
+
+        today.append(today_info)
     return today
 
 
 print(getTodayDistrcit())
+
+# A.map(v => `INSERT INTO real_time_confirmed(real_time,real_area,real_district,real_confirmed)
+# VALUES ('${v.date}','${v.area}','${v.district}',${v.num});`);

@@ -31,14 +31,14 @@ function LoginPage() {
   const [login, setLogin] = useRecoilState(loginState);
 
   const handleLogin = async () => {
-    const RRN = `${frontNum}-${backNum}`;
-    const response = await axios.post("http://localhost:3001/login", {
+    const RRN = `${frontNum}${backNum}`;
+    const response = await axios.post("http://localhost:3001/user/login", {
       rrn: RRN,
     });
-    if (response.data.status == "fail") {
+    if (response.data.msg == "fail") {
       alert("로그인 실패");
     } else {
-      setLogin(true);
+      setLogin({ ...response.data.result });
     }
   };
   return (
