@@ -72,5 +72,5 @@ CREATE TABLE real_time_confirmed (
     real_area varchar(10) not null,         -- 실시간 확진자 발견된 지역(시)
     real_district varchar (10) not null,    -- 실시간 확진자 발견된 지역(구)
     real_confirmed int not null,            -- 실시간 지역별 확진자 수
-    primary key (real_time, real_area, real_district)
+    primary key (real_time, real_district)
 )
