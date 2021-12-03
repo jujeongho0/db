@@ -40,7 +40,16 @@ const vaccine_result = Vaccine_jsonData.VACCINE.map(v => `INSERT INTO vaccine(up
 VALUES('${v.DATE}','${v.NAME}',${v.VACC_ONCE},${v.VACC_FULLY}, ${v.VACC_BOOST});`).join('\n');
 // console.log(vaccine_result);
 
+// SOCIAL_DIST TABLE
+const Social_Dist_jsonFile = fs.readFileSync('../크롤링 데이터/SOCIAL_DIST.json', 'utf8');
+// console.log(Social_Dist_jsonFile);
+const Social_Dist_jsonData = JSON.parse(Social_Dist_jsonFile.toString().trim());
+// console.log(Social_Dist_jsonData);
+const social_dist_result = Social_Dist_jsonData.SOCIAL_DIST.map(v => `INSERT INTO social_dist(dist_level, dist_info, dist_standard, dist_gathering)
+VALUES('${v.DIST_LEVEL}','${v.DIST_INFO}','${v.STANDARD}',${v.GATHERING});`).join('\n');
+// console.log(social_dist_result);
+
 // Fianl_DATA
-final_result = daily_result + '\n' + area_result + '\n' + district_result + '\n' + vaccine_result;
+final_result = daily_result + '\n' + area_result + '\n' + district_result + '\n' + vaccine_result + '\n' + social_dist_result;
 console.log(final_result);
 fs.writeFileSync("result.txt", final_result, {encoding: 'utf8'});
