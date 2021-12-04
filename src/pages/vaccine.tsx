@@ -27,10 +27,12 @@ const StyleVaccine = styled.div`
 `;
 
 const dateFormat = "YYYY-MM-DD";
+const todayStr = "2021-11-14";
+
 function VaccinePage() {
   const [rangeDate, setRangeDate] = useState({
-    start: moment().format(dateFormat) as any,
-    end: moment().format(dateFormat) as any,
+    start: todayStr as any,
+    end: todayStr as any,
   });
   const [vaccineData, setVaccineData] = useState<any>({
     range: false,
@@ -116,11 +118,9 @@ function VaccinePage() {
         </AreaChart>
         <p>백신별 {vaccineData.range ? "합계" : ""} 데이터</p>
         <DatePicker.RangePicker
+          value={[moment(todayStr, dateFormat), moment(todayStr, dateFormat)]}
           ranges={{
-            Today: [
-              moment("2021-11-14", dateFormat),
-              moment("2021-11-14", dateFormat),
-            ],
+            Today: [moment(todayStr, dateFormat), moment(todayStr, dateFormat)],
           }}
           onChange={(e) =>
             e &&

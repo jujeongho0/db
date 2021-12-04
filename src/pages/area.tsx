@@ -59,10 +59,12 @@ const StyleArea = styled.div`
   }
 `;
 const dateFormat = "YYYY-MM-DD";
+const todayStr = "2021-11-14";
+
 function AreaPage() {
   const [rangeDate, setRangeDate] = useState({
-    start: moment().format(dateFormat) as any,
-    end: moment().format(dateFormat) as any,
+    start: todayStr as any,
+    end: todayStr as any,
   });
   const [area, setArea] = useState("");
   const [areaData, setAreaData] = useState<any>([]);
@@ -137,15 +139,13 @@ function AreaPage() {
       <div style={{ marginTop: "20px", textAlign: "center" }}>
         {/* <DatePicker
           onChange={(e) => e && setDate(e.format(dateFormat))}
-          defaultValue={moment("2021-11-14", dateFormat)}
+          defaultValue={moment(todayStr, dateFormat)}
           format={dateFormat}
         /> */}
         <DatePicker.RangePicker
+          value={[moment(todayStr, dateFormat), moment(todayStr, dateFormat)]}
           ranges={{
-            Today: [
-              moment("2021-11-14", dateFormat),
-              moment("2021-11-14", dateFormat),
-            ],
+            Today: [moment(todayStr, dateFormat), moment(todayStr, dateFormat)],
           }}
           onChange={(e) =>
             e &&
@@ -158,8 +158,16 @@ function AreaPage() {
       </div>
       <StyleArea className="box">
         <div className="map">
-          <DistLevel onAreaClick={setArea} top={15} />
-          <Korea onAreaClick={setArea} />
+          {areaData?.data?.length > 0 && (
+            <>
+              <DistLevel
+                onAreaClick={setArea}
+                top={15}
+                areaData={areaData.data}
+              />
+              <Korea onAreaClick={setArea} areaData={areaData.data} />
+            </>
+          )}
         </div>
         <div
           style={{
