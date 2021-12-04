@@ -108,8 +108,8 @@ function AreaPage() {
           {area === "" ? (
             <div className="chart">
               <BarChart
-                width={900}
-                height={600}
+                width={800}
+                height={450}
                 data={areaData.data}
                 margin={{
                   top: 5,

@@ -68,8 +68,8 @@ function VaccinePage() {
     <StyleVaccine>
       <div className="chart">
         <AreaChart
-          width={1200}
-          height={600}
+          width={1100}
+          height={450}
           data={vaccineData.data}
           margin={{
             top: 10,

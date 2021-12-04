@@ -17,9 +17,9 @@ const StyleUser = styled.div`
   }
   .box {
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
     width: 400px;
-    height: 650px;
+    height: 520px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -27,14 +27,14 @@ const StyleUser = styled.div`
   }
 
   .vaccine {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: rgb(0, 131, 254);
   }
 
   .info {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     p {
       margin-bottom: 10px;
       font-weight: lighter;
@@ -64,7 +64,6 @@ function UserPage() {
     );
     console.log(userInfo);
   };
-  console.log("AA", userInfo);
   return (
     <StyleUser>
       {userInfo == null ? (
@@ -72,7 +71,7 @@ function UserPage() {
       ) : (
         <div className="box">
           <h1>{userInfo.user_name}님 유저 정보</h1>
-          <QRCode value={JSON.stringify(userInfo)} />
+          <QRCode value={JSON.stringify(userInfo)} size={200} />
           <div style={{ marginTop: "5px" }}>
             백신접종여부
             <p className="vaccine" style={{ marginBottom: "0px" }}>
