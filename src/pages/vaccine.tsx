@@ -118,7 +118,10 @@ function VaccinePage() {
         </AreaChart>
         <p>백신별 {vaccineData.range ? "합계" : ""} 데이터</p>
         <DatePicker.RangePicker
-          value={[moment(todayStr, dateFormat), moment(todayStr, dateFormat)]}
+          value={[
+            moment(rangeDate.start, dateFormat),
+            moment(rangeDate.end, dateFormat),
+          ]}
           ranges={{
             Today: [moment(todayStr, dateFormat), moment(todayStr, dateFormat)],
           }}

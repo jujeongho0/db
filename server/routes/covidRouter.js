@@ -54,7 +54,7 @@ function covidInfo_list(req, res, next) {
       ]);
     } else {
       sql = mysql.format(
-        "SELECT area_name, sum(area_confirmed), sum(area_isolated), sum(area_deseased), sum(area_recovered), avg(area_dist_level) FROM area WHERE update_date BETWEEN ? AND ? GROUP BY area_name",
+        "SELECT area_name, sum(area_confirmed), sum(area_isolated), sum(area_deseased), sum(area_recovered), ROUND(avg(area_dist_level)) as area_dist_level FROM area WHERE update_date BETWEEN ? AND ? GROUP BY area_name",
         [start_date, end_date]
       );
       range = true;
@@ -64,10 +64,10 @@ function covidInfo_list(req, res, next) {
         err.code = 500;
         return next(err);
       }
+      console.log(results);
       const covidInfo = {
         count: results.length,
         data: results,
-
         range,
       };
       conn.release();

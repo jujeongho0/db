@@ -143,7 +143,10 @@ function AreaPage() {
           format={dateFormat}
         /> */}
         <DatePicker.RangePicker
-          value={[moment(todayStr, dateFormat), moment(todayStr, dateFormat)]}
+          value={[
+            moment(rangeDate.start, dateFormat),
+            moment(rangeDate.end, dateFormat),
+          ]}
           ranges={{
             Today: [moment(todayStr, dateFormat), moment(todayStr, dateFormat)],
           }}
