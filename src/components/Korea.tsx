@@ -67,7 +67,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("서울")}
-        style={{ top: `${180 + top}px`, left: "165px" }}
+        style={{ top: `${180 + top}px`, left: "175px" }}
       >
         <div className="area">서울</div>
         <div className="level">{transAreaData["서울"].DIST_LEVEL}</div>
@@ -75,7 +75,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("경기")}
-        style={{ top: `${220 + top}px`, left: "200px" }}
+        style={{ top: `${220 + top}px`, left: "210px" }}
       >
         <div className="area">경기</div>
         <div className="level">{transAreaData["경기"].DIST_LEVEL}</div>
@@ -83,7 +83,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("인천")}
-        style={{ top: `${200 + top}px`, left: "124px" }}
+        style={{ top: `${200 + top}px`, left: "134px" }}
       >
         <div className="area">인천</div>
         <div className="level">{transAreaData["인천"].DIST_LEVEL}</div>
@@ -91,7 +91,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("강원")}
-        style={{ top: `${190 + top}px`, left: "270px" }}
+        style={{ top: `${190 + top}px`, left: "280px" }}
       >
         <div className="area">강원</div>
         <div className="level">{transAreaData["강원"].DIST_LEVEL}</div>
@@ -99,7 +99,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("충북")}
-        style={{ top: `${270 + top}px`, left: "225px" }}
+        style={{ top: `${270 + top}px`, left: "235px" }}
       >
         <div className="area">충북</div>
         <div className="level">{transAreaData["충북"].DIST_LEVEL}</div>
@@ -107,7 +107,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("충남")}
-        style={{ top: `${300 + top}px`, left: "140px" }}
+        style={{ top: `${300 + top}px`, left: "150px" }}
       >
         <div className="area">충남</div>
         <div className="level">{transAreaData["충남"].DIST_LEVEL}</div>
@@ -115,7 +115,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("세종")}
-        style={{ top: `${300 + top}px`, left: "180px" }}
+        style={{ top: `${300 + top}px`, left: "190px" }}
       >
         <div className="area">세종</div>
         <div className="level">{transAreaData["세종"].DIST_LEVEL}</div>
@@ -123,7 +123,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("대전")}
-        style={{ top: `${320 + top}px`, left: "220px" }}
+        style={{ top: `${320 + top}px`, left: "230px" }}
       >
         <div className="area">대전</div>
         <div className="level">{transAreaData["대전"].DIST_LEVEL}</div>
@@ -131,7 +131,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("전북")}
-        style={{ top: `${380 + top}px`, left: "180px" }}
+        style={{ top: `${380 + top}px`, left: "190px" }}
       >
         <div className="area">전북</div>
         <div className="level">{transAreaData["전북"].DIST_LEVEL}</div>
@@ -139,7 +139,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("전남")}
-        style={{ top: `${450 + top}px`, left: "190px" }}
+        style={{ top: `${450 + top}px`, left: "200px" }}
       >
         <div className="area">전남</div>
         <div className="level">{transAreaData["전남"].DIST_LEVEL}</div>
@@ -147,7 +147,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("광주")}
-        style={{ top: `${425 + top}px`, left: "145px" }}
+        style={{ top: `${425 + top}px`, left: "155px" }}
       >
         <div className="area">광주</div>
         <div className="level">{transAreaData["광주"].DIST_LEVEL}</div>
@@ -155,7 +155,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("경북")}
-        style={{ top: `${300 + top}px`, left: "310px" }}
+        style={{ top: `${300 + top}px`, left: "320px" }}
       >
         <div className="area">경북</div>
         <div className="level">{transAreaData["경북"].DIST_LEVEL}</div>
@@ -163,7 +163,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("경남")}
-        style={{ top: `${420 + top}px`, left: "250px" }}
+        style={{ top: `${420 + top}px`, left: "260px" }}
       >
         <div className="area">경남</div>
         <div className="level">{transAreaData["경남"].DIST_LEVEL}</div>
@@ -171,7 +171,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("대구")}
-        style={{ top: `${355 + top}px`, left: "280px" }}
+        style={{ top: `${355 + top}px`, left: "290px" }}
       >
         <div className="area">대구</div>
         <div className="level">{transAreaData["대구"].DIST_LEVEL}</div>
@@ -179,7 +179,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("울산")}
-        style={{ top: `${380 + top}px`, left: "340px" }}
+        style={{ top: `${380 + top}px`, left: "350px" }}
       >
         <div className="area">울산</div>
         <div className="level">{transAreaData["울산"].DIST_LEVEL}</div>
@@ -187,7 +187,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("부산")}
-        style={{ top: `${430 + top}px`, left: "320px" }}
+        style={{ top: `${430 + top}px`, left: "330px" }}
       >
         <div className="area">부산</div>
         <div className="level">{transAreaData["부산"].DIST_LEVEL}</div>
@@ -195,7 +195,7 @@ export function DistLevel({
       <div
         className="dist_level"
         onClick={(e: any) => onAreaClick("제주")}
-        style={{ top: `${600 + top}px`, left: "130px" }}
+        style={{ top: `${600 + top}px`, left: "140px" }}
       >
         <div className="area">제주</div>
         <div className="level">{transAreaData["제주"].DIST_LEVEL}</div>

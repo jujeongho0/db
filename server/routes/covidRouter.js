@@ -77,11 +77,26 @@ function covidInfo_list(req, res, next) {
 }
 
 function covidDistrict_list(req, res, next) {
-  const date = req.query.date;
+  const start_date = req.query.start_date;
+  const end_date = req.query.end_date;
+  const area = decodeURI(req.query.area);
 
   pool.getConnection(function (err, conn) {
-    const sql = "SELECT * FROM district WHERE update_date = ?";
-    conn.query(sql, date, function (err, results) {
+    let range = false;
+    let sql;
+    if (end_date == undefined || start_date == end_date)
+      sql = mysql.format(
+        "SELECT district, district_confirmed FROM district WHERE update_date = ? AND area_name = ?",
+        [start_date, area]
+      );
+    else {
+      sql = mysql.format(
+        "SELECT district , sum(district_confirmed) FROM district WHERE update_date BETWEEN ? AND ? AND area_name = ? GROUP BY district",
+        [start_date, end_date, area]
+      );
+      range = true;
+    }
+    conn.query(sql, function (err, results) {
       if (err) {
         err.code = 500;
         return next(err);
