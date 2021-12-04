@@ -35,7 +35,7 @@ function distLevel_list(req, res, next) {
   });
 }
 
-// SELECT area_name, sum(area_confirmed) FROM area WHERE update_date BETWEEN '2021-11-24' AND '2021-11-30' GROUP BY area_name;
+// SELECT area_name, avg(area_confirmed) FROM area WHERE update_date BETWEEN '2021-11-24' AND '2021-11-30' GROUP BY area_name;
 function covidInfo_list(req, res, next) {
   const start_date = req.query.start_date;
   const end_date = req.query.end_date;
@@ -54,7 +54,7 @@ function covidInfo_list(req, res, next) {
       ]);
     } else {
       sql = mysql.format(
-        "SELECT area_name, sum(area_confirmed), sum(area_isolated), sum(area_deseased), sum(area_recovered), ROUND(avg(area_dist_level)) as area_dist_level FROM area WHERE update_date BETWEEN ? AND ? GROUP BY area_name",
+        "SELECT area_name, avg(area_confirmed), avg(area_isolated), avg(area_deseased), avg(area_recovered), ROUND(avg(area_dist_level)) as area_dist_level FROM area WHERE update_date BETWEEN ? AND ? GROUP BY area_name",
         [start_date, end_date]
       );
       range = true;
@@ -91,7 +91,7 @@ function covidDistrict_list(req, res, next) {
       );
     else {
       sql = mysql.format(
-        "SELECT district , sum(district_confirmed) FROM district WHERE update_date BETWEEN ? AND ? AND area_name = ? GROUP BY district",
+        "SELECT district , avg(district_confirmed) FROM district WHERE update_date BETWEEN ? AND ? AND area_name = ? GROUP BY district",
         [start_date, end_date, area]
       );
       range = true;
@@ -125,7 +125,7 @@ function vaccInfo_list(req, res, next) {
       ]);
     } else {
       sql = mysql.format(
-        "SELECT vacc_name, sum(vacc_once), sum(vacc_fully), sum(vacc_boost) FROM vaccine WHERE update_date BETWEEN ? AND ? GROUP BY vacc_name",
+        "SELECT vacc_name, avg(vacc_once), avg(vacc_fully), avg(vacc_boost) FROM vaccine WHERE update_date BETWEEN ? AND ? GROUP BY vacc_name",
         [start_date, end_date]
       );
       range = true;

@@ -96,27 +96,27 @@ function VaccinePage() {
           <Tooltip />
           <Area
             type="monotone"
-            dataKey={vaccineData.range ? "sum(vacc_once)" : "vacc_once"}
+            dataKey={vaccineData.range ? "avg(vacc_once)" : "vacc_once"}
             stackId="1"
             stroke="#8884d8"
             fill="#8884d8"
           />
           <Area
             type="monotone"
-            dataKey={vaccineData.range ? "sum(vacc_fully)" : "vacc_fully"}
+            dataKey={vaccineData.range ? "avg(vacc_fully)" : "vacc_fully"}
             stackId="1"
             stroke="#82ca9d"
             fill="#82ca9d"
           />
           <Area
             type="monotone"
-            dataKey={vaccineData.range ? "sum(vacc_boost)" : "vacc_boost"}
+            dataKey={vaccineData.range ? "avg(vacc_boost)" : "vacc_boost"}
             stackId="1"
             stroke="#ffc658"
             fill="#ffc658"
           />
         </AreaChart>
-        <p>백신별 {vaccineData.range ? "합계" : ""} 데이터</p>
+        <p>백신별 {vaccineData.range ? "날짜 평균" : ""} 데이터</p>
         <DatePicker.RangePicker
           value={[
             moment(rangeDate.start, dateFormat),

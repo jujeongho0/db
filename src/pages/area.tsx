@@ -133,7 +133,6 @@ function AreaPage() {
         일별 데이터
       </label>
       <label>
-        <input type="radio" name="date" value="summary" />
         일별 종합 데이터
       </label> */}
       <div style={{ marginTop: "20px", textAlign: "center" }}>
@@ -228,7 +227,7 @@ function AreaPage() {
                   }}
                 >
                   <h2 style={{ fontWeight: "bold" }}>
-                    {area} 코로나 {areaData.range && "합계"} 데이터
+                    {area} 코로나 {areaData.range && "평균값"} 데이터
                   </h2>
                   <div className="area_num">
                     확진자 수 : {findData?.area_confirmed}명
@@ -299,7 +298,7 @@ function AreaPage() {
                   }}
                 >
                   <h2 style={{ fontWeight: "bold", marginTop: "10px" }}>
-                    자치구별 확진자 {areaData.range ? "합계" : "수"}
+                    자치구별 확진자 {areaData.range ? "날짜 평균 수" : "수"}
                   </h2>
                   <div className="district">
                     {districtData?.data?.map((v: any, idx: number) => (
