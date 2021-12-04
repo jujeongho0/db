@@ -147,19 +147,36 @@ function vaccInfo_list(req, res, next) {
 }
 
 function dailyInfo_list(req, res, next) {
-  const date = req.query.date;
+  const start_date = req.query.start_date;
+  const end_date = req.query.end_date;
+  const columns = decodeURI(req.query.columns);
 
+  console.log(start_date, end_date, columns);
   pool.getConnection(function (err, conn) {
-    const sql = "SELECT * FROM daily_data WHERE update_date >= ?";
-    conn.query(sql, date, function (err, results) {
+    let sql;
+    let range = false;
+    if (end_date == undefined || start_date == end_date) {
+      sql = mysql.format(
+        `SELECT ${columns} FROM daily_data WHERE update_date = ?`,
+        [start_date]
+      );
+    } else {
+      sql = mysql.format(
+        `SELECT ${columns} FROM daily_data WHERE update_date BETWEEN ? AND ?`,
+        [start_date, end_date]
+      );
+      range = true;
+    }
+    conn.query(sql, function (err, results) {
       if (err) {
         err.code = 500;
         return next(err);
       }
-
+      console.log(results);
       const dailyInfo = {
         count: results.length,
         data: results,
+        range,
       };
       conn.release();
       res.json(dailyInfo);
