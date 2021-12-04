@@ -66,7 +66,17 @@ function VaccinePage() {
   }, [rangeDate]);
   return (
     <StyleVaccine>
-      <div className="chart">
+      <div
+        className="chart box"
+        style={{
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "30px",
+        }}
+      >
         <AreaChart
           width={1100}
           height={450}
