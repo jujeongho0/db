@@ -16,10 +16,21 @@ import { Button, DatePicker } from "antd";
 import moment from "moment";
 import axios from "axios";
 
+const makeNewKey = (data: any) => {
+  let newData: any = {};
+  Object.keys(data).forEach((key) => {
+    let newKey;
+    if (key.includes("(")) newKey = key.split("(")[1].slice(0, -1);
+    else newKey = key;
+    newData[newKey] = data[key];
+  });
+  return newData;
+};
+
 const StyleArea = styled.div`
   display: flex;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   .chart {
     margin-top: 50px;
 
@@ -56,7 +67,6 @@ function AreaPage() {
   const [area, setArea] = useState("");
   const [areaData, setAreaData] = useState<any>([]);
   const [findData, setFindData] = useState<any>(null);
-
   const [districtData, setDistrictData] = useState<any>(null);
 
   useEffect(() => {
@@ -72,14 +82,25 @@ function AreaPage() {
           },
         }
       );
-      setDistrictData(response.data);
+      if (response.data.range == false) setDistrictData(response.data);
+      else {
+        setDistrictData({
+          data: response.data.data.map((v: any) => makeNewKey(v)),
+        });
+      }
     };
     fetch();
   }, [areaData, area]);
 
   useEffect(() => {
-    if ((areaData?.data?.length ?? 0) > 0 && area != "")
-      setFindData(areaData.data.find((v: any) => v.area_name == area));
+    if ((areaData?.data?.length ?? 0) > 0 && area != "") {
+      if (areaData.range == false)
+        setFindData(areaData.data.find((v: any) => v.area_name == area));
+      else {
+        const data = areaData.data.find((v: any) => v.area_name == area);
+        setFindData(makeNewKey(data));
+      }
+    }
   }, [areaData, area]);
 
   useEffect(() => {
@@ -93,7 +114,12 @@ function AreaPage() {
           },
         }
       );
-      setAreaData(response.data);
+      if (response.data.range == false) setAreaData(response.data);
+      else {
+        setAreaData({
+          data: response.data.data.map((v: any) => makeNewKey(v)),
+        });
+      }
     };
     fetch();
   }, [rangeDate]);
@@ -167,7 +193,7 @@ function AreaPage() {
                 <Bar dataKey="area_recovered" fill="#82ca9d" />
                 <Bar dataKey="area_dist_level" fill="#898dff" />
               </BarChart>
-              <p>지역별 전일 대비 그래프</p>
+              <p>지역별 그래프</p>
             </div>
           ) : (
             <div style={{ marginTop: "30px" }}>
@@ -191,7 +217,7 @@ function AreaPage() {
                   }}
                 >
                   <h2 style={{ fontWeight: "bold" }}>
-                    {area} 전일 대비 데이터
+                    {area} 코로나 {areaData.range && "합계"} 데이터
                   </h2>
                   <div className="area_num">
                     확진자 수 : {findData?.area_confirmed}명
@@ -262,7 +288,7 @@ function AreaPage() {
                   }}
                 >
                   <h2 style={{ fontWeight: "bold", marginTop: "10px" }}>
-                    자치구별 확진자 수
+                    자치구별 확진자 {areaData.range ? "합계" : "수"}
                   </h2>
                   <div className="district">
                     {districtData?.data?.map((v: any, idx: number) => (
@@ -285,6 +311,19 @@ function AreaPage() {
                     ))}
                   </div>
                 </div>
+                <Button
+                  type="primary"
+                  style={{
+                    position: "absolute",
+                    width: "870px",
+                    marginTop: "20px",
+                    right: "100px",
+                    bottom: "25px",
+                  }}
+                  onClick={() => setArea("")}
+                >
+                  이전 그래프로
+                </Button>
               </div>
               {/* <div className="chart">
                 <BarChart
@@ -323,12 +362,6 @@ function AreaPage() {
                 </BarChart>
                 <p>그래프</p>
               </div> */}
-              <Button
-                style={{ width: "100%", marginTop: "20px" }}
-                onClick={() => setArea("")}
-              >
-                이전 그래프로
-              </Button>
             </div>
           )}
         </div>

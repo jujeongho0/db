@@ -114,7 +114,7 @@ function VaccinePage() {
             fill="#ffc658"
           />
         </AreaChart>
-        <p>백신별 데이터</p>
+        <p>백신별 {vaccineData.range ? "합계" : ""} 데이터</p>
         <DatePicker.RangePicker
           ranges={{
             Today: [
