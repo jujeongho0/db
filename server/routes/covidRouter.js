@@ -8,7 +8,7 @@ router.get("/covidInfos", covidInfo_list);
 router.get("/covidInfos/district", covidDistrict_list); 
 router.get("/vaccInfos", vaccInfo_list); 
 router.get("/dailyInfos", dailyInfo_list); 
-router.post("/real_times", real_time_lsit); 
+router.post("/real_times", real_time_lsit);  
 
 function real_time_lsit(req,res, next){
   const id = req.query.id; 
@@ -25,7 +25,7 @@ function real_time_lsit(req,res, next){
       if(results=''){
           sql = "SELECT * FROM real_time_confirmed"       
       } else {
-          sql = mysql.format("SELECT A.real_time, A.real_area, A.real_district, A.real_confirmed FROM real_time_confirmed as A INNER JOIN user as B ON A.real_district = B.user_district WHERE B.user_district = ?",[uDistrict]);
+          sql = mysql.format("SELECT distinct A.real_time, A.real_area, A.real_district, A.real_confirmed FROM real_time_confirmed as A INNER JOIN user as B ON A.real_district = B.user_district WHERE B.user_district = ?",[uDistrict]);
       };
 
       conn.query(sql, function(err,results){
