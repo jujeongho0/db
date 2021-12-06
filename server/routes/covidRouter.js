@@ -3,11 +3,46 @@ const router = express.Router();
 const mysql = require("mysql");
 const pool = require("./dbConnection");
 
-router.get("/distLevels", distLevel_list); //
-router.get("/covidInfos", covidInfo_list);
-router.get("/covidInfos/district", covidDistrict_list);
-router.get("/vaccInfos", vaccInfo_list);
-router.get("/dailyInfos", dailyInfo_list); //
+router.get("/distLevels", distLevel_list); //거리두기 단계 정보
+router.get("/covidInfos", covidInfo_list); 
+router.get("/covidInfos/district", covidDistrict_list); 
+router.get("/vaccInfos", vaccInfo_list); 
+router.get("/dailyInfos", dailyInfo_list); 
+router.post("/real_times", real_time_lsit); 
+
+function real_time_lsit(req,res, next){
+  const id = req.query.id; 
+
+  pool.getConnection(function (err, conn){
+    if(err){err.code = 500; return next(err);}      
+    let sql;
+    sql = "SELECT * FROM user WHERE user_rrn = :id";
+    conn.query(sql , id,function(err,results){
+      if(err){err.code = 500; return next(err);}
+      //console.log(results);
+      let uDistrict = result.user_district;
+
+      if(results=''){
+          sql = "SELECT * FROM real_time_confirmed"       
+      } else {
+          sql = mysql.format("SELECT A.real_time, A.real_area, A.real_district, A.real_confirmed FROM real_time_confirmed as A INNER JOIN user as B ON A.real_district = B.user_district WHERE B.user_district = ?",[uDistrict]);
+      };
+
+      conn.query(sql, function(err,results){
+          if(err){ err.code = 500; return next(err); } 
+          //console.log(results);
+
+        const real_timeInfo = {
+             count: results.length,
+             data: results,
+        };
+        conn.release();
+        res.json(real_timeInfo);
+      });
+    });  
+
+  });
+}
 
 function distLevel_list(req, res, next) {
   const date = req.query.date;
