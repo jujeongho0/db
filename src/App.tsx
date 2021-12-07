@@ -20,6 +20,7 @@ import io from "socket.io-client";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { atom, RecoilRoot, useRecoilState } from "recoil";
+import RegisterPage from "./pages/register";
 
 // const socket = io("http://localhost:3001").connect();
 
@@ -66,6 +67,18 @@ function App() {
             <Menu.Item key={"4"} onClick={() => setMenu("4")}>
               <Link to={"/user"}>유저 정보</Link>
             </Menu.Item>
+            {!login && (
+              <div
+                style={{
+                  position: "absolute",
+                  right: "120px",
+                  fontSize: "1.2rem",
+                  cursor: "pointer",
+                }}
+              >
+                <Link to={"/register"}>회원가입</Link>
+              </div>
+            )}
 
             <div
               style={{
@@ -88,6 +101,7 @@ function App() {
             <Route path="/vaccine" element={<VaccinePage />} />
             <Route path="/user" element={<UserPage />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path="/register" element={<RegisterPage />} />
           </Routes>
         </Content>
       </Router>

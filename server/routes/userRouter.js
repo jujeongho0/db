@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const pool = require("./dbConnection");
 
-router.post("/info", addUser); //정보 등록
+router.post("/addUser", addUser); //정보 등록
 router.put("/infoEdit", modifyUser); //정보 전체 수정
 router.patch("/state", modifyUserState); //유저 상태 변화
 router.patch("/boost", modifyUserBoost); //부스터샷 변화
@@ -30,22 +30,20 @@ function addUser(req, res, next) {
   const rrn = req.body.rrn;
   const sex = req.body.sex;
   const area = req.body.area;
+  const district = req.body.district;
   const vacc_name = req.body.vacc_name;
-  const vacc_boost_name = req.body.vacc_boost_name;
   const vaccinated = req.body.vaccinated;
   const vaccinated_date = req.body.vaccinated_date;
-  const state = req.body.state;
 
   const userInfo = {
     user_name: name,
     user_rrn: rrn,
     user_sex: sex,
     user_area: area,
+    user_district: district,
     user_vacc_name: vacc_name,
-    user_vacc_boost_name: vacc_boost_name,
     user_vaccinated: vaccinated,
     user_vaccinated_date: vaccinated_date,
-    user_state: state,
   };
 
   pool.getConnection(function (err, conn) {
@@ -55,6 +53,11 @@ function addUser(req, res, next) {
     }
     const sql = "INSERT INTO user SET ?";
     conn.query(sql, userInfo, function (err, result) {
+      if (err) {
+        err.code = 500;
+        return next(err);
+      }
+
       res.send({ msg: "success" });
       conn.release();
     });
