@@ -4,7 +4,7 @@ import QRCode from "react-qr-code";
 import { useRecoilState } from "recoil";
 import { loginState } from "../App";
 import { Navigate } from "react-router";
-import { Button, Dropdown, Menu } from "antd";
+import { Button, Dropdown, Menu, Popconfirm } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import axios from "axios";
 
@@ -44,58 +44,67 @@ const StyleUser = styled.div`
 
 function UserPage() {
   const [userInfo, setLogin] = useRecoilState(loginState);
-  const [status, setStatus] = useState("정상");
 
-  const menu = (
-    <Menu>
-      <Menu.Item key="0" onClick={() => setStatus("정상")}>
-        정상
-      </Menu.Item>
-      <Menu.Item key="1" onClick={() => setStatus("확진자")}>
-        확진자
-      </Menu.Item>
-    </Menu>
-  );
-
-  const handleSave = async () => {
-    const response = await axios.post(
-      "http://localhost:3001/user_info_change",
-      { status }
+  const handleWithdrawal = async () => {
+    const response = await axios.delete(
+      "http://localhost:3001/user/withdrawal",
+      {
+        data: {
+          rrn: userInfo.user_rrn,
+        },
+      }
     );
-    console.log(userInfo);
+    console.log(response);
+
+    if (response.data.msg == "success") setLogin(null);
   };
   return (
     <StyleUser>
       {userInfo == null ? (
         <Navigate to="/login" />
       ) : (
-        <div className="box">
-          <h1>{userInfo.user_name}님 유저 정보</h1>
-          <QRCode value={JSON.stringify(userInfo)} size={200} />
-          <div style={{ marginTop: "5px" }}>
-            백신접종여부
-            <p className="vaccine" style={{ marginBottom: "0px" }}>
-              {userInfo.user_vacc_name} {userInfo.user_vaccinated}
-            </p>
-            <p className="vaccine" style={{ marginBottom: "10px" }}>
-              {userInfo.user_vaccinated_date.split("T")[0]} 완료
-            </p>
+        <>
+          <div className="box">
+            <h1>{userInfo.user_name}님 유저 정보</h1>
+            <QRCode value={JSON.stringify(userInfo)} size={200} />
+            <div style={{ marginTop: "5px" }}>
+              백신접종여부
+              <p className="vaccine" style={{ marginBottom: "0px" }}>
+                {userInfo.user_vacc_name} {userInfo.user_vaccinated}
+              </p>
+              <p className="vaccine" style={{ marginBottom: "10px" }}>
+                {userInfo.user_vaccinated_date.split("T")[0]} 완료
+              </p>
+            </div>
+
+            <div className="info">
+              주민등록번호 <p>{userInfo.user_rrn.substr(0, 6)}-*******</p>
+            </div>
+            <div className="info">
+              성별 <p>{userInfo.user_sex}</p>
+            </div>
+
+            <div className="info">
+              지역{" "}
+              <p>
+                {userInfo.user_area} {userInfo.user_district}
+              </p>
+            </div>
           </div>
 
-          <div className="info">
-            주민등록번호 <p>{userInfo.user_rrn.substr(0, 6)}-*******</p>
+          <div style={{ position: "absolute", right: "30px", bottom: "30px" }}>
+            <Popconfirm
+              title="정말 탈퇴하시겠습니까?"
+              onConfirm={handleWithdrawal}
+              okText="예"
+              cancelText="아니오"
+            >
+              <Button danger size="large">
+                회원탈퇴
+              </Button>
+            </Popconfirm>
           </div>
-          <div className="info">
-            성별 <p>{userInfo.user_sex}</p>
-          </div>
-
-          <div className="info">
-            지역{" "}
-            <p>
-              {userInfo.user_area} {userInfo.user_district}
-            </p>
-          </div>
-        </div>
+        </>
       )}
     </StyleUser>
   );

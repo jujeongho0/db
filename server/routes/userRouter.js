@@ -7,6 +7,22 @@ router.put("/infoEdit", modifyUser); //정보 전체 수정
 router.patch("/state", modifyUserState); //유저 상태 변화
 router.patch("/boost", modifyUserBoost); //부스터샷 변화
 router.post("/login", login);
+router.delete("/withdrawal", withdrawal);
+
+function withdrawal(req, res, next) {
+  const rrn = req.body.rrn;
+  pool.getConnection(function (err, conn) {
+    if (err) {
+      err.code = 500;
+      return next(err);
+    }
+    const sql = "DELETE FROM user WHERE user_rrn = ?";
+    conn.query(sql, rrn, function (err, result) {
+      res.send({ msg: "success", result: result[0] });
+      conn.release();
+    });
+  });
+}
 
 function login(req, res, next) {
   const rrn = req.body.rrn;
