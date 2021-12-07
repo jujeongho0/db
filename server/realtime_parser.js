@@ -327,15 +327,20 @@ async function getTodayDistrcit() {
     } else {
       district = "전체";
     }
-    today_info = {
-      date: item["datetime"],
-      area: area,
-      district: district,
-      num: item["cases"],
-    };
-    today.push(today_info);
+    const findToday = today.find(
+      (f) => f.area == area && f.district == district
+    );
+    if (findToday) {
+      findToday.num += item["cases"];
+    } else {
+      today_info = {
+        area: area,
+        district: district,
+        num: item["cases"],
+      };
+      today.push(today_info);
+    }
   }
   return today;
 }
-
 module.exports = getTodayDistrcit;

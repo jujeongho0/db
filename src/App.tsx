@@ -21,8 +21,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { atom, RecoilRoot, useRecoilState } from "recoil";
 import RegisterPage from "./pages/register";
+import moment from "moment";
 
-// const socket = io("http://localhost:3001").connect();
+const socket = io("http://localhost:3001").connect();
 
 const { Header, Content, Footer } = Layout;
 
@@ -32,17 +33,36 @@ export const loginState = atom({
 });
 
 function App() {
-  // const handleRealtimeData = (data: any) => {
-  //   toast(`${data.date} ${data.city} ${data.num}명 확진 발생`);
-  // };
-  // useEffect(() => {
-  //   socket.on("realtime", handleRealtimeData);
-  //   return () => {
-  //     socket.off("realtime", handleRealtimeData);
-  //   };
-  // }, []);
-  const [menu, setMenu] = React.useState("1");
   const [login, setLogin] = useRecoilState(loginState);
+  console.log("AA", login);
+  const handleRealtimeData = (data: any) => {
+    if (
+      login !== null &&
+      login.user_area == data.area &&
+      login.user_district == data.district
+    ) {
+      toast(
+        `${moment(new Date()).format("YYYY-MM-DD HH:MM:SS")} ${data.area} ${
+          data.district
+        } ${data.num}명 확진 발생`
+      );
+      return;
+    } else if (login === null) {
+      toast(
+        `${moment(new Date()).format("YYYY-MM-DD HH:MM:SS")} ${data.area} ${
+          data.district
+        } ${data.num}명 확진 발생`
+      );
+      return;
+    }
+  };
+  useEffect(() => {
+    socket.on("realtime", handleRealtimeData);
+    return () => {
+      socket.off("realtime", handleRealtimeData);
+    };
+  }, []);
+  const [menu, setMenu] = React.useState("1");
 
   return (
     <Layout className="layout">
