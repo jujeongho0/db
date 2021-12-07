@@ -5,7 +5,11 @@ import { useRecoilState } from "recoil";
 import { loginState } from "../App";
 import { Navigate } from "react-router";
 import { Button, Dropdown, Menu, Popconfirm } from "antd";
-import { DownOutlined } from "@ant-design/icons";
+import {
+  DownOutlined,
+  CaretUpOutlined,
+  CaretDownOutlined,
+} from "@ant-design/icons";
 import axios from "axios";
 
 const StyleUser = styled.div`
@@ -19,7 +23,7 @@ const StyleUser = styled.div`
     position: relative;
     margin-top: 50px;
     width: 400px;
-    height: 520px;
+    height: 650px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -89,6 +93,61 @@ function UserPage() {
               <p>
                 {userInfo.user_area} {userInfo.user_district}
               </p>
+            </div>
+            <div className="info" style={{ fontSize: "1.2rem" }}>
+              오늘 {userInfo.user_area} 확진자 수 {userInfo.user_area_confirmed}
+              명
+            </div>
+            <div
+              className="info"
+              style={{
+                fontSize: "0.9rem",
+                fontWeight: "normal",
+
+                color:
+                  userInfo.area_compare_yesterday >= 0
+                    ? "crimson"
+                    : "cornflowerblue",
+              }}
+            >
+              {userInfo.area_compare_yesterday >= 0 ? (
+                <>
+                  어제보다 {userInfo.area_compare_yesterday}명 증가했습니다{" "}
+                  <CaretUpOutlined />
+                </>
+              ) : (
+                <>
+                  어제보다 {userInfo.area_compare_yesterday}명 감소했습니다{" "}
+                  <CaretDownOutlined />
+                </>
+              )}
+            </div>
+            <div className="info" style={{ fontSize: "1.2rem" }}>
+              오늘 {userInfo.user_district} 확진자 수{" "}
+              {userInfo.user_district_confirmed}명
+            </div>
+            <div
+              className="info"
+              style={{
+                fontSize: "0.9rem",
+                fontWeight: "normal",
+                color:
+                  userInfo.district_compare_yesterday >= 0
+                    ? "crimson"
+                    : "cornflowerblue",
+              }}
+            >
+              {userInfo.district_compare_yesterday >= 0 ? (
+                <>
+                  어제보다 {userInfo.district_compare_yesterday}명 증가했습니다{" "}
+                  <CaretUpOutlined />
+                </>
+              ) : (
+                <>
+                  어제보다 {userInfo.district_compare_yesterday}명 감소했습니다{" "}
+                  <CaretDownOutlined />
+                </>
+              )}
             </div>
           </div>
 

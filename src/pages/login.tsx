@@ -4,7 +4,8 @@ import styled from "styled-components";
 import axios from "axios";
 import { Navigate } from "react-router-dom";
 import { useRecoilState } from "recoil";
-import { loginState } from "../App";
+import { dateFormat, loginState, todayStr } from "../App";
+import moment from "moment";
 
 const StyleLogin = styled.div`
   label {
@@ -38,7 +39,36 @@ function LoginPage() {
     if (response.data.msg == "fail") {
       alert("로그인 실패");
     } else {
-      setLogin({ ...response.data.result });
+      const todayArea = await axios.get(
+        "http://localhost:3001/user/todayAreaInfo",
+        {
+          params: {
+            rrn: RRN,
+            yesterday: moment(todayStr, dateFormat)
+              .subtract(1, "days")
+              .startOf("day")
+              .format(dateFormat),
+          },
+        }
+      );
+      const todayDistrict = await axios.get(
+        "http://localhost:3001/user/todayDistrictInfo",
+        {
+          params: {
+            rrn: RRN,
+            yesterday: moment(todayStr, dateFormat)
+              .subtract(1, "days")
+              .startOf("day")
+              .format(dateFormat),
+          },
+        }
+      );
+
+      setLogin({
+        ...response.data.result,
+        ...todayArea.data,
+        ...todayDistrict.data,
+      });
     }
   };
   return (

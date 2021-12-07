@@ -11,6 +11,7 @@ import {
 import styled from "styled-components";
 import moment from "moment";
 import axios from "axios";
+import { dateFormat, todayStr } from "../App";
 
 const StyleVaccine = styled.div`
   display: flex;
@@ -25,9 +26,6 @@ const StyleVaccine = styled.div`
   }
   text-align: center;
 `;
-
-const dateFormat = "YYYY-MM-DD";
-const todayStr = "2021-11-14";
 
 function VaccinePage() {
   const [rangeDate, setRangeDate] = useState({

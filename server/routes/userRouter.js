@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const mysql = require("mysql");
 const pool = require("./dbConnection");
 
 router.post("/addUser", addUser); //정보 등록
@@ -8,6 +9,69 @@ router.patch("/state", modifyUserState); //유저 상태 변화
 router.patch("/boost", modifyUserBoost); //부스터샷 변화
 router.post("/login", login);
 router.delete("/withdrawal", withdrawal);
+
+router.get("/todayDistrictInfo", todayDistrictInfo);
+router.get("/todayAreaInfo", todayAreaInfo);
+
+function todayAreaInfo(req, res, next) {
+  const rrn = req.query.rrn;
+  const yesterday = req.query.yesterday;
+  pool.getConnection(function (err, conn) {
+    if (err) {
+      err.code = 500;
+      return next(err);
+    }
+    let sql;
+    sql =
+      "SELECT sum(today_confirmed) as user_area_confirmed FROM user,today_confirmed WHERE user.user_rrn = ? AND user.user_area = today_confirmed.today_area GROUP BY today_area";
+    conn.query(sql, rrn, function (err, result) {
+      if (err) {
+        err.code = 500;
+        return next(err);
+      }
+      sql = mysql.format(
+        `SELECT (${result[0].user_area_confirmed} - area_confirmed) as area_compare_yesterday FROM area,user WHERE update_date = ? AND user_rrn = ? AND user_area  = area_name`,
+        [yesterday, rrn]
+      );
+      conn.query(sql, function (err, result2) {
+        res.json({
+          ...result[0],
+          ...result2[0],
+        });
+      });
+    });
+  });
+}
+
+function todayDistrictInfo(req, res, next) {
+  const rrn = req.query.rrn;
+  const yesterday = req.query.yesterday;
+  pool.getConnection(function (err, conn) {
+    if (err) {
+      err.code = 500;
+      return next(err);
+    }
+    let sql;
+    sql =
+      "SELECT today_confirmed as user_district_confirmed FROM user,today_confirmed WHERE user.user_rrn = ? AND user.user_district = today_confirmed.today_district AND user.user_area = today_confirmed.today_area";
+    conn.query(sql, rrn, function (err, result) {
+      if (err) {
+        err.code = 500;
+        return next(err);
+      }
+      sql = mysql.format(
+        `SELECT (${result[0].user_district_confirmed} - district_confirmed) as district_compare_yesterday FROM district,user WHERE update_date = ? AND user_rrn = ? AND user_district = district`,
+        [yesterday, rrn]
+      );
+      conn.query(sql, function (err, result2) {
+        res.json({
+          ...result[0],
+          ...result2[0],
+        });
+      });
+    });
+  });
+}
 
 function withdrawal(req, res, next) {
   const rrn = req.body.rrn;

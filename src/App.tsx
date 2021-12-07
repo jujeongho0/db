@@ -24,6 +24,8 @@ import RegisterPage from "./pages/register";
 import moment from "moment";
 
 const socket = io("http://localhost:3001").connect();
+export const todayStr = "2021-11-14";
+export const dateFormat = "YYYY-MM-DD";
 
 const { Header, Content, Footer } = Layout;
 
@@ -34,7 +36,6 @@ export const loginState = atom({
 
 function App() {
   const [login, setLogin] = useRecoilState(loginState);
-  console.log("AA", login);
   const handleRealtimeData = (data: any) => {
     if (
       login !== null &&

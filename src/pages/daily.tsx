@@ -11,6 +11,7 @@ import {
 import styled from "styled-components";
 import moment from "moment";
 import axios from "axios";
+import { dateFormat, todayStr } from "../App";
 
 const StyleDaily = styled.div`
   display: flex;
@@ -58,14 +59,12 @@ const options = [
   { label: "백신 부스터 샷 접종 수", value: "daily_boost" },
 ];
 
-const dateFormat = "YYYY-MM-DD";
-const todayStr = "2021-11-14";
-const sevenDaysStr = moment(todayStr, dateFormat)
-  .subtract(7, "days")
-  .startOf("day")
-  .format(dateFormat);
-
 function DailyPage() {
+  const sevenDaysStr = moment(todayStr, dateFormat)
+    .subtract(7, "days")
+    .startOf("day")
+    .format(dateFormat);
+
   const [rangeDate, setRangeDate] = useState({
     start: sevenDaysStr as any,
     end: todayStr as any,

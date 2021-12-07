@@ -316,13 +316,6 @@ function RegisterPage() {
     setArea(e.key);
   }
 
-  const menu = (
-    <Menu onClick={handleMenuClick}>
-      {all_area.map((area) => (
-        <Menu.Item key={area}>{area}</Menu.Item>
-      ))}
-    </Menu>
-  );
   const handleRegister = async () => {
     const RRN = `${frontNum}${backNum}`;
 

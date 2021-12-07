@@ -16,6 +16,7 @@ import AreaDetailGraph from "../components/AreaDetailGraph";
 import { Button, DatePicker } from "antd";
 import moment from "moment";
 import axios from "axios";
+import { dateFormat, todayStr } from "../App";
 
 const makeNewKey = (data: any) => {
   let newData: any = {};
@@ -60,8 +61,6 @@ const StyleArea = styled.div`
     text-align: center;
   }
 `;
-const dateFormat = "YYYY-MM-DD";
-const todayStr = "2021-11-14";
 
 function AreaPage() {
   const [rangeDate, setRangeDate] = useState({

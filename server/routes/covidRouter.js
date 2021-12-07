@@ -8,53 +8,6 @@ router.get("/covidInfos", covidInfo_list);
 router.get("/covidInfos/district", covidDistrict_list);
 router.get("/vaccInfos", vaccInfo_list);
 router.get("/dailyInfos", dailyInfo_list);
-router.post("/real_times", real_time_lsit);
-
-function real_time_lsit(req, res, next) {
-  const id = req.body.id;
-
-  pool.getConnection(function (err, conn) {
-    if (err) {
-      err.code = 500;
-      return next(err);
-    }
-    let sql;
-    sql = "SELECT user_district FROM user WHERE user_rrn = ?";
-    conn.query(sql, id, function (err, result) {
-      if (err) {
-        err.code = 500;
-        return next(err);
-      }
-      console.log(result[0].user_district);
-      const userDistrict = result[0].user_district;
-      console.log(userDistrict);
-
-      if (userDistrict == "") {
-        sql = "SELECT * FROM real_time_confirmed";
-      } else {
-        sql = mysql.format(
-          "SELECT distinct A.real_time, A.real_area, A.real_district, A.real_confirmed FROM real_time_confirmed as A INNER JOIN user as B ON A.real_district = B.user_district WHERE B.user_district = ?",
-          [userDistrict]
-        );
-      }
-
-      conn.query(sql, function (err, results) {
-        if (err) {
-          err.code = 500;
-          return next(err);
-        }
-        console.log(results);
-
-        const real_timeInfo = {
-          count: results.length,
-          data: results,
-        };
-        conn.release();
-        res.json(real_timeInfo);
-      });
-    });
-  });
-}
 
 function distLevel_list(req, res, next) {
   const date = req.query.date;

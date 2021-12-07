@@ -59,7 +59,6 @@ pool.getConnection(function (err, conn) {
       try {
         sqlData.forEach((sql) => {
           conn.query(sql.select, function (err, result) {
-            console.log(result);
             if (result.length >= 1) {
               conn.query(sql.update);
               if (sql.num - result[0].today_confirmed > 0) {
