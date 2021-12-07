@@ -1,5 +1,4 @@
-const fs = require('fs');
-
+const fs = require("fs");
 
 // // DAILY TABLE
 // const Daily_jsonFile = fs.readFileSync('../크롤링 데이터/DAILY_TEMP.json', 'utf8');
@@ -10,7 +9,6 @@ const fs = require('fs');
 // VALUES('${v.DATE}','${v.CONFIRMED}',${v.ISOLATED},${v.DESEASED},${v.RECOVERED},${v.VACC_ONCE},${v.VACC_FULLY},${v.VACC_BOOST});`).join('\n');
 // // console.log(area_result);
 
-
 // // AREA TABLE
 // const Area_jsonFile = fs.readFileSync('../크롤링 데이터/AREA_TEMP.json', 'utf8');
 // // console.log(Area_jsonFile);
@@ -19,7 +17,6 @@ const fs = require('fs');
 // const area_result = Area_jsonData.AREA.map(v => `INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
 // VALUES('${v.DATE}','${v.NAME}',${v.CONFIRMED},${v.ISOLATED},${v.DESEASED},${v.RECOVERED},${v.DIST_LEVEL});`).join('\n');
 // // console.log(area_result);
-
 
 // // DISTRCT TABLE
 // const District_jsonFile = fs.readFileSync('../크롤링 데이터/DISTRICT_TEMP.json', 'utf8');
@@ -31,12 +28,19 @@ const fs = require('fs');
 // // console.log(district_result);
 
 // DISTRCT TABLE
-const District_jsonFile = fs.readFileSync('../크롤링 데이터/DISTRICT_FINAL.json', 'utf8');
+const District_jsonFile = fs.readFileSync(
+  "../크롤링 데이터/DISTRICT_FINAL.json",
+  "utf8"
+);
 // console.log(District_jsonFile);
 const District_jsonData = JSON.parse(District_jsonFile.toString().trim());
 // console.log(District_jsonData);
-const district_final_result = District_jsonData.DISTRICT.map(v => `INSERT INTO district(update_date, area_name, district, district_confirmed)
-VALUES('${v.DATE}','${v.AREA}','${v.DISTRICT}',${v.CONFIRMED});`).join('\n');
+const district_final_result = District_jsonData.DISTRICT.map(
+  (
+    v
+  ) => `INSERT INTO district(update_date, area_name, district, district_confirmed)
+VALUES('${v.DATE}','${v.AREA}','${v.DISTRICT}',${v.CONFIRMED});`
+).join("\n");
 // console.log(district_result);
 
 // // VACCINE TABLE
@@ -59,6 +63,5 @@ VALUES('${v.DATE}','${v.AREA}','${v.DISTRICT}',${v.CONFIRMED});`).join('\n');
 
 // // Fianl_DATA
 // final_result = daily_result + '\n' + area_result + '\n' + district_result + '\n' + vaccine_result + '\n' + social_dist_result;
-final_result = district_final_result
-console.log(final_result);
-fs.writeFileSync("result.txt", district_final, {encoding: 'utf8'});
+
+fs.writeFileSync("result.txt", district_final_result, { encoding: "utf8" });

@@ -7,6 +7,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
+  ResponsiveContainer,
   Legend,
 } from "recharts";
 import styled from "styled-components";
@@ -32,8 +33,9 @@ const StyleArea = styled.div`
   width: 100%;
   padding-bottom: 30px;
   .chart {
+    width: 100%;
+    height: 500px;
     margin-top: 50px;
-
     p {
       text-align: center;
     }
@@ -181,28 +183,20 @@ function AreaPage() {
         >
           {area === "" ? (
             <div className="chart">
-              <BarChart
-                width={800}
-                height={450}
-                data={areaData.data}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="area_name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="area_confirmed" fill="#d88484" />
-                <Bar dataKey="area_isolated" fill="#8884d8" />
-                <Bar dataKey="area_deseased" fill="#4b4b4b" />
-                <Bar dataKey="area_recovered" fill="#82ca9d" />
-                <Bar dataKey="area_dist_level" fill="#898dff" />
-              </BarChart>
+              <ResponsiveContainer width="99%">
+                <BarChart data={areaData.data}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="area_name" />
+                  <YAxis />
+                  <Tooltip />
+                  <Legend />
+                  <Bar dataKey="area_confirmed" fill="#d88484" />
+                  <Bar dataKey="area_isolated" fill="#8884d8" />
+                  <Bar dataKey="area_deseased" fill="#4b4b4b" />
+                  <Bar dataKey="area_recovered" fill="#82ca9d" />
+                  <Bar dataKey="area_dist_level" fill="#898dff" />
+                </BarChart>
+              </ResponsiveContainer>
               <p>지역별 그래프</p>
             </div>
           ) : (
@@ -293,7 +287,7 @@ function AreaPage() {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",
-
+                    alignContent: "center",
                     paddingBottom: "10px",
                   }}
                 >
@@ -321,20 +315,10 @@ function AreaPage() {
                     ))}
                   </div>
                 </div>
-                <Button
-                  type="primary"
-                  style={{
-                    position: "absolute",
-                    width: "870px",
-                    marginTop: "20px",
-                    right: "100px",
-                    bottom: "25px",
-                  }}
-                  onClick={() => setArea("")}
-                >
-                  이전 그래프로
-                </Button>
               </div>
+              <Button type="primary" size="large" onClick={() => setArea("")}>
+                이전 그래프로
+              </Button>
               {/* <div className="chart">
                 <BarChart
                   width={800}

@@ -28,8 +28,8 @@ CREATE TABLE district (
     update_date date not null,                      -- 데이터 업데이트 날짜
     area_name varchar(10) not null,                 -- 지역구 이름
     district varchar(10) not null,                  -- 자치구 이름
-    district_confirmed int not null,                -- 지역별 확진자 수
-    primary key (district, update_date),
+    district_confirmed int,                        -- 지역별 확진자 수
+    primary key (area_name, district, update_date),
     foreign key (area_name) references area (area_name)
 );
 
