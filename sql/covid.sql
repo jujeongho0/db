@@ -66,10 +66,9 @@ CREATE TABLE user (
     primary key (user_rrn)
 );
 
-CREATE TABLE real_time_confirmed (
-    real_time datetime not null,                -- 실시간 확진자 업데이트 시간
-    real_area varchar(10) not null,         -- 실시간 확진자 발견된 지역(시)
-    real_district varchar (10) not null,    -- 실시간 확진자 발견된 지역(구)
-    real_confirmed int not null,            -- 실시간 지역별 확진자 수
-    primary key (real_time, real_district)
-)
+CREATE TABLE today_confirmed (
+    today_area varchar(10) not null,         -- 오늘 확진자 발견된 지역(시)
+    today_district varchar (10) not null,    -- 오늘 확진자 발견된 지역(구)
+    today_confirmed int not null,            -- 오늘 지역별 확진자 수
+    primary key (today_area, today_district)
+);

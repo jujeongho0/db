@@ -38,7 +38,7 @@ pool.getConnection(function (err, conn) {
       !isDelete
     ) {
       isDelete = true;
-      conn.query("DELETE FROM real_time_confirmed");
+      conn.query("DELETE FROM today_confirmed");
     } else if (
       currDate.getUTCHours() >= 9 &&
       currDate.getUTCMinutes() >= 1 &&
@@ -49,7 +49,7 @@ pool.getConnection(function (err, conn) {
     realTimeData().then((data) => {
       const sqlData = data.map(
         (v) =>
-          `INSERT IGNORE INTO real_time_confirmed(real_time,real_area,real_district,real_confirmed) VALUES ('${v.date}','${v.area}','${v.district}',${v.num});`
+          `INSERT DISTINCT INTO today_confirmed(today_area,today_district,today_confirmed) VALUES ('${v.area}','${v.district}',${v.num});`
       );
       try {
         sqlData.forEach((sql) => {
