@@ -72,6 +72,29 @@ function AreaPage() {
   const [areaData, setAreaData] = useState<any>([]);
   const [findData, setFindData] = useState<any>(null);
   const [districtData, setDistrictData] = useState<any>(null);
+  const [distData, setDistData] = useState<any>({
+    area_dist_level: 0,
+    dist_info: "",
+    dist_standard: "",
+  });
+
+  useEffect(() => {
+    const fetch = async () => {
+      if (area === "") return;
+      const response = await axios.get(
+        "http://localhost:3001/covid/distLevels",
+        {
+          params: {
+            date: rangeDate.start,
+            area,
+          },
+        }
+      );
+      console.log(response.data.data);
+      setDistData(response.data.data[0]);
+    };
+    fetch();
+  }, [area]);
 
   useEffect(() => {
     const fetch = async () => {
@@ -97,15 +120,23 @@ function AreaPage() {
   }, [areaData, area]);
 
   useEffect(() => {
-    if ((areaData?.data?.length ?? 0) > 0 && area != "") {
-      if (areaData.range == false)
-        setFindData(areaData.data.find((v: any) => v.area_name == area));
-      else {
-        const data = areaData.data.find((v: any) => v.area_name == area);
-        setFindData(makeNewKey(data));
-      }
-    }
-  }, [areaData, area]);
+    if (area == "") return;
+    const fetch = async () => {
+      const response = await axios.get(
+        "http://localhost:3001/covid/covidInfos",
+        {
+          params: {
+            start_date: rangeDate.start,
+            end_date: rangeDate.end,
+            area,
+          },
+        }
+      );
+      if (response?.data?.data !== undefined)
+        setFindData(response.data.data[0]);
+    };
+    fetch();
+  }, [rangeDate, area]);
 
   useEffect(() => {
     const fetch = async () => {
@@ -122,6 +153,7 @@ function AreaPage() {
       else {
         setAreaData({
           data: response.data.data.map((v: any) => makeNewKey(v)),
+          range: response.data.range,
         });
       }
     };
@@ -221,25 +253,28 @@ function AreaPage() {
                   }}
                 >
                   <h2 style={{ fontWeight: "bold" }}>
-                    {area} 코로나 {areaData.range && "평균값"} 데이터
+                    {area} 코로나 {areaData.range && "평균"} 데이터
                   </h2>
                   <div className="area_num">
-                    확진자 수 : {findData?.area_confirmed}명
+                    확진자 수 : {findData?.area_confirmed?.toFixed(0)}명
                   </div>
-                  <div className="area_num">
+                  <div className="area_num" style={{ marginBottom: "0px" }}>
                     거리두기 : {findData?.area_dist_level}단계
                   </div>
-
+                  <div>{distData?.dist_info}</div>
+                  <div style={{ marginBottom: "5px" }}>
+                    {distData?.dist_standard}
+                  </div>
                   <div className="area_num">
-                    격리자 수 : {findData?.area_recovered}명
+                    격리자 수 : {findData?.area_recovered?.toFixed(0)}명
                   </div>
 
                   <div className="area_num">
-                    완치자 수 : {findData?.area_recovered}명
+                    완치자 수 : {findData?.area_recovered?.toFixed(0)}명
                   </div>
 
                   <div className="area_num">
-                    사망자 수 : {findData?.area_deseased}명
+                    사망자 수 : {findData?.area_deseased?.toFixed(0)}명
                   </div>
                   <div>
                     <BarChart
@@ -309,7 +344,10 @@ function AreaPage() {
                         <p
                           style={{ paddingBottom: "3px", marginBottom: "5px" }}
                         >
-                          {v.district_confirmed}명
+                          {areaData.range
+                            ? v.district_confirmed.toFixed(2)
+                            : v.district_confirmed}
+                          명
                         </p>
                       </div>
                     ))}
