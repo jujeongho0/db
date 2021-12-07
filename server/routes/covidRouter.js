@@ -3,34 +3,35 @@ const router = express.Router();
 const mysql = require("mysql");
 const pool = require("./dbConnection");
 
-router.get("/distLevels", distLevel_list); //거리두기 단계 정보
+router.get("/distLevels", distLevel_list); 
 router.get("/covidInfos", covidInfo_list); 
 router.get("/covidInfos/district", covidDistrict_list); 
 router.get("/vaccInfos", vaccInfo_list); 
 router.get("/dailyInfos", dailyInfo_list); 
-router.post("/real_times", real_time_lsit);  
+router.post("/real_times", real_time_lsit); 
 
 function real_time_lsit(req,res, next){
-  const id = req.query.id; 
+  const id = req.body.id; 
 
   pool.getConnection(function (err, conn){
     if(err){err.code = 500; return next(err);}      
     let sql;
-    sql = "SELECT * FROM user WHERE user_rrn = :id";
-    conn.query(sql , id,function(err,results){
+    sql = "SELECT user_district FROM user WHERE user_rrn = ?";
+    conn.query(sql , id,function(err,result){
       if(err){err.code = 500; return next(err);}
-      //console.log(results);
-      let uDistrict = result.user_district;
+      console.log(result[0].user_district);
+      const userDistrict = result[0].user_district;
+      console.log(userDistrict);
 
-      if(results=''){
-          sql = "SELECT * FROM real_time_confirmed"       
+      if(userDistrict==''){
+          sql = "SELECT * FROM real_time_confirmed"     
       } else {
-          sql = mysql.format("SELECT distinct A.real_time, A.real_area, A.real_district, A.real_confirmed FROM real_time_confirmed as A INNER JOIN user as B ON A.real_district = B.user_district WHERE B.user_district = ?",[uDistrict]);
+          sql = mysql.format("SELECT distinct A.real_time, A.real_area, A.real_district, A.real_confirmed FROM real_time_confirmed as A INNER JOIN user as B ON A.real_district = B.user_district WHERE B.user_district = ?",[userDistrict]);
       };
 
       conn.query(sql, function(err,results){
           if(err){ err.code = 500; return next(err); } 
-          //console.log(results);
+          console.log(results);
 
         const real_timeInfo = {
              count: results.length,
