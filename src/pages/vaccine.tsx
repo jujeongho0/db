@@ -94,21 +94,21 @@ function VaccinePage() {
           <Tooltip />
           <Area
             type="monotone"
-            dataKey={vaccineData.range ? "avg(vacc_once)" : "vacc_once"}
+            dataKey={"vacc_once"}
             stackId="1"
             stroke="#8884d8"
             fill="#8884d8"
           />
           <Area
             type="monotone"
-            dataKey={vaccineData.range ? "avg(vacc_fully)" : "vacc_fully"}
+            dataKey={"vacc_fully"}
             stackId="1"
             stroke="#82ca9d"
             fill="#82ca9d"
           />
           <Area
             type="monotone"
-            dataKey={vaccineData.range ? "avg(vacc_boost)" : "vacc_boost"}
+            dataKey={"vacc_boost"}
             stackId="1"
             stroke="#ffc658"
             fill="#ffc658"

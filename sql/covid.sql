@@ -73,10 +73,10 @@ CREATE TABLE user (
     CONSTRAINT chk_user CHECK ((user_sex = 'M' AND substr(user_rrn, 8,1) = 1) OR (user_sex = 'M' AND substr(user_rrn, 8,1) = 3) OR (user_sex = 'W' AND substr(user_rnn, 8, 1) = 2) OR (user_sex = 'W' AND substr(user_rnn, 8, 1) = 4))
 );
 
-CREATE TABLE today_confirmed (
+CREATE TABLE today_area (
     today_area varchar(10) not null,         -- 오늘 확진자 발견된 지역(시)
     today_district varchar (10) not null,    -- 오늘 확진자 발견된 지역(구)
     today_confirmed int not null,            -- 오늘 지역별 확진자 수
-    primary key (today_area, today_district)
+    primary key (today_area, today_district),
     CONSTRAINT chk_today_confirmed CHECK (today_confirmed >= 0)
 );

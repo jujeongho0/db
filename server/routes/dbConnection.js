@@ -40,7 +40,7 @@ pool.getConnection(function (err, conn) {
       !isDelete
     ) {
       isDelete = true;
-      conn.query("DELETE FROM today_confirmed");
+      conn.query("DELETE FROM today_area");
     } else if (
       currDate.getUTCHours() >= 9 &&
       currDate.getUTCMinutes() >= 1 &&
@@ -50,9 +50,9 @@ pool.getConnection(function (err, conn) {
     }
     realTimeData().then((data) => {
       const sqlData = data.map((v) => ({
-        insert: `INSERT INTO today_confirmed(today_area,today_district,today_confirmed) VALUES ('${v.area}','${v.district}',${v.num});`,
-        select: `SELECT today_area,today_district,today_confirmed FROM today_confirmed WHERE today_area = '${v.area}' AND today_district = '${v.district}'`,
-        update: `UPDATE today_confirmed SET today_confirmed = ${v.num} WHERE today_area = '${v.area}' AND today_district = '${v.district}'`,
+        insert: `INSERT INTO today_area(today_area,today_district,today_confirmed) VALUES ('${v.area}','${v.district}',${v.num})`,
+        select: `SELECT today_area,today_district,today_confirmed FROM today_area WHERE today_area = '${v.area}' AND today_district = '${v.district}'`,
+        update: `UPDATE today_area SET today_confirmed = ${v.num} WHERE today_area = '${v.area}' AND today_district = '${v.district}'`,
         num: v.num,
       }));
 
@@ -60,14 +60,15 @@ pool.getConnection(function (err, conn) {
         sqlData.forEach((sql) => {
           conn.query(sql.select, function (err, result) {
             if (result.length >= 1) {
-              conn.query(sql.update);
-              if (sql.num - result[0].today_confirmed > 0) {
+              console.log(sql.num, result[0].today_confirmed);
+              if (sql.num - result[0].today_confirmed !== 0) {
                 io.emit("realtime", {
                   area: result[0].today_area,
                   district: result[0].today_district,
                   num: sql.num - result[0].today_confirmed,
                 });
               }
+              conn.query(sql.update);
             } else if (result.length == 0) {
               conn.query(sql.insert);
             }

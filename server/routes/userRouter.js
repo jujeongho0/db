@@ -23,7 +23,7 @@ function todayAreaInfo(req, res, next) {
     }
     let sql;
     sql =
-      "SELECT sum(today_confirmed) as user_area_confirmed FROM user,today_confirmed WHERE user.user_rrn = ? AND user.user_area = today_confirmed.today_area GROUP BY today_area";
+      "SELECT sum(today_confirmed) as user_area_confirmed FROM user,today_area WHERE user.user_rrn = ? AND user.user_area = today_area.today_area GROUP BY today_area";
     conn.query(sql, rrn, function (err, result) {
       if (err) {
         err.code = 500;
@@ -53,7 +53,7 @@ function todayDistrictInfo(req, res, next) {
     }
     let sql;
     sql =
-      "SELECT today_confirmed as user_district_confirmed FROM user,today_confirmed WHERE user.user_rrn = ? AND user.user_district = today_confirmed.today_district AND user.user_area = today_confirmed.today_area";
+      "SELECT today_confirmed as user_district_confirmed FROM user,today_area WHERE user.user_rrn = ? AND user.user_district = today_area.today_district AND user.user_area = today_area.today_area";
     conn.query(sql, rrn, function (err, result) {
       if (err) {
         err.code = 500;

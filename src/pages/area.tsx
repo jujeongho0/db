@@ -231,7 +231,7 @@ function AreaPage() {
               <p>지역별 그래프</p>
             </div>
           ) : (
-            <div style={{ marginTop: "30px" }}>
+            <div style={{ marginTop: "30px", width: "100%" }}>
               <div
                 style={{
                   display: "grid",
@@ -320,8 +320,6 @@ function AreaPage() {
                     width: "100%",
                     display: "flex",
                     flexDirection: "column",
-                    justifyContent: "center",
-                    alignContent: "center",
                     paddingBottom: "10px",
                   }}
                 >
