@@ -50,14 +50,11 @@ function UserPage() {
   const [userInfo, setLogin] = useRecoilState(loginState);
 
   const handleWithdrawal = async () => {
-    const response = await axios.delete(
-      "http://localhost:3001/user/withdrawal",
-      {
-        data: {
-          rrn: userInfo.user_rrn,
-        },
-      }
-    );
+    const response = await axios.delete("/api/user/withdrawal", {
+      data: {
+        rrn: userInfo.user_rrn,
+      },
+    });
     console.log(response);
 
     if (response.data.msg == "success") setLogin(null);

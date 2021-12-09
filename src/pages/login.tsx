@@ -33,36 +33,30 @@ function LoginPage() {
 
   const handleLogin = async () => {
     const RRN = `${frontNum}${backNum}`;
-    const response = await axios.post("http://localhost:3001/user/login", {
+    const response = await axios.post("/api/user/login", {
       rrn: RRN,
     });
     if (response.data.msg == "fail") {
       alert("로그인 실패");
     } else {
-      const todayArea = await axios.get(
-        "http://localhost:3001/user/todayAreaInfo",
-        {
-          params: {
-            rrn: RRN,
-            yesterday: moment(todayStr, dateFormat)
-              .subtract(1, "days")
-              .startOf("day")
-              .format(dateFormat),
-          },
-        }
-      );
-      const todayDistrict = await axios.get(
-        "http://localhost:3001/user/todayDistrictInfo",
-        {
-          params: {
-            rrn: RRN,
-            yesterday: moment(todayStr, dateFormat)
-              .subtract(1, "days")
-              .startOf("day")
-              .format(dateFormat),
-          },
-        }
-      );
+      const todayArea = await axios.get("/api/user/todayAreaInfo", {
+        params: {
+          rrn: RRN,
+          yesterday: moment(todayStr, dateFormat)
+            .subtract(1, "days")
+            .startOf("day")
+            .format(dateFormat),
+        },
+      });
+      const todayDistrict = await axios.get("/api/user/todayDistrictInfo", {
+        params: {
+          rrn: RRN,
+          yesterday: moment(todayStr, dateFormat)
+            .subtract(1, "days")
+            .startOf("day")
+            .format(dateFormat),
+        },
+      });
 
       setLogin({
         ...response.data.result,

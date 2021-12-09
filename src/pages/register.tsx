@@ -320,7 +320,7 @@ function RegisterPage() {
     const RRN = `${frontNum}${backNum}`;
 
     try {
-      const response = await axios.post("http://localhost:3001/user/addUser", {
+      const response = await axios.post("/api/user/addUser", {
         name,
         rrn: RRN,
         sex,

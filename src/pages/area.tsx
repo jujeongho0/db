@@ -80,15 +80,12 @@ function AreaPage() {
   useEffect(() => {
     const fetch = async () => {
       if (area === "") return;
-      const response = await axios.get(
-        "http://localhost:3001/covid/distLevels",
-        {
-          params: {
-            date: rangeDate.start,
-            area,
-          },
-        }
-      );
+      const response = await axios.get("/api/covid/distLevels", {
+        params: {
+          date: rangeDate.start,
+          area,
+        },
+      });
       console.log(response.data.data);
       setDistData(response.data.data[0]);
     };
@@ -98,16 +95,13 @@ function AreaPage() {
   useEffect(() => {
     const fetch = async () => {
       if (area === "") return;
-      const response = await axios.get(
-        "http://localhost:3001/covid/covidInfos/district",
-        {
-          params: {
-            start_date: rangeDate.start,
-            end_date: rangeDate.end,
-            area,
-          },
-        }
-      );
+      const response = await axios.get("/api/covid/covidInfos/district", {
+        params: {
+          start_date: rangeDate.start,
+          end_date: rangeDate.end,
+          area,
+        },
+      });
       if (response.data.range == false) setDistrictData(response.data);
       else {
         setDistrictData({
@@ -121,16 +115,13 @@ function AreaPage() {
   useEffect(() => {
     if (area == "") return;
     const fetch = async () => {
-      const response = await axios.get(
-        "http://localhost:3001/covid/covidInfos",
-        {
-          params: {
-            start_date: rangeDate.start,
-            end_date: rangeDate.end,
-            area,
-          },
-        }
-      );
+      const response = await axios.get("/api/covid/covidInfos", {
+        params: {
+          start_date: rangeDate.start,
+          end_date: rangeDate.end,
+          area,
+        },
+      });
       if (response?.data?.data !== undefined)
         setFindData(response.data.data[0]);
     };
@@ -139,15 +130,12 @@ function AreaPage() {
 
   useEffect(() => {
     const fetch = async () => {
-      const response = await axios.get(
-        "http://localhost:3001/covid/covidInfos",
-        {
-          params: {
-            start_date: rangeDate.start,
-            end_date: rangeDate.end,
-          },
-        }
-      );
+      const response = await axios.get("/api/covid/covidInfos", {
+        params: {
+          start_date: rangeDate.start,
+          end_date: rangeDate.end,
+        },
+      });
       if (response.data.range == false) setAreaData(response.data);
       else {
         setAreaData({

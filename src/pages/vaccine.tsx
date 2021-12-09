@@ -43,15 +43,12 @@ function VaccinePage() {
 
   useEffect(() => {
     const fetch = async () => {
-      const response = await axios.get(
-        "http://localhost:3001/covid/vaccInfos",
-        {
-          params: {
-            start_date: rangeDate.start,
-            end_date: rangeDate.end,
-          },
-        }
-      );
+      const response = await axios.get("/api/covid/vaccInfos", {
+        params: {
+          start_date: rangeDate.start,
+          end_date: rangeDate.end,
+        },
+      });
       setVaccineData({
         range: response.data.range,
         data: response.data.data.map((v: any) => {

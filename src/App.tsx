@@ -23,7 +23,7 @@ import { atom, RecoilRoot, useRecoilState } from "recoil";
 import RegisterPage from "./pages/register";
 import moment from "moment";
 
-const socket = io("http://localhost:3001").connect();
+const socket = io("/api").connect();
 export const todayStr = "2021-11-14";
 export const dateFormat = "YYYY-MM-DD";
 

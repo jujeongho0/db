@@ -78,16 +78,13 @@ function DailyPage() {
   useEffect(() => {
     const fetch = async () => {
       if (columns.length == 0) return;
-      const response = await axios.get(
-        "http://localhost:3001/covid/dailyInfos",
-        {
-          params: {
-            start_date: rangeDate.start,
-            end_date: rangeDate.end,
-            columns: `update_date, ${columns.join(", ")}`,
-          },
-        }
-      );
+      const response = await axios.get("/api/covid/dailyInfos", {
+        params: {
+          start_date: rangeDate.start,
+          end_date: rangeDate.end,
+          columns: `update_date, ${columns.join(", ")}`,
+        },
+      });
       console.log("AA", response);
       setDailyData({
         range: response.data.range,
