@@ -52,6 +52,7 @@ function todayDistrictInfo(req, res, next) {
       return next(err);
     }
     let sql;
+
     sql =
       "SELECT today_confirmed as user_district_confirmed FROM user,today_area WHERE user.user_rrn = ? AND user.user_district = today_area.today_district AND user.user_area = today_area.today_area";
     conn.query(sql, rrn, function (err, result) {
@@ -59,14 +60,22 @@ function todayDistrictInfo(req, res, next) {
         err.code = 500;
         return next(err);
       }
+      let user_district_confirmed = 0;
+      if (result && result.length > 0) {
+        user_district_confirmed = result[0].user_district_confirmed;
+      }
       sql = mysql.format(
-        `SELECT (${result[0].user_district_confirmed} - district_confirmed) as district_compare_yesterday FROM district,user WHERE update_date = ? AND user_rrn = ? AND user_district = district`,
+        `SELECT (${user_district_confirmed} - district_confirmed) as district_compare_yesterday FROM district,user WHERE update_date = ? AND user_rrn = ? AND user_district = district`,
         [yesterday, rrn]
       );
       conn.query(sql, function (err, result2) {
+        let district_compare_yesterday = 0;
+        if (result2 && result2.length > 0) {
+          district_compare_yesterday = result2[0].district_compare_yesterday;
+        }
         res.json({
-          ...result[0],
-          ...result2[0],
+          user_district_confirmed,
+          district_compare_yesterday,
         });
       });
     });
