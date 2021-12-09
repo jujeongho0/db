@@ -63,6 +63,5 @@
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "nodemon": "^2.0.15"
-  },
-  "homepage": "https://gron1gh1.github.io/db-covid-map/"
+  }
 }
