@@ -68,7 +68,7 @@ function App() {
   return (
     <Layout className="layout">
       <ToastContainer />
-      <Router basename="/db-covid-map">
+      <Router basename="/">
         <Header>
           <Menu
             theme="dark"
