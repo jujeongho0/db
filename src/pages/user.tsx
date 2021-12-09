@@ -120,8 +120,8 @@ function UserPage() {
               )}
             </div>
             <div className="info" style={{ fontSize: "1.2rem" }}>
-              오늘 {userInfo.user_district} 확진자 수{" "}
-              {userInfo.user_district_confirmed}명
+              오늘 {userInfo?.user_district} 확진자 수{" "}
+              {userInfo?.user_district_confirmed}명
             </div>
             <div
               className="info"
