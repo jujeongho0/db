@@ -15,9 +15,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use("/covid", require("./routes/covidRouter"));
-app.use("/user", require("./routes/userRouter"));
-app.use("/developer", require("./routes/developerRouter"));
+app.use("/api", require("./routes/api"));
 
 app.use(errorHandler);
 
