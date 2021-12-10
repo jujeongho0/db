@@ -1,0 +1,6784 @@
+﻿{
+    "DAILY": [
+        {
+            "DATE": "2020-01-23",
+            "CONFIRMED": 12547,
+            "ISOLATED": 219,
+            "DESEASED": 884,
+            "RECOVERED": 805,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-01-24",
+            "CONFIRMED": 12738,
+            "ISOLATED": -221,
+            "DESEASED": 902,
+            "RECOVERED": 647,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-01-25",
+            "CONFIRMED": 12990,
+            "ISOLATED": -536,
+            "DESEASED": 965,
+            "RECOVERED": 674,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-01-26",
+            "CONFIRMED": 13130,
+            "ISOLATED": -73,
+            "DESEASED": 929,
+            "RECOVERED": 854,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-01-27",
+            "CONFIRMED": 13825,
+            "ISOLATED": 404,
+            "DESEASED": 753,
+            "RECOVERED": 414,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-01-28",
+            "CONFIRMED": 12879,
+            "ISOLATED": -290,
+            "DESEASED": 612,
+            "RECOVERED": 571,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-01-29",
+            "CONFIRMED": 13073,
+            "ISOLATED": -207,
+            "DESEASED": 556,
+            "RECOVERED": 772,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-01-30",
+            "CONFIRMED": 12968,
+            "ISOLATED": -14,
+            "DESEASED": 904,
+            "RECOVERED": 978,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-01-31",
+            "CONFIRMED": 11785,
+            "ISOLATED": 61,
+            "DESEASED": 958,
+            "RECOVERED": 859,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-01",
+            "CONFIRMED": 13812,
+            "ISOLATED": -232,
+            "DESEASED": 720,
+            "RECOVERED": 678,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-02",
+            "CONFIRMED": 13065,
+            "ISOLATED": 353,
+            "DESEASED": 874,
+            "RECOVERED": 724,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-03",
+            "CONFIRMED": 12933,
+            "ISOLATED": 267,
+            "DESEASED": 673,
+            "RECOVERED": 703,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-04",
+            "CONFIRMED": 13388,
+            "ISOLATED": -10,
+            "DESEASED": 813,
+            "RECOVERED": 971,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-05",
+            "CONFIRMED": 12755,
+            "ISOLATED": -61,
+            "DESEASED": 552,
+            "RECOVERED": 671,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-06",
+            "CONFIRMED": 12577,
+            "ISOLATED": 18,
+            "DESEASED": 1077,
+            "RECOVERED": 783,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-07",
+            "CONFIRMED": 13312,
+            "ISOLATED": -13,
+            "DESEASED": 814,
+            "RECOVERED": 921,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-08",
+            "CONFIRMED": 13014,
+            "ISOLATED": 330,
+            "DESEASED": 899,
+            "RECOVERED": 671,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-09",
+            "CONFIRMED": 12871,
+            "ISOLATED": 403,
+            "DESEASED": 839,
+            "RECOVERED": 709,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-10",
+            "CONFIRMED": 12852,
+            "ISOLATED": -271,
+            "DESEASED": 816,
+            "RECOVERED": 640,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-11",
+            "CONFIRMED": 13562,
+            "ISOLATED": -443,
+            "DESEASED": 825,
+            "RECOVERED": 780,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-12",
+            "CONFIRMED": 12683,
+            "ISOLATED": -220,
+            "DESEASED": 732,
+            "RECOVERED": 746,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-13",
+            "CONFIRMED": 12364,
+            "ISOLATED": -288,
+            "DESEASED": 826,
+            "RECOVERED": 847,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-14",
+            "CONFIRMED": 13222,
+            "ISOLATED": 224,
+            "DESEASED": 679,
+            "RECOVERED": 690,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-15",
+            "CONFIRMED": 12871,
+            "ISOLATED": 114,
+            "DESEASED": 918,
+            "RECOVERED": 661,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-16",
+            "CONFIRMED": 13196,
+            "ISOLATED": 51,
+            "DESEASED": 723,
+            "RECOVERED": 653,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-17",
+            "CONFIRMED": 13318,
+            "ISOLATED": -115,
+            "DESEASED": 985,
+            "RECOVERED": 660,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-18",
+            "CONFIRMED": 13450,
+            "ISOLATED": -79,
+            "DESEASED": 548,
+            "RECOVERED": 995,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-19",
+            "CONFIRMED": 13349,
+            "ISOLATED": -86,
+            "DESEASED": 710,
+            "RECOVERED": 722,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-20",
+            "CONFIRMED": 12365,
+            "ISOLATED": 342,
+            "DESEASED": 695,
+            "RECOVERED": 851,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-21",
+            "CONFIRMED": 12724,
+            "ISOLATED": -57,
+            "DESEASED": 939,
+            "RECOVERED": 580,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-22",
+            "CONFIRMED": 13237,
+            "ISOLATED": -282,
+            "DESEASED": 799,
+            "RECOVERED": 791,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-23",
+            "CONFIRMED": 12464,
+            "ISOLATED": 96,
+            "DESEASED": 762,
+            "RECOVERED": 768,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-24",
+            "CONFIRMED": 12953,
+            "ISOLATED": -205,
+            "DESEASED": 618,
+            "RECOVERED": 562,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-25",
+            "CONFIRMED": 12139,
+            "ISOLATED": -136,
+            "DESEASED": 825,
+            "RECOVERED": 830,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-26",
+            "CONFIRMED": 12995,
+            "ISOLATED": 207,
+            "DESEASED": 773,
+            "RECOVERED": 882,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-27",
+            "CONFIRMED": 13883,
+            "ISOLATED": 167,
+            "DESEASED": 831,
+            "RECOVERED": 834,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-28",
+            "CONFIRMED": 12530,
+            "ISOLATED": -245,
+            "DESEASED": 657,
+            "RECOVERED": 762,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-02-29",
+            "CONFIRMED": 12425,
+            "ISOLATED": -22,
+            "DESEASED": 751,
+            "RECOVERED": 757,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-01",
+            "CONFIRMED": 12934,
+            "ISOLATED": 115,
+            "DESEASED": 756,
+            "RECOVERED": 911,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-02",
+            "CONFIRMED": 12960,
+            "ISOLATED": 20,
+            "DESEASED": 888,
+            "RECOVERED": 631,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-03",
+            "CONFIRMED": 12704,
+            "ISOLATED": 199,
+            "DESEASED": 780,
+            "RECOVERED": 774,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-04",
+            "CONFIRMED": 13450,
+            "ISOLATED": -219,
+            "DESEASED": 742,
+            "RECOVERED": 893,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-05",
+            "CONFIRMED": 13494,
+            "ISOLATED": -361,
+            "DESEASED": 678,
+            "RECOVERED": 697,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-06",
+            "CONFIRMED": 13964,
+            "ISOLATED": -151,
+            "DESEASED": 947,
+            "RECOVERED": 863,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-07",
+            "CONFIRMED": 12745,
+            "ISOLATED": -43,
+            "DESEASED": 621,
+            "RECOVERED": 905,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-08",
+            "CONFIRMED": 12602,
+            "ISOLATED": 113,
+            "DESEASED": 891,
+            "RECOVERED": 677,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-09",
+            "CONFIRMED": 12410,
+            "ISOLATED": 131,
+            "DESEASED": 870,
+            "RECOVERED": 776,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-10",
+            "CONFIRMED": 11947,
+            "ISOLATED": -50,
+            "DESEASED": 916,
+            "RECOVERED": 899,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-11",
+            "CONFIRMED": 13125,
+            "ISOLATED": -103,
+            "DESEASED": 803,
+            "RECOVERED": 733,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-12",
+            "CONFIRMED": 13576,
+            "ISOLATED": 228,
+            "DESEASED": 722,
+            "RECOVERED": 811,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-13",
+            "CONFIRMED": 12885,
+            "ISOLATED": -138,
+            "DESEASED": 629,
+            "RECOVERED": 782,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-14",
+            "CONFIRMED": 12304,
+            "ISOLATED": -352,
+            "DESEASED": 776,
+            "RECOVERED": 973,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-15",
+            "CONFIRMED": 13467,
+            "ISOLATED": -136,
+            "DESEASED": 764,
+            "RECOVERED": 883,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-16",
+            "CONFIRMED": 13047,
+            "ISOLATED": 300,
+            "DESEASED": 688,
+            "RECOVERED": 784,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-17",
+            "CONFIRMED": 13273,
+            "ISOLATED": -51,
+            "DESEASED": 836,
+            "RECOVERED": 798,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-18",
+            "CONFIRMED": 13437,
+            "ISOLATED": 63,
+            "DESEASED": 849,
+            "RECOVERED": 975,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-19",
+            "CONFIRMED": 12933,
+            "ISOLATED": 40,
+            "DESEASED": 800,
+            "RECOVERED": 621,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-20",
+            "CONFIRMED": 12801,
+            "ISOLATED": 193,
+            "DESEASED": 798,
+            "RECOVERED": 748,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-21",
+            "CONFIRMED": 13135,
+            "ISOLATED": 150,
+            "DESEASED": 946,
+            "RECOVERED": 741,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-22",
+            "CONFIRMED": 12884,
+            "ISOLATED": 228,
+            "DESEASED": 938,
+            "RECOVERED": 1043,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-23",
+            "CONFIRMED": 12532,
+            "ISOLATED": 27,
+            "DESEASED": 849,
+            "RECOVERED": 835,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-24",
+            "CONFIRMED": 13258,
+            "ISOLATED": -210,
+            "DESEASED": 796,
+            "RECOVERED": 735,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-25",
+            "CONFIRMED": 12269,
+            "ISOLATED": -396,
+            "DESEASED": 809,
+            "RECOVERED": 874,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-26",
+            "CONFIRMED": 13695,
+            "ISOLATED": 248,
+            "DESEASED": 740,
+            "RECOVERED": 971,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-27",
+            "CONFIRMED": 13025,
+            "ISOLATED": -54,
+            "DESEASED": 736,
+            "RECOVERED": 917,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-28",
+            "CONFIRMED": 13388,
+            "ISOLATED": -21,
+            "DESEASED": 986,
+            "RECOVERED": 650,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-29",
+            "CONFIRMED": 13884,
+            "ISOLATED": 220,
+            "DESEASED": 788,
+            "RECOVERED": 677,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-30",
+            "CONFIRMED": 13075,
+            "ISOLATED": 444,
+            "DESEASED": 886,
+            "RECOVERED": 853,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-03-31",
+            "CONFIRMED": 12596,
+            "ISOLATED": 22,
+            "DESEASED": 612,
+            "RECOVERED": 637,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-01",
+            "CONFIRMED": 12703,
+            "ISOLATED": 17,
+            "DESEASED": 765,
+            "RECOVERED": 699,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-02",
+            "CONFIRMED": 13177,
+            "ISOLATED": 217,
+            "DESEASED": 1016,
+            "RECOVERED": 831,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-03",
+            "CONFIRMED": 13177,
+            "ISOLATED": -158,
+            "DESEASED": 711,
+            "RECOVERED": 857,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-04",
+            "CONFIRMED": 13005,
+            "ISOLATED": -408,
+            "DESEASED": 842,
+            "RECOVERED": 815,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-05",
+            "CONFIRMED": 13603,
+            "ISOLATED": -93,
+            "DESEASED": 923,
+            "RECOVERED": 776,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-06",
+            "CONFIRMED": 12806,
+            "ISOLATED": -138,
+            "DESEASED": 975,
+            "RECOVERED": 706,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-07",
+            "CONFIRMED": 13333,
+            "ISOLATED": 9,
+            "DESEASED": 808,
+            "RECOVERED": 841,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-08",
+            "CONFIRMED": 13272,
+            "ISOLATED": 545,
+            "DESEASED": 867,
+            "RECOVERED": 768,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-09",
+            "CONFIRMED": 12833,
+            "ISOLATED": -171,
+            "DESEASED": 885,
+            "RECOVERED": 958,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-10",
+            "CONFIRMED": 13026,
+            "ISOLATED": 310,
+            "DESEASED": 785,
+            "RECOVERED": 731,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-11",
+            "CONFIRMED": 13169,
+            "ISOLATED": -384,
+            "DESEASED": 716,
+            "RECOVERED": 718,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-12",
+            "CONFIRMED": 12838,
+            "ISOLATED": -21,
+            "DESEASED": 692,
+            "RECOVERED": 802,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-13",
+            "CONFIRMED": 12913,
+            "ISOLATED": -31,
+            "DESEASED": 751,
+            "RECOVERED": 633,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-14",
+            "CONFIRMED": 13442,
+            "ISOLATED": 26,
+            "DESEASED": 621,
+            "RECOVERED": 858,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-15",
+            "CONFIRMED": 13482,
+            "ISOLATED": -70,
+            "DESEASED": 662,
+            "RECOVERED": 715,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-16",
+            "CONFIRMED": 14036,
+            "ISOLATED": -67,
+            "DESEASED": 701,
+            "RECOVERED": 857,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-17",
+            "CONFIRMED": 12558,
+            "ISOLATED": -239,
+            "DESEASED": 821,
+            "RECOVERED": 810,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-18",
+            "CONFIRMED": 13440,
+            "ISOLATED": 330,
+            "DESEASED": 852,
+            "RECOVERED": 773,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-19",
+            "CONFIRMED": 12834,
+            "ISOLATED": 120,
+            "DESEASED": 841,
+            "RECOVERED": 933,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-20",
+            "CONFIRMED": 13359,
+            "ISOLATED": 39,
+            "DESEASED": 601,
+            "RECOVERED": 696,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-21",
+            "CONFIRMED": 13008,
+            "ISOLATED": 92,
+            "DESEASED": 758,
+            "RECOVERED": 805,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-22",
+            "CONFIRMED": 13175,
+            "ISOLATED": -371,
+            "DESEASED": 891,
+            "RECOVERED": 802,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-23",
+            "CONFIRMED": 13158,
+            "ISOLATED": 82,
+            "DESEASED": 977,
+            "RECOVERED": 890,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-24",
+            "CONFIRMED": 13526,
+            "ISOLATED": 344,
+            "DESEASED": 515,
+            "RECOVERED": 457,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-25",
+            "CONFIRMED": 12249,
+            "ISOLATED": 102,
+            "DESEASED": 772,
+            "RECOVERED": 861,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-26",
+            "CONFIRMED": 12810,
+            "ISOLATED": -248,
+            "DESEASED": 1070,
+            "RECOVERED": 798,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-27",
+            "CONFIRMED": 13256,
+            "ISOLATED": 341,
+            "DESEASED": 887,
+            "RECOVERED": 805,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-28",
+            "CONFIRMED": 13294,
+            "ISOLATED": -31,
+            "DESEASED": 504,
+            "RECOVERED": 876,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-29",
+            "CONFIRMED": 13296,
+            "ISOLATED": -506,
+            "DESEASED": 784,
+            "RECOVERED": 807,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-04-30",
+            "CONFIRMED": 12998,
+            "ISOLATED": -89,
+            "DESEASED": 902,
+            "RECOVERED": 797,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-01",
+            "CONFIRMED": 13270,
+            "ISOLATED": 246,
+            "DESEASED": 971,
+            "RECOVERED": 774,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-02",
+            "CONFIRMED": 12294,
+            "ISOLATED": 187,
+            "DESEASED": 818,
+            "RECOVERED": 1039,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-03",
+            "CONFIRMED": 13085,
+            "ISOLATED": 24,
+            "DESEASED": 656,
+            "RECOVERED": 671,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-04",
+            "CONFIRMED": 13157,
+            "ISOLATED": 144,
+            "DESEASED": 637,
+            "RECOVERED": 866,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-05",
+            "CONFIRMED": 13391,
+            "ISOLATED": 93,
+            "DESEASED": 1006,
+            "RECOVERED": 610,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-06",
+            "CONFIRMED": 13189,
+            "ISOLATED": 240,
+            "DESEASED": 864,
+            "RECOVERED": 872,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-07",
+            "CONFIRMED": 13174,
+            "ISOLATED": -285,
+            "DESEASED": 790,
+            "RECOVERED": 883,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-08",
+            "CONFIRMED": 13573,
+            "ISOLATED": 203,
+            "DESEASED": 799,
+            "RECOVERED": 803,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-09",
+            "CONFIRMED": 12980,
+            "ISOLATED": 92,
+            "DESEASED": 968,
+            "RECOVERED": 697,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-10",
+            "CONFIRMED": 12233,
+            "ISOLATED": 221,
+            "DESEASED": 646,
+            "RECOVERED": 794,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-11",
+            "CONFIRMED": 12693,
+            "ISOLATED": 151,
+            "DESEASED": 673,
+            "RECOVERED": 752,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-12",
+            "CONFIRMED": 14131,
+            "ISOLATED": 30,
+            "DESEASED": 817,
+            "RECOVERED": 629,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-13",
+            "CONFIRMED": 11973,
+            "ISOLATED": 62,
+            "DESEASED": 647,
+            "RECOVERED": 502,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-14",
+            "CONFIRMED": 13353,
+            "ISOLATED": -90,
+            "DESEASED": 959,
+            "RECOVERED": 821,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-15",
+            "CONFIRMED": 13467,
+            "ISOLATED": 145,
+            "DESEASED": 849,
+            "RECOVERED": 735,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-16",
+            "CONFIRMED": 12601,
+            "ISOLATED": -163,
+            "DESEASED": 853,
+            "RECOVERED": 938,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-17",
+            "CONFIRMED": 13866,
+            "ISOLATED": 155,
+            "DESEASED": 817,
+            "RECOVERED": 1002,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-18",
+            "CONFIRMED": 12888,
+            "ISOLATED": 262,
+            "DESEASED": 706,
+            "RECOVERED": 1003,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-19",
+            "CONFIRMED": 12532,
+            "ISOLATED": -252,
+            "DESEASED": 874,
+            "RECOVERED": 774,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-20",
+            "CONFIRMED": 12930,
+            "ISOLATED": 23,
+            "DESEASED": 839,
+            "RECOVERED": 601,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-21",
+            "CONFIRMED": 13685,
+            "ISOLATED": -325,
+            "DESEASED": 735,
+            "RECOVERED": 590,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-22",
+            "CONFIRMED": 12959,
+            "ISOLATED": 327,
+            "DESEASED": 828,
+            "RECOVERED": 838,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-23",
+            "CONFIRMED": 13158,
+            "ISOLATED": -547,
+            "DESEASED": 561,
+            "RECOVERED": 759,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-24",
+            "CONFIRMED": 13494,
+            "ISOLATED": -159,
+            "DESEASED": 828,
+            "RECOVERED": 978,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-25",
+            "CONFIRMED": 12975,
+            "ISOLATED": 90,
+            "DESEASED": 821,
+            "RECOVERED": 700,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-26",
+            "CONFIRMED": 12648,
+            "ISOLATED": -90,
+            "DESEASED": 964,
+            "RECOVERED": 672,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-27",
+            "CONFIRMED": 12492,
+            "ISOLATED": 227,
+            "DESEASED": 607,
+            "RECOVERED": 602,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-28",
+            "CONFIRMED": 13221,
+            "ISOLATED": -35,
+            "DESEASED": 866,
+            "RECOVERED": 826,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-29",
+            "CONFIRMED": 12945,
+            "ISOLATED": 259,
+            "DESEASED": 855,
+            "RECOVERED": 763,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-30",
+            "CONFIRMED": 13526,
+            "ISOLATED": 287,
+            "DESEASED": 797,
+            "RECOVERED": 785,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-05-31",
+            "CONFIRMED": 13303,
+            "ISOLATED": -16,
+            "DESEASED": 734,
+            "RECOVERED": 638,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-01",
+            "CONFIRMED": 12430,
+            "ISOLATED": -230,
+            "DESEASED": 782,
+            "RECOVERED": 794,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-02",
+            "CONFIRMED": 12668,
+            "ISOLATED": -193,
+            "DESEASED": 887,
+            "RECOVERED": 939,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-03",
+            "CONFIRMED": 12459,
+            "ISOLATED": -437,
+            "DESEASED": 805,
+            "RECOVERED": 868,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-04",
+            "CONFIRMED": 12403,
+            "ISOLATED": -126,
+            "DESEASED": 642,
+            "RECOVERED": 879,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-05",
+            "CONFIRMED": 12336,
+            "ISOLATED": -111,
+            "DESEASED": 816,
+            "RECOVERED": 899,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-06",
+            "CONFIRMED": 14089,
+            "ISOLATED": -144,
+            "DESEASED": 920,
+            "RECOVERED": 970,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-07",
+            "CONFIRMED": 13023,
+            "ISOLATED": -253,
+            "DESEASED": 617,
+            "RECOVERED": 898,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-08",
+            "CONFIRMED": 12606,
+            "ISOLATED": -328,
+            "DESEASED": 752,
+            "RECOVERED": 489,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-09",
+            "CONFIRMED": 12510,
+            "ISOLATED": -91,
+            "DESEASED": 722,
+            "RECOVERED": 878,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-10",
+            "CONFIRMED": 12674,
+            "ISOLATED": -126,
+            "DESEASED": 790,
+            "RECOVERED": 650,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-11",
+            "CONFIRMED": 14028,
+            "ISOLATED": -238,
+            "DESEASED": 559,
+            "RECOVERED": 859,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-12",
+            "CONFIRMED": 12536,
+            "ISOLATED": 140,
+            "DESEASED": 947,
+            "RECOVERED": 910,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-13",
+            "CONFIRMED": 13280,
+            "ISOLATED": -131,
+            "DESEASED": 867,
+            "RECOVERED": 1049,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-14",
+            "CONFIRMED": 12759,
+            "ISOLATED": 488,
+            "DESEASED": 737,
+            "RECOVERED": 674,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-15",
+            "CONFIRMED": 12073,
+            "ISOLATED": -176,
+            "DESEASED": 568,
+            "RECOVERED": 810,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-16",
+            "CONFIRMED": 12611,
+            "ISOLATED": 62,
+            "DESEASED": 880,
+            "RECOVERED": 802,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-17",
+            "CONFIRMED": 13130,
+            "ISOLATED": -470,
+            "DESEASED": 819,
+            "RECOVERED": 732,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-18",
+            "CONFIRMED": 12445,
+            "ISOLATED": -279,
+            "DESEASED": 749,
+            "RECOVERED": 764,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-19",
+            "CONFIRMED": 13792,
+            "ISOLATED": 54,
+            "DESEASED": 621,
+            "RECOVERED": 944,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-20",
+            "CONFIRMED": 13053,
+            "ISOLATED": 376,
+            "DESEASED": 748,
+            "RECOVERED": 634,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-21",
+            "CONFIRMED": 13081,
+            "ISOLATED": -13,
+            "DESEASED": 635,
+            "RECOVERED": 719,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-22",
+            "CONFIRMED": 13374,
+            "ISOLATED": 231,
+            "DESEASED": 721,
+            "RECOVERED": 840,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-23",
+            "CONFIRMED": 13429,
+            "ISOLATED": 316,
+            "DESEASED": 758,
+            "RECOVERED": 760,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-24",
+            "CONFIRMED": 12754,
+            "ISOLATED": -10,
+            "DESEASED": 881,
+            "RECOVERED": 776,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-25",
+            "CONFIRMED": 12631,
+            "ISOLATED": 621,
+            "DESEASED": 834,
+            "RECOVERED": 804,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-26",
+            "CONFIRMED": 12624,
+            "ISOLATED": 57,
+            "DESEASED": 926,
+            "RECOVERED": 869,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-27",
+            "CONFIRMED": 12923,
+            "ISOLATED": 66,
+            "DESEASED": 878,
+            "RECOVERED": 715,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-28",
+            "CONFIRMED": 13300,
+            "ISOLATED": -77,
+            "DESEASED": 810,
+            "RECOVERED": 872,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-29",
+            "CONFIRMED": 13116,
+            "ISOLATED": -404,
+            "DESEASED": 847,
+            "RECOVERED": 899,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-06-30",
+            "CONFIRMED": 12696,
+            "ISOLATED": -57,
+            "DESEASED": 806,
+            "RECOVERED": 824,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-01",
+            "CONFIRMED": 13432,
+            "ISOLATED": 359,
+            "DESEASED": 862,
+            "RECOVERED": 770,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-02",
+            "CONFIRMED": 13441,
+            "ISOLATED": 432,
+            "DESEASED": 750,
+            "RECOVERED": 914,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-03",
+            "CONFIRMED": 12233,
+            "ISOLATED": 231,
+            "DESEASED": 957,
+            "RECOVERED": 1030,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-04",
+            "CONFIRMED": 11837,
+            "ISOLATED": -314,
+            "DESEASED": 887,
+            "RECOVERED": 580,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-05",
+            "CONFIRMED": 12470,
+            "ISOLATED": -34,
+            "DESEASED": 868,
+            "RECOVERED": 857,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-06",
+            "CONFIRMED": 13809,
+            "ISOLATED": -271,
+            "DESEASED": 891,
+            "RECOVERED": 845,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-07",
+            "CONFIRMED": 13680,
+            "ISOLATED": -194,
+            "DESEASED": 690,
+            "RECOVERED": 406,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-08",
+            "CONFIRMED": 13052,
+            "ISOLATED": -75,
+            "DESEASED": 803,
+            "RECOVERED": 786,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-09",
+            "CONFIRMED": 12666,
+            "ISOLATED": 227,
+            "DESEASED": 873,
+            "RECOVERED": 683,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-10",
+            "CONFIRMED": 12816,
+            "ISOLATED": -214,
+            "DESEASED": 808,
+            "RECOVERED": 871,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-11",
+            "CONFIRMED": 13889,
+            "ISOLATED": -268,
+            "DESEASED": 796,
+            "RECOVERED": 771,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-12",
+            "CONFIRMED": 13074,
+            "ISOLATED": -254,
+            "DESEASED": 800,
+            "RECOVERED": 878,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-13",
+            "CONFIRMED": 13375,
+            "ISOLATED": 37,
+            "DESEASED": 555,
+            "RECOVERED": 821,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-14",
+            "CONFIRMED": 13856,
+            "ISOLATED": 34,
+            "DESEASED": 671,
+            "RECOVERED": 813,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-15",
+            "CONFIRMED": 13190,
+            "ISOLATED": 167,
+            "DESEASED": 855,
+            "RECOVERED": 748,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-16",
+            "CONFIRMED": 12909,
+            "ISOLATED": -90,
+            "DESEASED": 784,
+            "RECOVERED": 842,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-17",
+            "CONFIRMED": 13619,
+            "ISOLATED": -497,
+            "DESEASED": 906,
+            "RECOVERED": 904,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-18",
+            "CONFIRMED": 13161,
+            "ISOLATED": 335,
+            "DESEASED": 686,
+            "RECOVERED": 720,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-19",
+            "CONFIRMED": 13254,
+            "ISOLATED": 173,
+            "DESEASED": 770,
+            "RECOVERED": 776,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-20",
+            "CONFIRMED": 12672,
+            "ISOLATED": 78,
+            "DESEASED": 796,
+            "RECOVERED": 1052,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-21",
+            "CONFIRMED": 11968,
+            "ISOLATED": -394,
+            "DESEASED": 1008,
+            "RECOVERED": 598,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-22",
+            "CONFIRMED": 12369,
+            "ISOLATED": 102,
+            "DESEASED": 861,
+            "RECOVERED": 882,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-23",
+            "CONFIRMED": 12996,
+            "ISOLATED": 219,
+            "DESEASED": 832,
+            "RECOVERED": 800,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-24",
+            "CONFIRMED": 13838,
+            "ISOLATED": -58,
+            "DESEASED": 897,
+            "RECOVERED": 570,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-25",
+            "CONFIRMED": 12982,
+            "ISOLATED": -41,
+            "DESEASED": 773,
+            "RECOVERED": 940,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-26",
+            "CONFIRMED": 12237,
+            "ISOLATED": -164,
+            "DESEASED": 967,
+            "RECOVERED": 928,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-27",
+            "CONFIRMED": 12851,
+            "ISOLATED": -47,
+            "DESEASED": 769,
+            "RECOVERED": 675,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-28",
+            "CONFIRMED": 12965,
+            "ISOLATED": -532,
+            "DESEASED": 877,
+            "RECOVERED": 846,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-29",
+            "CONFIRMED": 12909,
+            "ISOLATED": 83,
+            "DESEASED": 906,
+            "RECOVERED": 748,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-30",
+            "CONFIRMED": 12471,
+            "ISOLATED": 81,
+            "DESEASED": 945,
+            "RECOVERED": 567,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-07-31",
+            "CONFIRMED": 12443,
+            "ISOLATED": -70,
+            "DESEASED": 677,
+            "RECOVERED": 603,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-01",
+            "CONFIRMED": 13342,
+            "ISOLATED": -66,
+            "DESEASED": 710,
+            "RECOVERED": 696,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-02",
+            "CONFIRMED": 12406,
+            "ISOLATED": -48,
+            "DESEASED": 1024,
+            "RECOVERED": 803,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-03",
+            "CONFIRMED": 13499,
+            "ISOLATED": -70,
+            "DESEASED": 763,
+            "RECOVERED": 753,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-04",
+            "CONFIRMED": 13124,
+            "ISOLATED": 211,
+            "DESEASED": 966,
+            "RECOVERED": 776,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-05",
+            "CONFIRMED": 12892,
+            "ISOLATED": -185,
+            "DESEASED": 819,
+            "RECOVERED": 711,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-06",
+            "CONFIRMED": 13690,
+            "ISOLATED": -295,
+            "DESEASED": 831,
+            "RECOVERED": 604,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-07",
+            "CONFIRMED": 12648,
+            "ISOLATED": 305,
+            "DESEASED": 876,
+            "RECOVERED": 965,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-08",
+            "CONFIRMED": 12622,
+            "ISOLATED": 42,
+            "DESEASED": 909,
+            "RECOVERED": 630,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-09",
+            "CONFIRMED": 12745,
+            "ISOLATED": -141,
+            "DESEASED": 654,
+            "RECOVERED": 716,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-10",
+            "CONFIRMED": 13267,
+            "ISOLATED": -137,
+            "DESEASED": 745,
+            "RECOVERED": 993,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-11",
+            "CONFIRMED": 13221,
+            "ISOLATED": -261,
+            "DESEASED": 685,
+            "RECOVERED": 531,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-12",
+            "CONFIRMED": 12965,
+            "ISOLATED": -119,
+            "DESEASED": 707,
+            "RECOVERED": 730,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-13",
+            "CONFIRMED": 13388,
+            "ISOLATED": -514,
+            "DESEASED": 890,
+            "RECOVERED": 946,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-14",
+            "CONFIRMED": 13955,
+            "ISOLATED": -329,
+            "DESEASED": 873,
+            "RECOVERED": 865,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-15",
+            "CONFIRMED": 12777,
+            "ISOLATED": -217,
+            "DESEASED": 833,
+            "RECOVERED": 1001,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-16",
+            "CONFIRMED": 13624,
+            "ISOLATED": -91,
+            "DESEASED": 704,
+            "RECOVERED": 747,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-17",
+            "CONFIRMED": 11842,
+            "ISOLATED": -22,
+            "DESEASED": 860,
+            "RECOVERED": 820,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-18",
+            "CONFIRMED": 12979,
+            "ISOLATED": 249,
+            "DESEASED": 811,
+            "RECOVERED": 803,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-19",
+            "CONFIRMED": 13328,
+            "ISOLATED": -32,
+            "DESEASED": 739,
+            "RECOVERED": 863,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-20",
+            "CONFIRMED": 13256,
+            "ISOLATED": 73,
+            "DESEASED": 874,
+            "RECOVERED": 683,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-21",
+            "CONFIRMED": 13144,
+            "ISOLATED": 217,
+            "DESEASED": 883,
+            "RECOVERED": 782,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-22",
+            "CONFIRMED": 12927,
+            "ISOLATED": -67,
+            "DESEASED": 724,
+            "RECOVERED": 644,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-23",
+            "CONFIRMED": 13246,
+            "ISOLATED": 148,
+            "DESEASED": 732,
+            "RECOVERED": 733,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-24",
+            "CONFIRMED": 13190,
+            "ISOLATED": 185,
+            "DESEASED": 812,
+            "RECOVERED": 901,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-25",
+            "CONFIRMED": 12735,
+            "ISOLATED": 88,
+            "DESEASED": 714,
+            "RECOVERED": 817,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-26",
+            "CONFIRMED": 14029,
+            "ISOLATED": 236,
+            "DESEASED": 700,
+            "RECOVERED": 794,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-27",
+            "CONFIRMED": 13080,
+            "ISOLATED": 22,
+            "DESEASED": 905,
+            "RECOVERED": 632,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-28",
+            "CONFIRMED": 12679,
+            "ISOLATED": 143,
+            "DESEASED": 830,
+            "RECOVERED": 677,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-29",
+            "CONFIRMED": 13032,
+            "ISOLATED": -65,
+            "DESEASED": 664,
+            "RECOVERED": 618,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-30",
+            "CONFIRMED": 13877,
+            "ISOLATED": 175,
+            "DESEASED": 793,
+            "RECOVERED": 854,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-08-31",
+            "CONFIRMED": 12594,
+            "ISOLATED": -76,
+            "DESEASED": 775,
+            "RECOVERED": 763,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-01",
+            "CONFIRMED": 13094,
+            "ISOLATED": -281,
+            "DESEASED": 964,
+            "RECOVERED": 770,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-02",
+            "CONFIRMED": 12560,
+            "ISOLATED": 170,
+            "DESEASED": 890,
+            "RECOVERED": 659,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-03",
+            "CONFIRMED": 12801,
+            "ISOLATED": 155,
+            "DESEASED": 855,
+            "RECOVERED": 856,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-04",
+            "CONFIRMED": 12838,
+            "ISOLATED": -186,
+            "DESEASED": 964,
+            "RECOVERED": 760,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-05",
+            "CONFIRMED": 13175,
+            "ISOLATED": 83,
+            "DESEASED": 875,
+            "RECOVERED": 770,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-06",
+            "CONFIRMED": 13035,
+            "ISOLATED": 349,
+            "DESEASED": 728,
+            "RECOVERED": 732,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-07",
+            "CONFIRMED": 12771,
+            "ISOLATED": 235,
+            "DESEASED": 738,
+            "RECOVERED": 608,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-08",
+            "CONFIRMED": 13558,
+            "ISOLATED": 115,
+            "DESEASED": 756,
+            "RECOVERED": 936,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-09",
+            "CONFIRMED": 13139,
+            "ISOLATED": 306,
+            "DESEASED": 767,
+            "RECOVERED": 887,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-10",
+            "CONFIRMED": 12920,
+            "ISOLATED": 209,
+            "DESEASED": 725,
+            "RECOVERED": 648,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-11",
+            "CONFIRMED": 13423,
+            "ISOLATED": -60,
+            "DESEASED": 756,
+            "RECOVERED": 805,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-12",
+            "CONFIRMED": 12728,
+            "ISOLATED": -75,
+            "DESEASED": 710,
+            "RECOVERED": 850,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-13",
+            "CONFIRMED": 13372,
+            "ISOLATED": 75,
+            "DESEASED": 972,
+            "RECOVERED": 767,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-14",
+            "CONFIRMED": 12967,
+            "ISOLATED": -138,
+            "DESEASED": 708,
+            "RECOVERED": 770,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-15",
+            "CONFIRMED": 13401,
+            "ISOLATED": -271,
+            "DESEASED": 895,
+            "RECOVERED": 808,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-16",
+            "CONFIRMED": 13146,
+            "ISOLATED": 189,
+            "DESEASED": 899,
+            "RECOVERED": 631,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-17",
+            "CONFIRMED": 13036,
+            "ISOLATED": -601,
+            "DESEASED": 761,
+            "RECOVERED": 623,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-18",
+            "CONFIRMED": 13405,
+            "ISOLATED": -211,
+            "DESEASED": 903,
+            "RECOVERED": 774,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-19",
+            "CONFIRMED": 12216,
+            "ISOLATED": -137,
+            "DESEASED": 720,
+            "RECOVERED": 874,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-20",
+            "CONFIRMED": 12697,
+            "ISOLATED": -329,
+            "DESEASED": 693,
+            "RECOVERED": 782,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-21",
+            "CONFIRMED": 13249,
+            "ISOLATED": -207,
+            "DESEASED": 1037,
+            "RECOVERED": 716,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-22",
+            "CONFIRMED": 12510,
+            "ISOLATED": -394,
+            "DESEASED": 737,
+            "RECOVERED": 930,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-23",
+            "CONFIRMED": 11947,
+            "ISOLATED": -88,
+            "DESEASED": 758,
+            "RECOVERED": 792,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-24",
+            "CONFIRMED": 13426,
+            "ISOLATED": -226,
+            "DESEASED": 837,
+            "RECOVERED": 828,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-25",
+            "CONFIRMED": 13650,
+            "ISOLATED": -24,
+            "DESEASED": 756,
+            "RECOVERED": 869,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-26",
+            "CONFIRMED": 13462,
+            "ISOLATED": -260,
+            "DESEASED": 903,
+            "RECOVERED": 561,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-27",
+            "CONFIRMED": 12768,
+            "ISOLATED": -204,
+            "DESEASED": 897,
+            "RECOVERED": 945,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-28",
+            "CONFIRMED": 12741,
+            "ISOLATED": 331,
+            "DESEASED": 843,
+            "RECOVERED": 860,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-29",
+            "CONFIRMED": 12903,
+            "ISOLATED": 27,
+            "DESEASED": 844,
+            "RECOVERED": 788,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-09-30",
+            "CONFIRMED": 12800,
+            "ISOLATED": -166,
+            "DESEASED": 739,
+            "RECOVERED": 854,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-01",
+            "CONFIRMED": 12393,
+            "ISOLATED": -386,
+            "DESEASED": 763,
+            "RECOVERED": 733,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-02",
+            "CONFIRMED": 13647,
+            "ISOLATED": -27,
+            "DESEASED": 787,
+            "RECOVERED": 653,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-03",
+            "CONFIRMED": 13117,
+            "ISOLATED": -698,
+            "DESEASED": 881,
+            "RECOVERED": 823,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-04",
+            "CONFIRMED": 13142,
+            "ISOLATED": 222,
+            "DESEASED": 1047,
+            "RECOVERED": 944,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-05",
+            "CONFIRMED": 12803,
+            "ISOLATED": 107,
+            "DESEASED": 672,
+            "RECOVERED": 787,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-06",
+            "CONFIRMED": 13502,
+            "ISOLATED": -492,
+            "DESEASED": 819,
+            "RECOVERED": 986,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-07",
+            "CONFIRMED": 13346,
+            "ISOLATED": 73,
+            "DESEASED": 752,
+            "RECOVERED": 812,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-08",
+            "CONFIRMED": 13595,
+            "ISOLATED": 272,
+            "DESEASED": 571,
+            "RECOVERED": 841,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-09",
+            "CONFIRMED": 12103,
+            "ISOLATED": 80,
+            "DESEASED": 813,
+            "RECOVERED": 711,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-10",
+            "CONFIRMED": 12893,
+            "ISOLATED": -245,
+            "DESEASED": 796,
+            "RECOVERED": 794,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-11",
+            "CONFIRMED": 13432,
+            "ISOLATED": 100,
+            "DESEASED": 842,
+            "RECOVERED": 792,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-12",
+            "CONFIRMED": 12942,
+            "ISOLATED": 441,
+            "DESEASED": 731,
+            "RECOVERED": 669,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-13",
+            "CONFIRMED": 12795,
+            "ISOLATED": -428,
+            "DESEASED": 792,
+            "RECOVERED": 641,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-14",
+            "CONFIRMED": 12393,
+            "ISOLATED": -340,
+            "DESEASED": 661,
+            "RECOVERED": 971,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-15",
+            "CONFIRMED": 13001,
+            "ISOLATED": 223,
+            "DESEASED": 761,
+            "RECOVERED": 779,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-16",
+            "CONFIRMED": 13190,
+            "ISOLATED": 495,
+            "DESEASED": 648,
+            "RECOVERED": 576,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-17",
+            "CONFIRMED": 14422,
+            "ISOLATED": 102,
+            "DESEASED": 733,
+            "RECOVERED": 808,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-18",
+            "CONFIRMED": 13465,
+            "ISOLATED": 60,
+            "DESEASED": 636,
+            "RECOVERED": 808,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-19",
+            "CONFIRMED": 13197,
+            "ISOLATED": -89,
+            "DESEASED": 845,
+            "RECOVERED": 820,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-20",
+            "CONFIRMED": 14032,
+            "ISOLATED": -87,
+            "DESEASED": 722,
+            "RECOVERED": 977,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-21",
+            "CONFIRMED": 13727,
+            "ISOLATED": -571,
+            "DESEASED": 883,
+            "RECOVERED": 775,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-22",
+            "CONFIRMED": 12266,
+            "ISOLATED": 9,
+            "DESEASED": 932,
+            "RECOVERED": 888,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-23",
+            "CONFIRMED": 13940,
+            "ISOLATED": 54,
+            "DESEASED": 622,
+            "RECOVERED": 763,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-24",
+            "CONFIRMED": 13221,
+            "ISOLATED": -276,
+            "DESEASED": 751,
+            "RECOVERED": 762,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-25",
+            "CONFIRMED": 12991,
+            "ISOLATED": -257,
+            "DESEASED": 898,
+            "RECOVERED": 873,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-26",
+            "CONFIRMED": 12566,
+            "ISOLATED": 141,
+            "DESEASED": 756,
+            "RECOVERED": 752,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-27",
+            "CONFIRMED": 13001,
+            "ISOLATED": -136,
+            "DESEASED": 521,
+            "RECOVERED": 818,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-28",
+            "CONFIRMED": 13263,
+            "ISOLATED": -35,
+            "DESEASED": 699,
+            "RECOVERED": 845,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-29",
+            "CONFIRMED": 12414,
+            "ISOLATED": -84,
+            "DESEASED": 795,
+            "RECOVERED": 866,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-30",
+            "CONFIRMED": 13039,
+            "ISOLATED": -177,
+            "DESEASED": 664,
+            "RECOVERED": 790,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-10-31",
+            "CONFIRMED": 13143,
+            "ISOLATED": -153,
+            "DESEASED": 732,
+            "RECOVERED": 995,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-01",
+            "CONFIRMED": 13368,
+            "ISOLATED": -145,
+            "DESEASED": 755,
+            "RECOVERED": 824,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-02",
+            "CONFIRMED": 12702,
+            "ISOLATED": -7,
+            "DESEASED": 782,
+            "RECOVERED": 753,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-03",
+            "CONFIRMED": 13812,
+            "ISOLATED": 36,
+            "DESEASED": 888,
+            "RECOVERED": 699,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-04",
+            "CONFIRMED": 12549,
+            "ISOLATED": -255,
+            "DESEASED": 949,
+            "RECOVERED": 904,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-05",
+            "CONFIRMED": 12953,
+            "ISOLATED": 221,
+            "DESEASED": 648,
+            "RECOVERED": 837,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-06",
+            "CONFIRMED": 12815,
+            "ISOLATED": 77,
+            "DESEASED": 924,
+            "RECOVERED": 1025,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-07",
+            "CONFIRMED": 12614,
+            "ISOLATED": 433,
+            "DESEASED": 831,
+            "RECOVERED": 1012,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-08",
+            "CONFIRMED": 14032,
+            "ISOLATED": -394,
+            "DESEASED": 719,
+            "RECOVERED": 715,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-09",
+            "CONFIRMED": 13271,
+            "ISOLATED": -425,
+            "DESEASED": 803,
+            "RECOVERED": 744,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-10",
+            "CONFIRMED": 12788,
+            "ISOLATED": 92,
+            "DESEASED": 855,
+            "RECOVERED": 846,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-11",
+            "CONFIRMED": 12727,
+            "ISOLATED": 262,
+            "DESEASED": 805,
+            "RECOVERED": 765,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-12",
+            "CONFIRMED": 12912,
+            "ISOLATED": 34,
+            "DESEASED": 730,
+            "RECOVERED": 873,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-13",
+            "CONFIRMED": 12693,
+            "ISOLATED": 63,
+            "DESEASED": 654,
+            "RECOVERED": 747,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-14",
+            "CONFIRMED": 12752,
+            "ISOLATED": -60,
+            "DESEASED": 701,
+            "RECOVERED": 760,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-15",
+            "CONFIRMED": 12694,
+            "ISOLATED": 325,
+            "DESEASED": 899,
+            "RECOVERED": 621,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-16",
+            "CONFIRMED": 12155,
+            "ISOLATED": -61,
+            "DESEASED": 614,
+            "RECOVERED": 699,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-17",
+            "CONFIRMED": 13205,
+            "ISOLATED": -81,
+            "DESEASED": 684,
+            "RECOVERED": 819,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-18",
+            "CONFIRMED": 13062,
+            "ISOLATED": -38,
+            "DESEASED": 918,
+            "RECOVERED": 925,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-19",
+            "CONFIRMED": 12510,
+            "ISOLATED": 33,
+            "DESEASED": 797,
+            "RECOVERED": 778,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-20",
+            "CONFIRMED": 12675,
+            "ISOLATED": -76,
+            "DESEASED": 845,
+            "RECOVERED": 902,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-21",
+            "CONFIRMED": 13557,
+            "ISOLATED": 16,
+            "DESEASED": 609,
+            "RECOVERED": 692,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-22",
+            "CONFIRMED": 12094,
+            "ISOLATED": 49,
+            "DESEASED": 959,
+            "RECOVERED": 786,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-23",
+            "CONFIRMED": 12419,
+            "ISOLATED": -387,
+            "DESEASED": 733,
+            "RECOVERED": 718,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-24",
+            "CONFIRMED": 12089,
+            "ISOLATED": -130,
+            "DESEASED": 713,
+            "RECOVERED": 813,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-25",
+            "CONFIRMED": 13319,
+            "ISOLATED": -166,
+            "DESEASED": 880,
+            "RECOVERED": 568,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-26",
+            "CONFIRMED": 12647,
+            "ISOLATED": -386,
+            "DESEASED": 856,
+            "RECOVERED": 785,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-27",
+            "CONFIRMED": 13290,
+            "ISOLATED": -16,
+            "DESEASED": 651,
+            "RECOVERED": 751,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-28",
+            "CONFIRMED": 13776,
+            "ISOLATED": -27,
+            "DESEASED": 657,
+            "RECOVERED": 822,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-29",
+            "CONFIRMED": 12716,
+            "ISOLATED": -189,
+            "DESEASED": 679,
+            "RECOVERED": 820,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-11-30",
+            "CONFIRMED": 13177,
+            "ISOLATED": -47,
+            "DESEASED": 505,
+            "RECOVERED": 846,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-01",
+            "CONFIRMED": 13294,
+            "ISOLATED": 486,
+            "DESEASED": 683,
+            "RECOVERED": 593,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-02",
+            "CONFIRMED": 12902,
+            "ISOLATED": -18,
+            "DESEASED": 713,
+            "RECOVERED": 932,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-03",
+            "CONFIRMED": 12261,
+            "ISOLATED": 160,
+            "DESEASED": 756,
+            "RECOVERED": 665,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-04",
+            "CONFIRMED": 13560,
+            "ISOLATED": -85,
+            "DESEASED": 807,
+            "RECOVERED": 672,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-05",
+            "CONFIRMED": 13213,
+            "ISOLATED": 224,
+            "DESEASED": 585,
+            "RECOVERED": 881,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-06",
+            "CONFIRMED": 13165,
+            "ISOLATED": -191,
+            "DESEASED": 899,
+            "RECOVERED": 926,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-07",
+            "CONFIRMED": 11640,
+            "ISOLATED": 170,
+            "DESEASED": 761,
+            "RECOVERED": 673,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-08",
+            "CONFIRMED": 12465,
+            "ISOLATED": 51,
+            "DESEASED": 704,
+            "RECOVERED": 769,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-09",
+            "CONFIRMED": 13190,
+            "ISOLATED": 20,
+            "DESEASED": 832,
+            "RECOVERED": 872,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-10",
+            "CONFIRMED": 12450,
+            "ISOLATED": 584,
+            "DESEASED": 829,
+            "RECOVERED": 957,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-11",
+            "CONFIRMED": 12694,
+            "ISOLATED": -270,
+            "DESEASED": 627,
+            "RECOVERED": 832,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-12",
+            "CONFIRMED": 13371,
+            "ISOLATED": 142,
+            "DESEASED": 877,
+            "RECOVERED": 700,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-13",
+            "CONFIRMED": 12676,
+            "ISOLATED": -150,
+            "DESEASED": 873,
+            "RECOVERED": 881,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-14",
+            "CONFIRMED": 12092,
+            "ISOLATED": 90,
+            "DESEASED": 881,
+            "RECOVERED": 958,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-15",
+            "CONFIRMED": 12875,
+            "ISOLATED": -412,
+            "DESEASED": 767,
+            "RECOVERED": 597,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-16",
+            "CONFIRMED": 13276,
+            "ISOLATED": 66,
+            "DESEASED": 615,
+            "RECOVERED": 740,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-17",
+            "CONFIRMED": 13664,
+            "ISOLATED": 199,
+            "DESEASED": 703,
+            "RECOVERED": 996,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-18",
+            "CONFIRMED": 13676,
+            "ISOLATED": -620,
+            "DESEASED": 528,
+            "RECOVERED": 894,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-19",
+            "CONFIRMED": 13207,
+            "ISOLATED": 30,
+            "DESEASED": 765,
+            "RECOVERED": 999,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-20",
+            "CONFIRMED": 12937,
+            "ISOLATED": -114,
+            "DESEASED": 926,
+            "RECOVERED": 734,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-21",
+            "CONFIRMED": 12695,
+            "ISOLATED": 85,
+            "DESEASED": 817,
+            "RECOVERED": 598,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-22",
+            "CONFIRMED": 12968,
+            "ISOLATED": -129,
+            "DESEASED": 702,
+            "RECOVERED": 637,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-23",
+            "CONFIRMED": 12756,
+            "ISOLATED": 47,
+            "DESEASED": 862,
+            "RECOVERED": 632,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-24",
+            "CONFIRMED": 13867,
+            "ISOLATED": 117,
+            "DESEASED": 714,
+            "RECOVERED": 646,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-25",
+            "CONFIRMED": 13348,
+            "ISOLATED": -412,
+            "DESEASED": 843,
+            "RECOVERED": 858,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-26",
+            "CONFIRMED": 13623,
+            "ISOLATED": 240,
+            "DESEASED": 1105,
+            "RECOVERED": 1018,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-27",
+            "CONFIRMED": 13415,
+            "ISOLATED": -325,
+            "DESEASED": 984,
+            "RECOVERED": 829,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-28",
+            "CONFIRMED": 12516,
+            "ISOLATED": 288,
+            "DESEASED": 559,
+            "RECOVERED": 707,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-29",
+            "CONFIRMED": 13025,
+            "ISOLATED": -55,
+            "DESEASED": 763,
+            "RECOVERED": 769,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-30",
+            "CONFIRMED": 13080,
+            "ISOLATED": -159,
+            "DESEASED": 704,
+            "RECOVERED": 967,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2020-12-31",
+            "CONFIRMED": 13293,
+            "ISOLATED": 25,
+            "DESEASED": 918,
+            "RECOVERED": 792,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-01",
+            "CONFIRMED": 12645,
+            "ISOLATED": -47,
+            "DESEASED": 750,
+            "RECOVERED": 803,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-02",
+            "CONFIRMED": 12284,
+            "ISOLATED": 33,
+            "DESEASED": 907,
+            "RECOVERED": 806,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-03",
+            "CONFIRMED": 12564,
+            "ISOLATED": 100,
+            "DESEASED": 735,
+            "RECOVERED": 923,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-04",
+            "CONFIRMED": 13427,
+            "ISOLATED": 170,
+            "DESEASED": 835,
+            "RECOVERED": 824,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-05",
+            "CONFIRMED": 12960,
+            "ISOLATED": 80,
+            "DESEASED": 914,
+            "RECOVERED": 808,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-06",
+            "CONFIRMED": 13027,
+            "ISOLATED": 412,
+            "DESEASED": 836,
+            "RECOVERED": 897,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-07",
+            "CONFIRMED": 12297,
+            "ISOLATED": 223,
+            "DESEASED": 893,
+            "RECOVERED": 630,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-08",
+            "CONFIRMED": 12185,
+            "ISOLATED": 321,
+            "DESEASED": 908,
+            "RECOVERED": 894,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-09",
+            "CONFIRMED": 12993,
+            "ISOLATED": -3,
+            "DESEASED": 637,
+            "RECOVERED": 671,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-10",
+            "CONFIRMED": 13286,
+            "ISOLATED": 543,
+            "DESEASED": 711,
+            "RECOVERED": 749,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-11",
+            "CONFIRMED": 12535,
+            "ISOLATED": -247,
+            "DESEASED": 745,
+            "RECOVERED": 733,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-12",
+            "CONFIRMED": 12893,
+            "ISOLATED": 471,
+            "DESEASED": 859,
+            "RECOVERED": 825,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-13",
+            "CONFIRMED": 11928,
+            "ISOLATED": -246,
+            "DESEASED": 675,
+            "RECOVERED": 751,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-14",
+            "CONFIRMED": 12972,
+            "ISOLATED": -118,
+            "DESEASED": 819,
+            "RECOVERED": 914,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-15",
+            "CONFIRMED": 12893,
+            "ISOLATED": -141,
+            "DESEASED": 1019,
+            "RECOVERED": 956,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-16",
+            "CONFIRMED": 13076,
+            "ISOLATED": 316,
+            "DESEASED": 885,
+            "RECOVERED": 807,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-17",
+            "CONFIRMED": 13408,
+            "ISOLATED": 144,
+            "DESEASED": 797,
+            "RECOVERED": 694,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-18",
+            "CONFIRMED": 13322,
+            "ISOLATED": -287,
+            "DESEASED": 656,
+            "RECOVERED": 825,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-19",
+            "CONFIRMED": 12975,
+            "ISOLATED": 508,
+            "DESEASED": 778,
+            "RECOVERED": 943,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-20",
+            "CONFIRMED": 11860,
+            "ISOLATED": 115,
+            "DESEASED": 759,
+            "RECOVERED": 824,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-21",
+            "CONFIRMED": 13130,
+            "ISOLATED": -7,
+            "DESEASED": 839,
+            "RECOVERED": 727,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-22",
+            "CONFIRMED": 12727,
+            "ISOLATED": -293,
+            "DESEASED": 736,
+            "RECOVERED": 655,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-23",
+            "CONFIRMED": 12746,
+            "ISOLATED": -93,
+            "DESEASED": 656,
+            "RECOVERED": 795,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-24",
+            "CONFIRMED": 12611,
+            "ISOLATED": 103,
+            "DESEASED": 739,
+            "RECOVERED": 951,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-25",
+            "CONFIRMED": 13131,
+            "ISOLATED": -132,
+            "DESEASED": 971,
+            "RECOVERED": 570,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-26",
+            "CONFIRMED": 12498,
+            "ISOLATED": 132,
+            "DESEASED": 997,
+            "RECOVERED": 927,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-27",
+            "CONFIRMED": 12834,
+            "ISOLATED": 330,
+            "DESEASED": 870,
+            "RECOVERED": 791,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-28",
+            "CONFIRMED": 12853,
+            "ISOLATED": -188,
+            "DESEASED": 875,
+            "RECOVERED": 747,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-29",
+            "CONFIRMED": 13168,
+            "ISOLATED": -341,
+            "DESEASED": 726,
+            "RECOVERED": 1087,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-30",
+            "CONFIRMED": 12232,
+            "ISOLATED": -217,
+            "DESEASED": 608,
+            "RECOVERED": 806,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-01-31",
+            "CONFIRMED": 12972,
+            "ISOLATED": -352,
+            "DESEASED": 689,
+            "RECOVERED": 725,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-01",
+            "CONFIRMED": 12050,
+            "ISOLATED": -91,
+            "DESEASED": 611,
+            "RECOVERED": 610,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-02",
+            "CONFIRMED": 13635,
+            "ISOLATED": 72,
+            "DESEASED": 794,
+            "RECOVERED": 749,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-03",
+            "CONFIRMED": 12997,
+            "ISOLATED": 59,
+            "DESEASED": 558,
+            "RECOVERED": 784,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-04",
+            "CONFIRMED": 13206,
+            "ISOLATED": 50,
+            "DESEASED": 1021,
+            "RECOVERED": 628,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-05",
+            "CONFIRMED": 13188,
+            "ISOLATED": -128,
+            "DESEASED": 977,
+            "RECOVERED": 727,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-06",
+            "CONFIRMED": 12035,
+            "ISOLATED": -542,
+            "DESEASED": 1161,
+            "RECOVERED": 723,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-07",
+            "CONFIRMED": 12922,
+            "ISOLATED": -197,
+            "DESEASED": 770,
+            "RECOVERED": 710,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-08",
+            "CONFIRMED": 13611,
+            "ISOLATED": -191,
+            "DESEASED": 864,
+            "RECOVERED": 956,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-09",
+            "CONFIRMED": 12850,
+            "ISOLATED": 162,
+            "DESEASED": 750,
+            "RECOVERED": 838,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-10",
+            "CONFIRMED": 13273,
+            "ISOLATED": -145,
+            "DESEASED": 698,
+            "RECOVERED": 1020,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-11",
+            "CONFIRMED": 13395,
+            "ISOLATED": 15,
+            "DESEASED": 792,
+            "RECOVERED": 862,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-12",
+            "CONFIRMED": 12529,
+            "ISOLATED": -195,
+            "DESEASED": 637,
+            "RECOVERED": 798,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-13",
+            "CONFIRMED": 12426,
+            "ISOLATED": 34,
+            "DESEASED": 818,
+            "RECOVERED": 919,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-14",
+            "CONFIRMED": 13543,
+            "ISOLATED": -360,
+            "DESEASED": 815,
+            "RECOVERED": 753,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-15",
+            "CONFIRMED": 13535,
+            "ISOLATED": 202,
+            "DESEASED": 904,
+            "RECOVERED": 828,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-16",
+            "CONFIRMED": 13538,
+            "ISOLATED": 411,
+            "DESEASED": 653,
+            "RECOVERED": 931,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-17",
+            "CONFIRMED": 12818,
+            "ISOLATED": 154,
+            "DESEASED": 694,
+            "RECOVERED": 619,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-18",
+            "CONFIRMED": 12869,
+            "ISOLATED": 91,
+            "DESEASED": 847,
+            "RECOVERED": 631,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-19",
+            "CONFIRMED": 12626,
+            "ISOLATED": 212,
+            "DESEASED": 805,
+            "RECOVERED": 1038,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-20",
+            "CONFIRMED": 11908,
+            "ISOLATED": 149,
+            "DESEASED": 875,
+            "RECOVERED": 772,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-21",
+            "CONFIRMED": 13270,
+            "ISOLATED": -41,
+            "DESEASED": 890,
+            "RECOVERED": 920,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-22",
+            "CONFIRMED": 11979,
+            "ISOLATED": 146,
+            "DESEASED": 684,
+            "RECOVERED": 890,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-23",
+            "CONFIRMED": 12768,
+            "ISOLATED": -96,
+            "DESEASED": 724,
+            "RECOVERED": 790,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-24",
+            "CONFIRMED": 12618,
+            "ISOLATED": -179,
+            "DESEASED": 832,
+            "RECOVERED": 802,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-25",
+            "CONFIRMED": 12406,
+            "ISOLATED": -446,
+            "DESEASED": 743,
+            "RECOVERED": 652,
+            "VACC_ONCE": 0,
+            "VACC_FULLY": 0,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-26",
+            "CONFIRMED": 12193,
+            "ISOLATED": -221,
+            "DESEASED": 906,
+            "RECOVERED": 725,
+            "VACC_ONCE": 28175,
+            "VACC_FULLY": 5008,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-27",
+            "CONFIRMED": 11921,
+            "ISOLATED": -134,
+            "DESEASED": 851,
+            "RECOVERED": 901,
+            "VACC_ONCE": 29715,
+            "VACC_FULLY": 5075,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-02-28",
+            "CONFIRMED": 13021,
+            "ISOLATED": -214,
+            "DESEASED": 791,
+            "RECOVERED": 947,
+            "VACC_ONCE": 30633,
+            "VACC_FULLY": 5120,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-01",
+            "CONFIRMED": 13289,
+            "ISOLATED": -173,
+            "DESEASED": 719,
+            "RECOVERED": 903,
+            "VACC_ONCE": 32293,
+            "VACC_FULLY": 5187,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-02",
+            "CONFIRMED": 13193,
+            "ISOLATED": 6,
+            "DESEASED": 880,
+            "RECOVERED": 793,
+            "VACC_ONCE": 98915,
+            "VACC_FULLY": 5289,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-03",
+            "CONFIRMED": 13699,
+            "ISOLATED": -210,
+            "DESEASED": 673,
+            "RECOVERED": 815,
+            "VACC_ONCE": 168504,
+            "VACC_FULLY": 5421,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-04",
+            "CONFIRMED": 12867,
+            "ISOLATED": 24,
+            "DESEASED": 1034,
+            "RECOVERED": 916,
+            "VACC_ONCE": 239034,
+            "VACC_FULLY": 5735,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-05",
+            "CONFIRMED": 13056,
+            "ISOLATED": 117,
+            "DESEASED": 628,
+            "RECOVERED": 818,
+            "VACC_ONCE": 309840,
+            "VACC_FULLY": 5921,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-06",
+            "CONFIRMED": 13237,
+            "ISOLATED": -154,
+            "DESEASED": 634,
+            "RECOVERED": 698,
+            "VACC_ONCE": 328004,
+            "VACC_FULLY": 5958,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-07",
+            "CONFIRMED": 13463,
+            "ISOLATED": 176,
+            "DESEASED": 673,
+            "RECOVERED": 709,
+            "VACC_ONCE": 330181,
+            "VACC_FULLY": 5984,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-08",
+            "CONFIRMED": 13116,
+            "ISOLATED": 335,
+            "DESEASED": 766,
+            "RECOVERED": 715,
+            "VACC_ONCE": 397945,
+            "VACC_FULLY": 6070,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-09",
+            "CONFIRMED": 13590,
+            "ISOLATED": 212,
+            "DESEASED": 867,
+            "RECOVERED": 901,
+            "VACC_ONCE": 461723,
+            "VACC_FULLY": 6244,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-10",
+            "CONFIRMED": 13554,
+            "ISOLATED": 279,
+            "DESEASED": 1045,
+            "RECOVERED": 837,
+            "VACC_ONCE": 516201,
+            "VACC_FULLY": 6330,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-11",
+            "CONFIRMED": 12527,
+            "ISOLATED": 265,
+            "DESEASED": 783,
+            "RECOVERED": 596,
+            "VACC_ONCE": 561072,
+            "VACC_FULLY": 6538,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-12",
+            "CONFIRMED": 12594,
+            "ISOLATED": -149,
+            "DESEASED": 919,
+            "RECOVERED": 635,
+            "VACC_ONCE": 599623,
+            "VACC_FULLY": 6649,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-13",
+            "CONFIRMED": 12335,
+            "ISOLATED": -393,
+            "DESEASED": 698,
+            "RECOVERED": 886,
+            "VACC_ONCE": 603663,
+            "VACC_FULLY": 6710,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-14",
+            "CONFIRMED": 12499,
+            "ISOLATED": 113,
+            "DESEASED": 880,
+            "RECOVERED": 816,
+            "VACC_ONCE": 604987,
+            "VACC_FULLY": 6733,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-15",
+            "CONFIRMED": 12970,
+            "ISOLATED": 458,
+            "DESEASED": 782,
+            "RECOVERED": 708,
+            "VACC_ONCE": 618532,
+            "VACC_FULLY": 6810,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-16",
+            "CONFIRMED": 12334,
+            "ISOLATED": 239,
+            "DESEASED": 818,
+            "RECOVERED": 699,
+            "VACC_ONCE": 638252,
+            "VACC_FULLY": 6940,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-17",
+            "CONFIRMED": 12643,
+            "ISOLATED": 257,
+            "DESEASED": 845,
+            "RECOVERED": 852,
+            "VACC_ONCE": 658915,
+            "VACC_FULLY": 7031,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-18",
+            "CONFIRMED": 13184,
+            "ISOLATED": -299,
+            "DESEASED": 1029,
+            "RECOVERED": 824,
+            "VACC_ONCE": 678887,
+            "VACC_FULLY": 7240,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-19",
+            "CONFIRMED": 13270,
+            "ISOLATED": -96,
+            "DESEASED": 586,
+            "RECOVERED": 827,
+            "VACC_ONCE": 696535,
+            "VACC_FULLY": 7376,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-20",
+            "CONFIRMED": 12473,
+            "ISOLATED": -332,
+            "DESEASED": 520,
+            "RECOVERED": 832,
+            "VACC_ONCE": 698009,
+            "VACC_FULLY": 7757,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-21",
+            "CONFIRMED": 13575,
+            "ISOLATED": -446,
+            "DESEASED": 872,
+            "RECOVERED": 916,
+            "VACC_ONCE": 698221,
+            "VACC_FULLY": 8086,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-22",
+            "CONFIRMED": 12768,
+            "ISOLATED": 170,
+            "DESEASED": 761,
+            "RECOVERED": 833,
+            "VACC_ONCE": 702311,
+            "VACC_FULLY": 8459,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-23",
+            "CONFIRMED": 12530,
+            "ISOLATED": -378,
+            "DESEASED": 961,
+            "RECOVERED": 950,
+            "VACC_ONCE": 724615,
+            "VACC_FULLY": 9217,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-24",
+            "CONFIRMED": 12137,
+            "ISOLATED": -191,
+            "DESEASED": 880,
+            "RECOVERED": 908,
+            "VACC_ONCE": 755575,
+            "VACC_FULLY": 10533,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-25",
+            "CONFIRMED": 12056,
+            "ISOLATED": 17,
+            "DESEASED": 711,
+            "RECOVERED": 741,
+            "VACC_ONCE": 790721,
+            "VACC_FULLY": 11810,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-26",
+            "CONFIRMED": 14263,
+            "ISOLATED": 186,
+            "DESEASED": 833,
+            "RECOVERED": 891,
+            "VACC_ONCE": 816181,
+            "VACC_FULLY": 13340,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-27",
+            "CONFIRMED": 13372,
+            "ISOLATED": -39,
+            "DESEASED": 668,
+            "RECOVERED": 937,
+            "VACC_ONCE": 817836,
+            "VACC_FULLY": 13450,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-28",
+            "CONFIRMED": 12458,
+            "ISOLATED": 30,
+            "DESEASED": 736,
+            "RECOVERED": 766,
+            "VACC_ONCE": 818088,
+            "VACC_FULLY": 13506,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-29",
+            "CONFIRMED": 13345,
+            "ISOLATED": 49,
+            "DESEASED": 895,
+            "RECOVERED": 668,
+            "VACC_ONCE": 846420,
+            "VACC_FULLY": 14572,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-30",
+            "CONFIRMED": 13222,
+            "ISOLATED": -185,
+            "DESEASED": 551,
+            "RECOVERED": 1033,
+            "VACC_ONCE": 876891,
+            "VACC_FULLY": 16872,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-03-31",
+            "CONFIRMED": 12947,
+            "ISOLATED": -396,
+            "DESEASED": 1002,
+            "RECOVERED": 761,
+            "VACC_ONCE": 901545,
+            "VACC_FULLY": 21834,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-01",
+            "CONFIRMED": 12965,
+            "ISOLATED": -42,
+            "DESEASED": 874,
+            "RECOVERED": 990,
+            "VACC_ONCE": 939741,
+            "VACC_FULLY": 29289,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-02",
+            "CONFIRMED": 12626,
+            "ISOLATED": -411,
+            "DESEASED": 866,
+            "RECOVERED": 764,
+            "VACC_ONCE": 980246,
+            "VACC_FULLY": 36030,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-03",
+            "CONFIRMED": 13496,
+            "ISOLATED": -114,
+            "DESEASED": 825,
+            "RECOVERED": 858,
+            "VACC_ONCE": 989241,
+            "VACC_FULLY": 36707,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-04",
+            "CONFIRMED": 12214,
+            "ISOLATED": 56,
+            "DESEASED": 777,
+            "RECOVERED": 612,
+            "VACC_ONCE": 990064,
+            "VACC_FULLY": 36837,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-05",
+            "CONFIRMED": 13095,
+            "ISOLATED": 285,
+            "DESEASED": 922,
+            "RECOVERED": 642,
+            "VACC_ONCE": 1028399,
+            "VACC_FULLY": 37302,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-06",
+            "CONFIRMED": 13920,
+            "ISOLATED": -231,
+            "DESEASED": 862,
+            "RECOVERED": 829,
+            "VACC_ONCE": 1068644,
+            "VACC_FULLY": 43464,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-07",
+            "CONFIRMED": 13590,
+            "ISOLATED": -34,
+            "DESEASED": 997,
+            "RECOVERED": 785,
+            "VACC_ONCE": 1108079,
+            "VACC_FULLY": 52946,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-08",
+            "CONFIRMED": 12780,
+            "ISOLATED": 417,
+            "DESEASED": 689,
+            "RECOVERED": 882,
+            "VACC_ONCE": 1146939,
+            "VACC_FULLY": 62984,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-09",
+            "CONFIRMED": 12924,
+            "ISOLATED": -191,
+            "DESEASED": 816,
+            "RECOVERED": 860,
+            "VACC_ONCE": 1182540,
+            "VACC_FULLY": 70667,
+            "VACC_BOOST": 0
+        },
+        {
+            "DATE": "2021-04-10",
+            "CONFIRMED": 13176,
+            "ISOLATED": -93,
+            "DESEASED": 776,
+            "RECOVERED": 833,
+            "VACC_ONCE": 1192271,
+            "VACC_FULLY": 71923,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-11",
+            "CONFIRMED": 12307,
+            "ISOLATED": 92,
+            "DESEASED": 901,
+            "RECOVERED": 827,
+            "VACC_ONCE": 1192860,
+            "VACC_FULLY": 72054,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-12",
+            "CONFIRMED": 12623,
+            "ISOLATED": 464,
+            "DESEASED": 842,
+            "RECOVERED": 761,
+            "VACC_ONCE": 1233196,
+            "VACC_FULLY": 72355,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-13",
+            "CONFIRMED": 12408,
+            "ISOLATED": -81,
+            "DESEASED": 633,
+            "RECOVERED": 771,
+            "VACC_ONCE": 1279070,
+            "VACC_FULLY": 72621,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-14",
+            "CONFIRMED": 12579,
+            "ISOLATED": -215,
+            "DESEASED": 682,
+            "RECOVERED": 749,
+            "VACC_ONCE": 1326190,
+            "VACC_FULLY": 72959,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-15",
+            "CONFIRMED": 13618,
+            "ISOLATED": -112,
+            "DESEASED": 801,
+            "RECOVERED": 627,
+            "VACC_ONCE": 1420615,
+            "VACC_FULLY": 73283,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-16",
+            "CONFIRMED": 13151,
+            "ISOLATED": -62,
+            "DESEASED": 648,
+            "RECOVERED": 710,
+            "VACC_ONCE": 1524820,
+            "VACC_FULLY": 73839,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-17",
+            "CONFIRMED": 13817,
+            "ISOLATED": -131,
+            "DESEASED": 721,
+            "RECOVERED": 720,
+            "VACC_ONCE": 1554811,
+            "VACC_FULLY": 74101,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-18",
+            "CONFIRMED": 13364,
+            "ISOLATED": -133,
+            "DESEASED": 737,
+            "RECOVERED": 745,
+            "VACC_ONCE": 1559967,
+            "VACC_FULLY": 74241,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-19",
+            "CONFIRMED": 13188,
+            "ISOLATED": 20,
+            "DESEASED": 886,
+            "RECOVERED": 859,
+            "VACC_ONCE": 1683559,
+            "VACC_FULLY": 74527,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-20",
+            "CONFIRMED": 13116,
+            "ISOLATED": 282,
+            "DESEASED": 812,
+            "RECOVERED": 706,
+            "VACC_ONCE": 1815579,
+            "VACC_FULLY": 74886,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-21",
+            "CONFIRMED": 13286,
+            "ISOLATED": -209,
+            "DESEASED": 817,
+            "RECOVERED": 860,
+            "VACC_ONCE": 1949048,
+            "VACC_FULLY": 75369,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-22",
+            "CONFIRMED": 12667,
+            "ISOLATED": -257,
+            "DESEASED": 761,
+            "RECOVERED": 879,
+            "VACC_ONCE": 2081673,
+            "VACC_FULLY": 94426,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-23",
+            "CONFIRMED": 13255,
+            "ISOLATED": -168,
+            "DESEASED": 872,
+            "RECOVERED": 843,
+            "VACC_ONCE": 2242526,
+            "VACC_FULLY": 114485,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-24",
+            "CONFIRMED": 13158,
+            "ISOLATED": -166,
+            "DESEASED": 901,
+            "RECOVERED": 588,
+            "VACC_ONCE": 2308059,
+            "VACC_FULLY": 120584,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-25",
+            "CONFIRMED": 13073,
+            "ISOLATED": 144,
+            "DESEASED": 747,
+            "RECOVERED": 988,
+            "VACC_ONCE": 2314674,
+            "VACC_FULLY": 121125,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-26",
+            "CONFIRMED": 13559,
+            "ISOLATED": -117,
+            "DESEASED": 689,
+            "RECOVERED": 690,
+            "VACC_ONCE": 2457977,
+            "VACC_FULLY": 143085,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-27",
+            "CONFIRMED": 13179,
+            "ISOLATED": -121,
+            "DESEASED": 781,
+            "RECOVERED": 721,
+            "VACC_ONCE": 2635464,
+            "VACC_FULLY": 165348,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-28",
+            "CONFIRMED": 13412,
+            "ISOLATED": -26,
+            "DESEASED": 752,
+            "RECOVERED": 791,
+            "VACC_ONCE": 2868093,
+            "VACC_FULLY": 186289,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-29",
+            "CONFIRMED": 12889,
+            "ISOLATED": -81,
+            "DESEASED": 665,
+            "RECOVERED": 707,
+            "VACC_ONCE": 3130953,
+            "VACC_FULLY": 216854,
+            "VACC_BOOST": 1
+        },
+        {
+            "DATE": "2021-04-30",
+            "CONFIRMED": 13149,
+            "ISOLATED": -273,
+            "DESEASED": 1025,
+            "RECOVERED": 975,
+            "VACC_ONCE": 3409553,
+            "VACC_FULLY": 247173,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-01",
+            "CONFIRMED": 13575,
+            "ISOLATED": -268,
+            "DESEASED": 600,
+            "RECOVERED": 664,
+            "VACC_ONCE": 3450148,
+            "VACC_FULLY": 255231,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-02",
+            "CONFIRMED": 13128,
+            "ISOLATED": 273,
+            "DESEASED": 693,
+            "RECOVERED": 586,
+            "VACC_ONCE": 3451996,
+            "VACC_FULLY": 255768,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-03",
+            "CONFIRMED": 12944,
+            "ISOLATED": -321,
+            "DESEASED": 812,
+            "RECOVERED": 799,
+            "VACC_ONCE": 3539193,
+            "VACC_FULLY": 286738,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-04",
+            "CONFIRMED": 13521,
+            "ISOLATED": -356,
+            "DESEASED": 867,
+            "RECOVERED": 622,
+            "VACC_ONCE": 3615017,
+            "VACC_FULLY": 318455,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-05",
+            "CONFIRMED": 12506,
+            "ISOLATED": -400,
+            "DESEASED": 798,
+            "RECOVERED": 542,
+            "VACC_ONCE": 3621136,
+            "VACC_FULLY": 344226,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-06",
+            "CONFIRMED": 13045,
+            "ISOLATED": -550,
+            "DESEASED": 795,
+            "RECOVERED": 736,
+            "VACC_ONCE": 3679685,
+            "VACC_FULLY": 418301,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-07",
+            "CONFIRMED": 12197,
+            "ISOLATED": 78,
+            "DESEASED": 795,
+            "RECOVERED": 793,
+            "VACC_ONCE": 3728604,
+            "VACC_FULLY": 495728,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-08",
+            "CONFIRMED": 12625,
+            "ISOLATED": -282,
+            "DESEASED": 692,
+            "RECOVERED": 1166,
+            "VACC_ONCE": 3741160,
+            "VACC_FULLY": 523805,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-09",
+            "CONFIRMED": 13454,
+            "ISOLATED": -411,
+            "DESEASED": 624,
+            "RECOVERED": 749,
+            "VACC_ONCE": 3741448,
+            "VACC_FULLY": 528792,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-10",
+            "CONFIRMED": 12797,
+            "ISOLATED": -253,
+            "DESEASED": 930,
+            "RECOVERED": 608,
+            "VACC_ONCE": 3755819,
+            "VACC_FULLY": 606855,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-11",
+            "CONFIRMED": 12733,
+            "ISOLATED": -253,
+            "DESEASED": 822,
+            "RECOVERED": 765,
+            "VACC_ONCE": 3765201,
+            "VACC_FULLY": 688079,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-12",
+            "CONFIRMED": 12271,
+            "ISOLATED": -39,
+            "DESEASED": 767,
+            "RECOVERED": 752,
+            "VACC_ONCE": 3772157,
+            "VACC_FULLY": 771504,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-13",
+            "CONFIRMED": 13103,
+            "ISOLATED": -244,
+            "DESEASED": 666,
+            "RECOVERED": 799,
+            "VACC_ONCE": 3781723,
+            "VACC_FULLY": 850067,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-14",
+            "CONFIRMED": 12396,
+            "ISOLATED": 52,
+            "DESEASED": 724,
+            "RECOVERED": 919,
+            "VACC_ONCE": 3793632,
+            "VACC_FULLY": 930816,
+            "VACC_BOOST": 2
+        },
+        {
+            "DATE": "2021-05-15",
+            "CONFIRMED": 13674,
+            "ISOLATED": 128,
+            "DESEASED": 1048,
+            "RECOVERED": 711,
+            "VACC_ONCE": 3795452,
+            "VACC_FULLY": 961327,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-16",
+            "CONFIRMED": 13507,
+            "ISOLATED": 48,
+            "DESEASED": 654,
+            "RECOVERED": 512,
+            "VACC_ONCE": 3795912,
+            "VACC_FULLY": 966580,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-17",
+            "CONFIRMED": 12454,
+            "ISOLATED": -47,
+            "DESEASED": 720,
+            "RECOVERED": 915,
+            "VACC_ONCE": 3809979,
+            "VACC_FULLY": 1067411,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-18",
+            "CONFIRMED": 12958,
+            "ISOLATED": 283,
+            "DESEASED": 664,
+            "RECOVERED": 762,
+            "VACC_ONCE": 3823183,
+            "VACC_FULLY": 1209677,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-19",
+            "CONFIRMED": 14131,
+            "ISOLATED": 200,
+            "DESEASED": 919,
+            "RECOVERED": 795,
+            "VACC_ONCE": 3825669,
+            "VACC_FULLY": 1303132,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-20",
+            "CONFIRMED": 13597,
+            "ISOLATED": 535,
+            "DESEASED": 848,
+            "RECOVERED": 692,
+            "VACC_ONCE": 3838750,
+            "VACC_FULLY": 1514869,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-21",
+            "CONFIRMED": 12925,
+            "ISOLATED": -117,
+            "DESEASED": 729,
+            "RECOVERED": 750,
+            "VACC_ONCE": 3854120,
+            "VACC_FULLY": 1740818,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-22",
+            "CONFIRMED": 12423,
+            "ISOLATED": -121,
+            "DESEASED": 735,
+            "RECOVERED": 810,
+            "VACC_ONCE": 3859723,
+            "VACC_FULLY": 1776910,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-23",
+            "CONFIRMED": 12996,
+            "ISOLATED": 175,
+            "DESEASED": 638,
+            "RECOVERED": 839,
+            "VACC_ONCE": 3860260,
+            "VACC_FULLY": 1779783,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-24",
+            "CONFIRMED": 13199,
+            "ISOLATED": 268,
+            "DESEASED": 791,
+            "RECOVERED": 835,
+            "VACC_ONCE": 3932719,
+            "VACC_FULLY": 1885094,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-25",
+            "CONFIRMED": 12311,
+            "ISOLATED": 49,
+            "DESEASED": 647,
+            "RECOVERED": 802,
+            "VACC_ONCE": 4011661,
+            "VACC_FULLY": 1978925,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-26",
+            "CONFIRMED": 12567,
+            "ISOLATED": 213,
+            "DESEASED": 915,
+            "RECOVERED": 587,
+            "VACC_ONCE": 4100044,
+            "VACC_FULLY": 2046919,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-27",
+            "CONFIRMED": 13206,
+            "ISOLATED": -131,
+            "DESEASED": 1047,
+            "RECOVERED": 784,
+            "VACC_ONCE": 4762861,
+            "VACC_FULLY": 2102428,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-28",
+            "CONFIRMED": 12779,
+            "ISOLATED": 264,
+            "DESEASED": 939,
+            "RECOVERED": 962,
+            "VACC_ONCE": 5308612,
+            "VACC_FULLY": 2167964,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-29",
+            "CONFIRMED": 12615,
+            "ISOLATED": 501,
+            "DESEASED": 849,
+            "RECOVERED": 899,
+            "VACC_ONCE": 5473767,
+            "VACC_FULLY": 2177034,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-30",
+            "CONFIRMED": 13255,
+            "ISOLATED": -118,
+            "DESEASED": 660,
+            "RECOVERED": 996,
+            "VACC_ONCE": 5478934,
+            "VACC_FULLY": 2177277,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-05-31",
+            "CONFIRMED": 11913,
+            "ISOLATED": -340,
+            "DESEASED": 984,
+            "RECOVERED": 785,
+            "VACC_ONCE": 5866365,
+            "VACC_FULLY": 2204787,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-01",
+            "CONFIRMED": 13669,
+            "ISOLATED": 400,
+            "DESEASED": 842,
+            "RECOVERED": 955,
+            "VACC_ONCE": 6434959,
+            "VACC_FULLY": 2231617,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-02",
+            "CONFIRMED": 13078,
+            "ISOLATED": 273,
+            "DESEASED": 813,
+            "RECOVERED": 796,
+            "VACC_ONCE": 6818759,
+            "VACC_FULLY": 2254721,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-03",
+            "CONFIRMED": 13123,
+            "ISOLATED": 33,
+            "DESEASED": 775,
+            "RECOVERED": 733,
+            "VACC_ONCE": 7163661,
+            "VACC_FULLY": 2281012,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-04",
+            "CONFIRMED": 12406,
+            "ISOLATED": 233,
+            "DESEASED": 747,
+            "RECOVERED": 840,
+            "VACC_ONCE": 7533652,
+            "VACC_FULLY": 2311337,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-05",
+            "CONFIRMED": 12746,
+            "ISOLATED": 99,
+            "DESEASED": 834,
+            "RECOVERED": 655,
+            "VACC_ONCE": 7674250,
+            "VACC_FULLY": 2314060,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-06",
+            "CONFIRMED": 12985,
+            "ISOLATED": 492,
+            "DESEASED": 812,
+            "RECOVERED": 622,
+            "VACC_ONCE": 7677563,
+            "VACC_FULLY": 2314272,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-07",
+            "CONFIRMED": 12750,
+            "ISOLATED": 162,
+            "DESEASED": 813,
+            "RECOVERED": 776,
+            "VACC_ONCE": 8573148,
+            "VACC_FULLY": 2335315,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-08",
+            "CONFIRMED": 13584,
+            "ISOLATED": 175,
+            "DESEASED": 1055,
+            "RECOVERED": 1034,
+            "VACC_ONCE": 9320602,
+            "VACC_FULLY": 2361541,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-09",
+            "CONFIRMED": 12382,
+            "ISOLATED": -278,
+            "DESEASED": 996,
+            "RECOVERED": 750,
+            "VACC_ONCE": 9915523,
+            "VACC_FULLY": 2386481,
+            "VACC_BOOST": 3
+        },
+        {
+            "DATE": "2021-06-10",
+            "CONFIRMED": 12710,
+            "ISOLATED": -233,
+            "DESEASED": 713,
+            "RECOVERED": 936,
+            "VACC_ONCE": 10684096,
+            "VACC_FULLY": 2422313,
+            "VACC_BOOST": 4
+        },
+        {
+            "DATE": "2021-06-11",
+            "CONFIRMED": 13519,
+            "ISOLATED": -14,
+            "DESEASED": 826,
+            "RECOVERED": 879,
+            "VACC_ONCE": 11512269,
+            "VACC_FULLY": 2458196,
+            "VACC_BOOST": 4
+        },
+        {
+            "DATE": "2021-06-12",
+            "CONFIRMED": 13361,
+            "ISOLATED": -398,
+            "DESEASED": 894,
+            "RECOVERED": 768,
+            "VACC_ONCE": 11901885,
+            "VACC_FULLY": 2463552,
+            "VACC_BOOST": 4
+        },
+        {
+            "DATE": "2021-06-13",
+            "CONFIRMED": 12555,
+            "ISOLATED": -96,
+            "DESEASED": 749,
+            "RECOVERED": 911,
+            "VACC_ONCE": 11930012,
+            "VACC_FULLY": 2464046,
+            "VACC_BOOST": 5
+        },
+        {
+            "DATE": "2021-06-14",
+            "CONFIRMED": 13254,
+            "ISOLATED": -373,
+            "DESEASED": 602,
+            "RECOVERED": 757,
+            "VACC_ONCE": 12700515,
+            "VACC_FULLY": 2551362,
+            "VACC_BOOST": 5
+        },
+        {
+            "DATE": "2021-06-15",
+            "CONFIRMED": 13004,
+            "ISOLATED": -286,
+            "DESEASED": 841,
+            "RECOVERED": 729,
+            "VACC_ONCE": 13348622,
+            "VACC_FULLY": 2648702,
+            "VACC_BOOST": 5
+        },
+        {
+            "DATE": "2021-06-16",
+            "CONFIRMED": 12881,
+            "ISOLATED": -7,
+            "DESEASED": 848,
+            "RECOVERED": 996,
+            "VACC_ONCE": 13918000,
+            "VACC_FULLY": 2754438,
+            "VACC_BOOST": 5
+        },
+        {
+            "DATE": "2021-06-17",
+            "CONFIRMED": 12508,
+            "ISOLATED": 128,
+            "DESEASED": 805,
+            "RECOVERED": 925,
+            "VACC_ONCE": 14362100,
+            "VACC_FULLY": 2858741,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-18",
+            "CONFIRMED": 13848,
+            "ISOLATED": 184,
+            "DESEASED": 865,
+            "RECOVERED": 703,
+            "VACC_ONCE": 14900279,
+            "VACC_FULLY": 2956336,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-19",
+            "CONFIRMED": 12837,
+            "ISOLATED": -256,
+            "DESEASED": 611,
+            "RECOVERED": 701,
+            "VACC_ONCE": 15117106,
+            "VACC_FULLY": 2973778,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-20",
+            "CONFIRMED": 12282,
+            "ISOLATED": -203,
+            "DESEASED": 831,
+            "RECOVERED": 804,
+            "VACC_ONCE": 15118041,
+            "VACC_FULLY": 2974807,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-21",
+            "CONFIRMED": 13539,
+            "ISOLATED": 28,
+            "DESEASED": 840,
+            "RECOVERED": 751,
+            "VACC_ONCE": 15166191,
+            "VACC_FULLY": 3089599,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-22",
+            "CONFIRMED": 12318,
+            "ISOLATED": 234,
+            "DESEASED": 588,
+            "RECOVERED": 843,
+            "VACC_ONCE": 15215674,
+            "VACC_FULLY": 3213110,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-23",
+            "CONFIRMED": 12392,
+            "ISOLATED": -280,
+            "DESEASED": 694,
+            "RECOVERED": 707,
+            "VACC_ONCE": 15260475,
+            "VACC_FULLY": 3332960,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-24",
+            "CONFIRMED": 13381,
+            "ISOLATED": -139,
+            "DESEASED": 792,
+            "RECOVERED": 872,
+            "VACC_ONCE": 15306821,
+            "VACC_FULLY": 3440931,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-25",
+            "CONFIRMED": 12879,
+            "ISOLATED": -40,
+            "DESEASED": 697,
+            "RECOVERED": 898,
+            "VACC_ONCE": 15371532,
+            "VACC_FULLY": 3538073,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-26",
+            "CONFIRMED": 12767,
+            "ISOLATED": 130,
+            "DESEASED": 786,
+            "RECOVERED": 625,
+            "VACC_ONCE": 15383212,
+            "VACC_FULLY": 3562065,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-27",
+            "CONFIRMED": 12800,
+            "ISOLATED": 242,
+            "DESEASED": 833,
+            "RECOVERED": 720,
+            "VACC_ONCE": 15383512,
+            "VACC_FULLY": 3563146,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-28",
+            "CONFIRMED": 13229,
+            "ISOLATED": 284,
+            "DESEASED": 689,
+            "RECOVERED": 737,
+            "VACC_ONCE": 15397418,
+            "VACC_FULLY": 3707864,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-29",
+            "CONFIRMED": 13643,
+            "ISOLATED": -246,
+            "DESEASED": 848,
+            "RECOVERED": 833,
+            "VACC_ONCE": 15414911,
+            "VACC_FULLY": 3852971,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-06-30",
+            "CONFIRMED": 13122,
+            "ISOLATED": -394,
+            "DESEASED": 876,
+            "RECOVERED": 683,
+            "VACC_ONCE": 15430380,
+            "VACC_FULLY": 3989944,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-01",
+            "CONFIRMED": 13086,
+            "ISOLATED": 81,
+            "DESEASED": 837,
+            "RECOVERED": 651,
+            "VACC_ONCE": 15435579,
+            "VACC_FULLY": 4110821,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-02",
+            "CONFIRMED": 13088,
+            "ISOLATED": -188,
+            "DESEASED": 714,
+            "RECOVERED": 860,
+            "VACC_ONCE": 15441472,
+            "VACC_FULLY": 4231974,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-03",
+            "CONFIRMED": 12499,
+            "ISOLATED": 84,
+            "DESEASED": 808,
+            "RECOVERED": 741,
+            "VACC_ONCE": 15443463,
+            "VACC_FULLY": 4249180,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-04",
+            "CONFIRMED": 13377,
+            "ISOLATED": 416,
+            "DESEASED": 865,
+            "RECOVERED": 766,
+            "VACC_ONCE": 15443736,
+            "VACC_FULLY": 4250023,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-05",
+            "CONFIRMED": 12135,
+            "ISOLATED": 476,
+            "DESEASED": 899,
+            "RECOVERED": 815,
+            "VACC_ONCE": 15498994,
+            "VACC_FULLY": 4327106,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-06",
+            "CONFIRMED": 12950,
+            "ISOLATED": 465,
+            "DESEASED": 718,
+            "RECOVERED": 776,
+            "VACC_ONCE": 15538142,
+            "VACC_FULLY": 4418660,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-07",
+            "CONFIRMED": 12508,
+            "ISOLATED": -329,
+            "DESEASED": 815,
+            "RECOVERED": 577,
+            "VACC_ONCE": 15574275,
+            "VACC_FULLY": 4508391,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-08",
+            "CONFIRMED": 12377,
+            "ISOLATED": -359,
+            "DESEASED": 884,
+            "RECOVERED": 1017,
+            "VACC_ONCE": 15613048,
+            "VACC_FULLY": 4615387,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-09",
+            "CONFIRMED": 13326,
+            "ISOLATED": 331,
+            "DESEASED": 815,
+            "RECOVERED": 954,
+            "VACC_ONCE": 15672122,
+            "VACC_FULLY": 4764748,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-10",
+            "CONFIRMED": 11891,
+            "ISOLATED": 186,
+            "DESEASED": 886,
+            "RECOVERED": 878,
+            "VACC_ONCE": 15685434,
+            "VACC_FULLY": 4804528,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-11",
+            "CONFIRMED": 13182,
+            "ISOLATED": -293,
+            "DESEASED": 882,
+            "RECOVERED": 708,
+            "VACC_ONCE": 15686220,
+            "VACC_FULLY": 4805883,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-12",
+            "CONFIRMED": 13254,
+            "ISOLATED": -103,
+            "DESEASED": 864,
+            "RECOVERED": 1014,
+            "VACC_ONCE": 15718109,
+            "VACC_FULLY": 4900188,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-13",
+            "CONFIRMED": 13394,
+            "ISOLATED": 226,
+            "DESEASED": 728,
+            "RECOVERED": 831,
+            "VACC_ONCE": 15826811,
+            "VACC_FULLY": 5010883,
+            "VACC_BOOST": 6
+        },
+        {
+            "DATE": "2021-07-14",
+            "CONFIRMED": 13154,
+            "ISOLATED": 107,
+            "DESEASED": 770,
+            "RECOVERED": 861,
+            "VACC_ONCE": 15939532,
+            "VACC_FULLY": 5133876,
+            "VACC_BOOST": 7
+        },
+        {
+            "DATE": "2021-07-15",
+            "CONFIRMED": 12180,
+            "ISOLATED": -141,
+            "DESEASED": 667,
+            "RECOVERED": 811,
+            "VACC_ONCE": 16063162,
+            "VACC_FULLY": 5277193,
+            "VACC_BOOST": 8
+        },
+        {
+            "DATE": "2021-07-16",
+            "CONFIRMED": 13647,
+            "ISOLATED": 470,
+            "DESEASED": 793,
+            "RECOVERED": 626,
+            "VACC_ONCE": 16198464,
+            "VACC_FULLY": 5462252,
+            "VACC_BOOST": 8
+        },
+        {
+            "DATE": "2021-07-17",
+            "CONFIRMED": 12971,
+            "ISOLATED": 158,
+            "DESEASED": 729,
+            "RECOVERED": 946,
+            "VACC_ONCE": 16233344,
+            "VACC_FULLY": 5499442,
+            "VACC_BOOST": 10
+        },
+        {
+            "DATE": "2021-07-18",
+            "CONFIRMED": 13061,
+            "ISOLATED": -3,
+            "DESEASED": 780,
+            "RECOVERED": 942,
+            "VACC_ONCE": 16235996,
+            "VACC_FULLY": 5500274,
+            "VACC_BOOST": 10
+        },
+        {
+            "DATE": "2021-07-19",
+            "CONFIRMED": 13218,
+            "ISOLATED": -200,
+            "DESEASED": 844,
+            "RECOVERED": 1006,
+            "VACC_ONCE": 16396613,
+            "VACC_FULLY": 5572345,
+            "VACC_BOOST": 10
+        },
+        {
+            "DATE": "2021-07-20",
+            "CONFIRMED": 13185,
+            "ISOLATED": -1,
+            "DESEASED": 875,
+            "RECOVERED": 967,
+            "VACC_ONCE": 16547792,
+            "VACC_FULLY": 5634394,
+            "VACC_BOOST": 10
+        },
+        {
+            "DATE": "2021-07-21",
+            "CONFIRMED": 13406,
+            "ISOLATED": -224,
+            "DESEASED": 1051,
+            "RECOVERED": 859,
+            "VACC_ONCE": 16687914,
+            "VACC_FULLY": 5674484,
+            "VACC_BOOST": 10
+        },
+        {
+            "DATE": "2021-07-22",
+            "CONFIRMED": 13188,
+            "ISOLATED": -83,
+            "DESEASED": 732,
+            "RECOVERED": 829,
+            "VACC_ONCE": 16828937,
+            "VACC_FULLY": 5734822,
+            "VACC_BOOST": 10
+        },
+        {
+            "DATE": "2021-07-23",
+            "CONFIRMED": 12674,
+            "ISOLATED": -18,
+            "DESEASED": 718,
+            "RECOVERED": 728,
+            "VACC_ONCE": 16976052,
+            "VACC_FULLY": 5795316,
+            "VACC_BOOST": 11
+        },
+        {
+            "DATE": "2021-07-24",
+            "CONFIRMED": 12619,
+            "ISOLATED": 47,
+            "DESEASED": 828,
+            "RECOVERED": 700,
+            "VACC_ONCE": 17005670,
+            "VACC_FULLY": 5806869,
+            "VACC_BOOST": 12
+        },
+        {
+            "DATE": "2021-07-25",
+            "CONFIRMED": 13085,
+            "ISOLATED": -92,
+            "DESEASED": 941,
+            "RECOVERED": 804,
+            "VACC_ONCE": 17007483,
+            "VACC_FULLY": 5807222,
+            "VACC_BOOST": 12
+        },
+        {
+            "DATE": "2021-07-26",
+            "CONFIRMED": 13492,
+            "ISOLATED": 36,
+            "DESEASED": 998,
+            "RECOVERED": 796,
+            "VACC_ONCE": 17627368,
+            "VACC_FULLY": 5872652,
+            "VACC_BOOST": 12
+        },
+        {
+            "DATE": "2021-07-27",
+            "CONFIRMED": 12680,
+            "ISOLATED": 168,
+            "DESEASED": 888,
+            "RECOVERED": 649,
+            "VACC_ONCE": 18010021,
+            "VACC_FULLY": 5921812,
+            "VACC_BOOST": 12
+        },
+        {
+            "DATE": "2021-07-28",
+            "CONFIRMED": 13611,
+            "ISOLATED": 282,
+            "DESEASED": 758,
+            "RECOVERED": 858,
+            "VACC_ONCE": 18490756,
+            "VACC_FULLY": 5964918,
+            "VACC_BOOST": 12
+        },
+        {
+            "DATE": "2021-07-29",
+            "CONFIRMED": 13149,
+            "ISOLATED": 262,
+            "DESEASED": 528,
+            "RECOVERED": 722,
+            "VACC_ONCE": 18839015,
+            "VACC_FULLY": 6008765,
+            "VACC_BOOST": 12
+        },
+        {
+            "DATE": "2021-07-30",
+            "CONFIRMED": 12950,
+            "ISOLATED": -138,
+            "DESEASED": 849,
+            "RECOVERED": 1080,
+            "VACC_ONCE": 19336726,
+            "VACC_FULLY": 6069562,
+            "VACC_BOOST": 12
+        },
+        {
+            "DATE": "2021-07-31",
+            "CONFIRMED": 12256,
+            "ISOLATED": -167,
+            "DESEASED": 871,
+            "RECOVERED": 1087,
+            "VACC_ONCE": 19552738,
+            "VACC_FULLY": 6083443,
+            "VACC_BOOST": 12
+        },
+        {
+            "DATE": "2021-08-01",
+            "CONFIRMED": 13148,
+            "ISOLATED": 171,
+            "DESEASED": 1001,
+            "RECOVERED": 629,
+            "VACC_ONCE": 19580926,
+            "VACC_FULLY": 6084234,
+            "VACC_BOOST": 15
+        },
+        {
+            "DATE": "2021-08-02",
+            "CONFIRMED": 12797,
+            "ISOLATED": 130,
+            "DESEASED": 878,
+            "RECOVERED": 920,
+            "VACC_ONCE": 20058520,
+            "VACC_FULLY": 6121031,
+            "VACC_BOOST": 15
+        },
+        {
+            "DATE": "2021-08-03",
+            "CONFIRMED": 12829,
+            "ISOLATED": -165,
+            "DESEASED": 760,
+            "RECOVERED": 639,
+            "VACC_ONCE": 20279689,
+            "VACC_FULLY": 6228750,
+            "VACC_BOOST": 16
+        },
+        {
+            "DATE": "2021-08-04",
+            "CONFIRMED": 13251,
+            "ISOLATED": 510,
+            "DESEASED": 833,
+            "RECOVERED": 792,
+            "VACC_ONCE": 20446616,
+            "VACC_FULLY": 6339416,
+            "VACC_BOOST": 17
+        },
+        {
+            "DATE": "2021-08-05",
+            "CONFIRMED": 13458,
+            "ISOLATED": 58,
+            "DESEASED": 633,
+            "RECOVERED": 864,
+            "VACC_ONCE": 20640986,
+            "VACC_FULLY": 6466874,
+            "VACC_BOOST": 17
+        },
+        {
+            "DATE": "2021-08-06",
+            "CONFIRMED": 13448,
+            "ISOLATED": 292,
+            "DESEASED": 725,
+            "RECOVERED": 974,
+            "VACC_ONCE": 20898095,
+            "VACC_FULLY": 6623377,
+            "VACC_BOOST": 18
+        },
+        {
+            "DATE": "2021-08-07",
+            "CONFIRMED": 13237,
+            "ISOLATED": -311,
+            "DESEASED": 563,
+            "RECOVERED": 824,
+            "VACC_ONCE": 21020326,
+            "VACC_FULLY": 6659638,
+            "VACC_BOOST": 18
+        },
+        {
+            "DATE": "2021-08-08",
+            "CONFIRMED": 13135,
+            "ISOLATED": -201,
+            "DESEASED": 765,
+            "RECOVERED": 687,
+            "VACC_ONCE": 21048321,
+            "VACC_FULLY": 6662122,
+            "VACC_BOOST": 18
+        },
+        {
+            "DATE": "2021-08-09",
+            "CONFIRMED": 12123,
+            "ISOLATED": 304,
+            "DESEASED": 720,
+            "RECOVERED": 828,
+            "VACC_ONCE": 21486126,
+            "VACC_FULLY": 6836554,
+            "VACC_BOOST": 19
+        },
+        {
+            "DATE": "2021-08-10",
+            "CONFIRMED": 12873,
+            "ISOLATED": -388,
+            "DESEASED": 617,
+            "RECOVERED": 752,
+            "VACC_ONCE": 21750561,
+            "VACC_FULLY": 7006474,
+            "VACC_BOOST": 21
+        },
+        {
+            "DATE": "2021-08-11",
+            "CONFIRMED": 13394,
+            "ISOLATED": 48,
+            "DESEASED": 678,
+            "RECOVERED": 692,
+            "VACC_ONCE": 21929600,
+            "VACC_FULLY": 7170393,
+            "VACC_BOOST": 22
+        },
+        {
+            "DATE": "2021-08-12",
+            "CONFIRMED": 13909,
+            "ISOLATED": -154,
+            "DESEASED": 819,
+            "RECOVERED": 522,
+            "VACC_ONCE": 22099390,
+            "VACC_FULLY": 7877930,
+            "VACC_BOOST": 22
+        },
+        {
+            "DATE": "2021-08-13",
+            "CONFIRMED": 12883,
+            "ISOLATED": -247,
+            "DESEASED": 790,
+            "RECOVERED": 667,
+            "VACC_ONCE": 22343929,
+            "VACC_FULLY": 8499451,
+            "VACC_BOOST": 22
+        },
+        {
+            "DATE": "2021-08-14",
+            "CONFIRMED": 13101,
+            "ISOLATED": 241,
+            "DESEASED": 763,
+            "RECOVERED": 915,
+            "VACC_ONCE": 22487588,
+            "VACC_FULLY": 8682395,
+            "VACC_BOOST": 22
+        },
+        {
+            "DATE": "2021-08-15",
+            "CONFIRMED": 13125,
+            "ISOLATED": 207,
+            "DESEASED": 784,
+            "RECOVERED": 678,
+            "VACC_ONCE": 22506263,
+            "VACC_FULLY": 8688152,
+            "VACC_BOOST": 25
+        },
+        {
+            "DATE": "2021-08-16",
+            "CONFIRMED": 12676,
+            "ISOLATED": 79,
+            "DESEASED": 723,
+            "RECOVERED": 767,
+            "VACC_ONCE": 23178996,
+            "VACC_FULLY": 8945150,
+            "VACC_BOOST": 25
+        },
+        {
+            "DATE": "2021-08-17",
+            "CONFIRMED": 13686,
+            "ISOLATED": -292,
+            "DESEASED": 644,
+            "RECOVERED": 836,
+            "VACC_ONCE": 23905226,
+            "VACC_FULLY": 9441925,
+            "VACC_BOOST": 28
+        },
+        {
+            "DATE": "2021-08-18",
+            "CONFIRMED": 13698,
+            "ISOLATED": -268,
+            "DESEASED": 849,
+            "RECOVERED": 616,
+            "VACC_ONCE": 24430103,
+            "VACC_FULLY": 9762348,
+            "VACC_BOOST": 30
+        },
+        {
+            "DATE": "2021-08-19",
+            "CONFIRMED": 12623,
+            "ISOLATED": -123,
+            "DESEASED": 673,
+            "RECOVERED": 895,
+            "VACC_ONCE": 24935976,
+            "VACC_FULLY": 10056554,
+            "VACC_BOOST": 34
+        },
+        {
+            "DATE": "2021-08-20",
+            "CONFIRMED": 13770,
+            "ISOLATED": 160,
+            "DESEASED": 883,
+            "RECOVERED": 904,
+            "VACC_ONCE": 25627928,
+            "VACC_FULLY": 10390318,
+            "VACC_BOOST": 35
+        },
+        {
+            "DATE": "2021-08-21",
+            "CONFIRMED": 13419,
+            "ISOLATED": -38,
+            "DESEASED": 882,
+            "RECOVERED": 855,
+            "VACC_ONCE": 25993351,
+            "VACC_FULLY": 10514316,
+            "VACC_BOOST": 40
+        },
+        {
+            "DATE": "2021-08-22",
+            "CONFIRMED": 12698,
+            "ISOLATED": -291,
+            "DESEASED": 831,
+            "RECOVERED": 953,
+            "VACC_ONCE": 26033721,
+            "VACC_FULLY": 10516767,
+            "VACC_BOOST": 44
+        },
+        {
+            "DATE": "2021-08-23",
+            "CONFIRMED": 11767,
+            "ISOLATED": 257,
+            "DESEASED": 825,
+            "RECOVERED": 882,
+            "VACC_ONCE": 26422266,
+            "VACC_FULLY": 11232147,
+            "VACC_BOOST": 46
+        },
+        {
+            "DATE": "2021-08-24",
+            "CONFIRMED": 12799,
+            "ISOLATED": 243,
+            "DESEASED": 763,
+            "RECOVERED": 914,
+            "VACC_ONCE": 26828381,
+            "VACC_FULLY": 11828040,
+            "VACC_BOOST": 52
+        },
+        {
+            "DATE": "2021-08-25",
+            "CONFIRMED": 13251,
+            "ISOLATED": 372,
+            "DESEASED": 860,
+            "RECOVERED": 799,
+            "VACC_ONCE": 27207012,
+            "VACC_FULLY": 12295349,
+            "VACC_BOOST": 55
+        },
+        {
+            "DATE": "2021-08-26",
+            "CONFIRMED": 13776,
+            "ISOLATED": 54,
+            "DESEASED": 894,
+            "RECOVERED": 627,
+            "VACC_ONCE": 27861371,
+            "VACC_FULLY": 12712297,
+            "VACC_BOOST": 57
+        },
+        {
+            "DATE": "2021-08-27",
+            "CONFIRMED": 13130,
+            "ISOLATED": -127,
+            "DESEASED": 754,
+            "RECOVERED": 839,
+            "VACC_ONCE": 28464607,
+            "VACC_FULLY": 13256372,
+            "VACC_BOOST": 64
+        },
+        {
+            "DATE": "2021-08-28",
+            "CONFIRMED": 13276,
+            "ISOLATED": -119,
+            "DESEASED": 683,
+            "RECOVERED": 849,
+            "VACC_ONCE": 28741179,
+            "VACC_FULLY": 13506085,
+            "VACC_BOOST": 75
+        },
+        {
+            "DATE": "2021-08-29",
+            "CONFIRMED": 13638,
+            "ISOLATED": -119,
+            "DESEASED": 727,
+            "RECOVERED": 895,
+            "VACC_ONCE": 28757486,
+            "VACC_FULLY": 13519902,
+            "VACC_BOOST": 80
+        },
+        {
+            "DATE": "2021-08-30",
+            "CONFIRMED": 13089,
+            "ISOLATED": -69,
+            "DESEASED": 1025,
+            "RECOVERED": 749,
+            "VACC_ONCE": 29147495,
+            "VACC_FULLY": 14110413,
+            "VACC_BOOST": 82
+        },
+        {
+            "DATE": "2021-08-31",
+            "CONFIRMED": 12232,
+            "ISOLATED": 109,
+            "DESEASED": 759,
+            "RECOVERED": 757,
+            "VACC_ONCE": 29395464,
+            "VACC_FULLY": 14625424,
+            "VACC_BOOST": 86
+        },
+        {
+            "DATE": "2021-09-01",
+            "CONFIRMED": 13236,
+            "ISOLATED": -199,
+            "DESEASED": 778,
+            "RECOVERED": 571,
+            "VACC_ONCE": 29574268,
+            "VACC_FULLY": 15143530,
+            "VACC_BOOST": 96
+        },
+        {
+            "DATE": "2021-09-02",
+            "CONFIRMED": 13059,
+            "ISOLATED": -53,
+            "DESEASED": 853,
+            "RECOVERED": 729,
+            "VACC_ONCE": 29760759,
+            "VACC_FULLY": 15625527,
+            "VACC_BOOST": 105
+        },
+        {
+            "DATE": "2021-09-03",
+            "CONFIRMED": 12320,
+            "ISOLATED": 129,
+            "DESEASED": 805,
+            "RECOVERED": 1001,
+            "VACC_ONCE": 29994440,
+            "VACC_FULLY": 16308273,
+            "VACC_BOOST": 111
+        },
+        {
+            "DATE": "2021-09-04",
+            "CONFIRMED": 12857,
+            "ISOLATED": 198,
+            "DESEASED": 679,
+            "RECOVERED": 882,
+            "VACC_ONCE": 30113342,
+            "VACC_FULLY": 16560308,
+            "VACC_BOOST": 111
+        },
+        {
+            "DATE": "2021-09-05",
+            "CONFIRMED": 14162,
+            "ISOLATED": -199,
+            "DESEASED": 742,
+            "RECOVERED": 959,
+            "VACC_ONCE": 30121955,
+            "VACC_FULLY": 16566040,
+            "VACC_BOOST": 111
+        },
+        {
+            "DATE": "2021-09-06",
+            "CONFIRMED": 12675,
+            "ISOLATED": -71,
+            "DESEASED": 814,
+            "RECOVERED": 671,
+            "VACC_ONCE": 30866095,
+            "VACC_FULLY": 17191757,
+            "VACC_BOOST": 114
+        },
+        {
+            "DATE": "2021-09-07",
+            "CONFIRMED": 12978,
+            "ISOLATED": -69,
+            "DESEASED": 915,
+            "RECOVERED": 745,
+            "VACC_ONCE": 31440918,
+            "VACC_FULLY": 17601504,
+            "VACC_BOOST": 122
+        },
+        {
+            "DATE": "2021-09-08",
+            "CONFIRMED": 12668,
+            "ISOLATED": -151,
+            "DESEASED": 804,
+            "RECOVERED": 1027,
+            "VACC_ONCE": 31827081,
+            "VACC_FULLY": 17896601,
+            "VACC_BOOST": 126
+        },
+        {
+            "DATE": "2021-09-09",
+            "CONFIRMED": 13406,
+            "ISOLATED": -195,
+            "DESEASED": 959,
+            "RECOVERED": 935,
+            "VACC_ONCE": 32267299,
+            "VACC_FULLY": 18177251,
+            "VACC_BOOST": 130
+        },
+        {
+            "DATE": "2021-09-10",
+            "CONFIRMED": 12854,
+            "ISOLATED": -27,
+            "DESEASED": 697,
+            "RECOVERED": 1120,
+            "VACC_ONCE": 32920481,
+            "VACC_FULLY": 18584392,
+            "VACC_BOOST": 132
+        },
+        {
+            "DATE": "2021-09-11",
+            "CONFIRMED": 12761,
+            "ISOLATED": 314,
+            "DESEASED": 833,
+            "RECOVERED": 902,
+            "VACC_ONCE": 33249079,
+            "VACC_FULLY": 18787120,
+            "VACC_BOOST": 133
+        },
+        {
+            "DATE": "2021-09-12",
+            "CONFIRMED": 13207,
+            "ISOLATED": 311,
+            "DESEASED": 768,
+            "RECOVERED": 665,
+            "VACC_ONCE": 33270953,
+            "VACC_FULLY": 18809866,
+            "VACC_BOOST": 133
+        },
+        {
+            "DATE": "2021-09-13",
+            "CONFIRMED": 12585,
+            "ISOLATED": -37,
+            "DESEASED": 823,
+            "RECOVERED": 754,
+            "VACC_ONCE": 34099160,
+            "VACC_FULLY": 19225837,
+            "VACC_BOOST": 139
+        },
+        {
+            "DATE": "2021-09-14",
+            "CONFIRMED": 13225,
+            "ISOLATED": 38,
+            "DESEASED": 841,
+            "RECOVERED": 814,
+            "VACC_ONCE": 34701490,
+            "VACC_FULLY": 19440429,
+            "VACC_BOOST": 149
+        },
+        {
+            "DATE": "2021-09-15",
+            "CONFIRMED": 13137,
+            "ISOLATED": -254,
+            "DESEASED": 887,
+            "RECOVERED": 857,
+            "VACC_ONCE": 35077910,
+            "VACC_FULLY": 19870725,
+            "VACC_BOOST": 156
+        },
+        {
+            "DATE": "2021-09-16",
+            "CONFIRMED": 12590,
+            "ISOLATED": -2,
+            "DESEASED": 825,
+            "RECOVERED": 831,
+            "VACC_ONCE": 35508720,
+            "VACC_FULLY": 20174834,
+            "VACC_BOOST": 162
+        },
+        {
+            "DATE": "2021-09-17",
+            "CONFIRMED": 12875,
+            "ISOLATED": -229,
+            "DESEASED": 735,
+            "RECOVERED": 731,
+            "VACC_ONCE": 36169890,
+            "VACC_FULLY": 20608225,
+            "VACC_BOOST": 163
+        },
+        {
+            "DATE": "2021-09-18",
+            "CONFIRMED": 12917,
+            "ISOLATED": 3,
+            "DESEASED": 985,
+            "RECOVERED": 795,
+            "VACC_ONCE": 36562473,
+            "VACC_FULLY": 20793858,
+            "VACC_BOOST": 164
+        },
+        {
+            "DATE": "2021-09-19",
+            "CONFIRMED": 12765,
+            "ISOLATED": -422,
+            "DESEASED": 800,
+            "RECOVERED": 774,
+            "VACC_ONCE": 36583808,
+            "VACC_FULLY": 20819731,
+            "VACC_BOOST": 169
+        },
+        {
+            "DATE": "2021-09-20",
+            "CONFIRMED": 13701,
+            "ISOLATED": 444,
+            "DESEASED": 774,
+            "RECOVERED": 906,
+            "VACC_ONCE": 36613863,
+            "VACC_FULLY": 20833753,
+            "VACC_BOOST": 174
+        },
+        {
+            "DATE": "2021-09-21",
+            "CONFIRMED": 12070,
+            "ISOLATED": 153,
+            "DESEASED": 843,
+            "RECOVERED": 691,
+            "VACC_ONCE": 36620458,
+            "VACC_FULLY": 20838103,
+            "VACC_BOOST": 178
+        },
+        {
+            "DATE": "2021-09-22",
+            "CONFIRMED": 12302,
+            "ISOLATED": 394,
+            "DESEASED": 795,
+            "RECOVERED": 483,
+            "VACC_ONCE": 36648072,
+            "VACC_FULLY": 20854052,
+            "VACC_BOOST": 186
+        },
+        {
+            "DATE": "2021-09-23",
+            "CONFIRMED": 13236,
+            "ISOLATED": -52,
+            "DESEASED": 835,
+            "RECOVERED": 719,
+            "VACC_ONCE": 37210249,
+            "VACC_FULLY": 21226387,
+            "VACC_BOOST": 191
+        },
+        {
+            "DATE": "2021-09-24",
+            "CONFIRMED": 12265,
+            "ISOLATED": -136,
+            "DESEASED": 755,
+            "RECOVERED": 684,
+            "VACC_ONCE": 37827645,
+            "VACC_FULLY": 21637309,
+            "VACC_BOOST": 194
+        },
+        {
+            "DATE": "2021-09-25",
+            "CONFIRMED": 13434,
+            "ISOLATED": -138,
+            "DESEASED": 637,
+            "RECOVERED": 583,
+            "VACC_ONCE": 38141040,
+            "VACC_FULLY": 21852223,
+            "VACC_BOOST": 205
+        },
+        {
+            "DATE": "2021-09-26",
+            "CONFIRMED": 12524,
+            "ISOLATED": 295,
+            "DESEASED": 806,
+            "RECOVERED": 732,
+            "VACC_ONCE": 38167542,
+            "VACC_FULLY": 21875432,
+            "VACC_BOOST": 208
+        },
+        {
+            "DATE": "2021-09-27",
+            "CONFIRMED": 13678,
+            "ISOLATED": -230,
+            "DESEASED": 705,
+            "RECOVERED": 742,
+            "VACC_ONCE": 38585105,
+            "VACC_FULLY": 22584210,
+            "VACC_BOOST": 220
+        },
+        {
+            "DATE": "2021-09-28",
+            "CONFIRMED": 13032,
+            "ISOLATED": -56,
+            "DESEASED": 742,
+            "RECOVERED": 815,
+            "VACC_ONCE": 38842824,
+            "VACC_FULLY": 23271675,
+            "VACC_BOOST": 228
+        },
+        {
+            "DATE": "2021-09-29",
+            "CONFIRMED": 12218,
+            "ISOLATED": -360,
+            "DESEASED": 965,
+            "RECOVERED": 572,
+            "VACC_ONCE": 39074678,
+            "VACC_FULLY": 23794608,
+            "VACC_BOOST": 242
+        },
+        {
+            "DATE": "2021-09-30",
+            "CONFIRMED": 13363,
+            "ISOLATED": 425,
+            "DESEASED": 854,
+            "RECOVERED": 639,
+            "VACC_ONCE": 39419308,
+            "VACC_FULLY": 24333609,
+            "VACC_BOOST": 252
+        },
+        {
+            "DATE": "2021-10-01",
+            "CONFIRMED": 13809,
+            "ISOLATED": -238,
+            "DESEASED": 912,
+            "RECOVERED": 963,
+            "VACC_ONCE": 39656371,
+            "VACC_FULLY": 25193122,
+            "VACC_BOOST": 264
+        },
+        {
+            "DATE": "2021-10-02",
+            "CONFIRMED": 13237,
+            "ISOLATED": -27,
+            "DESEASED": 746,
+            "RECOVERED": 636,
+            "VACC_ONCE": 39781194,
+            "VACC_FULLY": 25598668,
+            "VACC_BOOST": 266
+        },
+        {
+            "DATE": "2021-10-03",
+            "CONFIRMED": 13644,
+            "ISOLATED": -14,
+            "DESEASED": 846,
+            "RECOVERED": 705,
+            "VACC_ONCE": 39784642,
+            "VACC_FULLY": 25632077,
+            "VACC_BOOST": 275
+        },
+        {
+            "DATE": "2021-10-04",
+            "CONFIRMED": 13151,
+            "ISOLATED": -81,
+            "DESEASED": 658,
+            "RECOVERED": 1035,
+            "VACC_ONCE": 39810244,
+            "VACC_FULLY": 25842145,
+            "VACC_BOOST": 290
+        },
+        {
+            "DATE": "2021-10-05",
+            "CONFIRMED": 12950,
+            "ISOLATED": -165,
+            "DESEASED": 877,
+            "RECOVERED": 706,
+            "VACC_ONCE": 39855645,
+            "VACC_FULLY": 26606622,
+            "VACC_BOOST": 302
+        },
+        {
+            "DATE": "2021-10-06",
+            "CONFIRMED": 12219,
+            "ISOLATED": -141,
+            "DESEASED": 643,
+            "RECOVERED": 650,
+            "VACC_ONCE": 39892944,
+            "VACC_FULLY": 27115704,
+            "VACC_BOOST": 317
+        },
+        {
+            "DATE": "2021-10-07",
+            "CONFIRMED": 13243,
+            "ISOLATED": -404,
+            "DESEASED": 799,
+            "RECOVERED": 735,
+            "VACC_ONCE": 39930040,
+            "VACC_FULLY": 27825116,
+            "VACC_BOOST": 328
+        },
+        {
+            "DATE": "2021-10-08",
+            "CONFIRMED": 13522,
+            "ISOLATED": -100,
+            "DESEASED": 649,
+            "RECOVERED": 864,
+            "VACC_ONCE": 39975316,
+            "VACC_FULLY": 28922891,
+            "VACC_BOOST": 347
+        },
+        {
+            "DATE": "2021-10-09",
+            "CONFIRMED": 14140,
+            "ISOLATED": -184,
+            "DESEASED": 740,
+            "RECOVERED": 768,
+            "VACC_ONCE": 39986195,
+            "VACC_FULLY": 29026544,
+            "VACC_BOOST": 382
+        },
+        {
+            "DATE": "2021-10-10",
+            "CONFIRMED": 13108,
+            "ISOLATED": -88,
+            "DESEASED": 756,
+            "RECOVERED": 981,
+            "VACC_ONCE": 39988952,
+            "VACC_FULLY": 29044443,
+            "VACC_BOOST": 387
+        },
+        {
+            "DATE": "2021-10-11",
+            "CONFIRMED": 12928,
+            "ISOLATED": -51,
+            "DESEASED": 736,
+            "RECOVERED": 951,
+            "VACC_ONCE": 40082701,
+            "VACC_FULLY": 29210659,
+            "VACC_BOOST": 398
+        },
+        {
+            "DATE": "2021-10-12",
+            "CONFIRMED": 12767,
+            "ISOLATED": 521,
+            "DESEASED": 885,
+            "RECOVERED": 783,
+            "VACC_ONCE": 40189558,
+            "VACC_FULLY": 29810422,
+            "VACC_BOOST": 1101
+        },
+        {
+            "DATE": "2021-10-13",
+            "CONFIRMED": 12984,
+            "ISOLATED": -23,
+            "DESEASED": 912,
+            "RECOVERED": 581,
+            "VACC_ONCE": 40247391,
+            "VACC_FULLY": 30220554,
+            "VACC_BOOST": 2456
+        },
+        {
+            "DATE": "2021-10-14",
+            "CONFIRMED": 12626,
+            "ISOLATED": 572,
+            "DESEASED": 856,
+            "RECOVERED": 837,
+            "VACC_ONCE": 40302465,
+            "VACC_FULLY": 30677482,
+            "VACC_BOOST": 4165
+        },
+        {
+            "DATE": "2021-10-15",
+            "CONFIRMED": 13202,
+            "ISOLATED": -57,
+            "DESEASED": 854,
+            "RECOVERED": 837,
+            "VACC_ONCE": 40392160,
+            "VACC_FULLY": 31396907,
+            "VACC_BOOST": 6459
+        },
+        {
+            "DATE": "2021-10-16",
+            "CONFIRMED": 13028,
+            "ISOLATED": -249,
+            "DESEASED": 759,
+            "RECOVERED": 794,
+            "VACC_ONCE": 40456603,
+            "VACC_FULLY": 31751584,
+            "VACC_BOOST": 6567
+        },
+        {
+            "DATE": "2021-10-17",
+            "CONFIRMED": 12522,
+            "ISOLATED": -61,
+            "DESEASED": 913,
+            "RECOVERED": 738,
+            "VACC_ONCE": 40458524,
+            "VACC_FULLY": 31770916,
+            "VACC_BOOST": 6570
+        },
+        {
+            "DATE": "2021-10-18",
+            "CONFIRMED": 13183,
+            "ISOLATED": -19,
+            "DESEASED": 738,
+            "RECOVERED": 716,
+            "VACC_ONCE": 40530447,
+            "VACC_FULLY": 32400732,
+            "VACC_BOOST": 8033
+        },
+        {
+            "DATE": "2021-10-19",
+            "CONFIRMED": 13127,
+            "ISOLATED": -11,
+            "DESEASED": 603,
+            "RECOVERED": 795,
+            "VACC_ONCE": 40567903,
+            "VACC_FULLY": 32847219,
+            "VACC_BOOST": 10092
+        },
+        {
+            "DATE": "2021-10-20",
+            "CONFIRMED": 12611,
+            "ISOLATED": -420,
+            "DESEASED": 799,
+            "RECOVERED": 724,
+            "VACC_ONCE": 40637002,
+            "VACC_FULLY": 33170596,
+            "VACC_BOOST": 14373
+        },
+        {
+            "DATE": "2021-10-21",
+            "CONFIRMED": 12311,
+            "ISOLATED": 118,
+            "DESEASED": 775,
+            "RECOVERED": 814,
+            "VACC_ONCE": 40696864,
+            "VACC_FULLY": 33578847,
+            "VACC_BOOST": 20222
+        },
+        {
+            "DATE": "2021-10-22",
+            "CONFIRMED": 12747,
+            "ISOLATED": 104,
+            "DESEASED": 856,
+            "RECOVERED": 981,
+            "VACC_ONCE": 40763022,
+            "VACC_FULLY": 34211641,
+            "VACC_BOOST": 26365
+        },
+        {
+            "DATE": "2021-10-23",
+            "CONFIRMED": 12825,
+            "ISOLATED": 17,
+            "DESEASED": 1012,
+            "RECOVERED": 618,
+            "VACC_ONCE": 40814591,
+            "VACC_FULLY": 34545379,
+            "VACC_BOOST": 26917
+        },
+        {
+            "DATE": "2021-10-24",
+            "CONFIRMED": 12155,
+            "ISOLATED": -163,
+            "DESEASED": 969,
+            "RECOVERED": 542,
+            "VACC_ONCE": 40818461,
+            "VACC_FULLY": 34561833,
+            "VACC_BOOST": 26928
+        },
+        {
+            "DATE": "2021-10-25",
+            "CONFIRMED": 13285,
+            "ISOLATED": 251,
+            "DESEASED": 896,
+            "RECOVERED": 744,
+            "VACC_ONCE": 40897026,
+            "VACC_FULLY": 34994245,
+            "VACC_BOOST": 35951
+        },
+        {
+            "DATE": "2021-10-26",
+            "CONFIRMED": 12548,
+            "ISOLATED": 139,
+            "DESEASED": 650,
+            "RECOVERED": 748,
+            "VACC_ONCE": 40938311,
+            "VACC_FULLY": 35274708,
+            "VACC_BOOST": 48949
+        },
+        {
+            "DATE": "2021-10-27",
+            "CONFIRMED": 12980,
+            "ISOLATED": -69,
+            "DESEASED": 626,
+            "RECOVERED": 676,
+            "VACC_ONCE": 41016118,
+            "VACC_FULLY": 35532519,
+            "VACC_BOOST": 62263
+        },
+        {
+            "DATE": "2021-10-28",
+            "CONFIRMED": 13124,
+            "ISOLATED": -316,
+            "DESEASED": 859,
+            "RECOVERED": 641,
+            "VACC_ONCE": 41079362,
+            "VACC_FULLY": 36155719,
+            "VACC_BOOST": 71624
+        },
+        {
+            "DATE": "2021-10-29",
+            "CONFIRMED": 13236,
+            "ISOLATED": 165,
+            "DESEASED": 758,
+            "RECOVERED": 834,
+            "VACC_ONCE": 41140018,
+            "VACC_FULLY": 36856961,
+            "VACC_BOOST": 81604
+        },
+        {
+            "DATE": "2021-10-30",
+            "CONFIRMED": 13040,
+            "ISOLATED": -151,
+            "DESEASED": 754,
+            "RECOVERED": 961,
+            "VACC_ONCE": 41176387,
+            "VACC_FULLY": 37215136,
+            "VACC_BOOST": 84925
+        },
+        {
+            "DATE": "2021-10-31",
+            "CONFIRMED": 13367,
+            "ISOLATED": 250,
+            "DESEASED": 814,
+            "RECOVERED": 758,
+            "VACC_ONCE": 41179316,
+            "VACC_FULLY": 37236209,
+            "VACC_BOOST": 85148
+        },
+        {
+            "DATE": "2021-11-01",
+            "CONFIRMED": 13414,
+            "ISOLATED": -160,
+            "DESEASED": 756,
+            "RECOVERED": 742,
+            "VACC_ONCE": 41262677,
+            "VACC_FULLY": 37355152,
+            "VACC_BOOST": 119676
+        },
+        {
+            "DATE": "2021-11-02",
+            "CONFIRMED": 13004,
+            "ISOLATED": 64,
+            "DESEASED": 828,
+            "RECOVERED": 880,
+            "VACC_ONCE": 41305449,
+            "VACC_FULLY": 37442579,
+            "VACC_BOOST": 176419
+        },
+        {
+            "DATE": "2021-11-03",
+            "CONFIRMED": 13151,
+            "ISOLATED": 142,
+            "DESEASED": 811,
+            "RECOVERED": 840,
+            "VACC_ONCE": 41370651,
+            "VACC_FULLY": 37518309,
+            "VACC_BOOST": 233908
+        },
+        {
+            "DATE": "2021-11-04",
+            "CONFIRMED": 13306,
+            "ISOLATED": -13,
+            "DESEASED": 745,
+            "RECOVERED": 883,
+            "VACC_ONCE": 41431479,
+            "VACC_FULLY": 37642233,
+            "VACC_BOOST": 279075
+        },
+        {
+            "DATE": "2021-11-05",
+            "CONFIRMED": 13403,
+            "ISOLATED": 146,
+            "DESEASED": 625,
+            "RECOVERED": 925,
+            "VACC_ONCE": 41503065,
+            "VACC_FULLY": 37804300,
+            "VACC_BOOST": 337621
+        },
+        {
+            "DATE": "2021-11-06",
+            "CONFIRMED": 13089,
+            "ISOLATED": -394,
+            "DESEASED": 755,
+            "RECOVERED": 947,
+            "VACC_ONCE": 41548525,
+            "VACC_FULLY": 37867093,
+            "VACC_BOOST": 359947
+        },
+        {
+            "DATE": "2021-11-07",
+            "CONFIRMED": 13724,
+            "ISOLATED": -106,
+            "DESEASED": 734,
+            "RECOVERED": 841,
+            "VACC_ONCE": 41550700,
+            "VACC_FULLY": 37871354,
+            "VACC_BOOST": 360617
+        },
+        {
+            "DATE": "2021-11-08",
+            "CONFIRMED": 13741,
+            "ISOLATED": 327,
+            "DESEASED": 718,
+            "RECOVERED": 734,
+            "VACC_ONCE": 41667707,
+            "VACC_FULLY": 38034861,
+            "VACC_BOOST": 545095
+        },
+        {
+            "DATE": "2021-11-09",
+            "CONFIRMED": 12256,
+            "ISOLATED": -32,
+            "DESEASED": 590,
+            "RECOVERED": 714,
+            "VACC_ONCE": 41713847,
+            "VACC_FULLY": 38160755,
+            "VACC_BOOST": 645986
+        },
+        {
+            "DATE": "2021-11-10",
+            "CONFIRMED": 13809,
+            "ISOLATED": 106,
+            "DESEASED": 734,
+            "RECOVERED": 843,
+            "VACC_ONCE": 41782815,
+            "VACC_FULLY": 38267812,
+            "VACC_BOOST": 741629
+        },
+        {
+            "DATE": "2021-11-11",
+            "CONFIRMED": 12474,
+            "ISOLATED": -9,
+            "DESEASED": 953,
+            "RECOVERED": 647,
+            "VACC_ONCE": 41847309,
+            "VACC_FULLY": 38376321,
+            "VACC_BOOST": 850060
+        },
+        {
+            "DATE": "2021-11-12",
+            "CONFIRMED": 12861,
+            "ISOLATED": 169,
+            "DESEASED": 1044,
+            "RECOVERED": 936,
+            "VACC_ONCE": 41925950,
+            "VACC_FULLY": 38525329,
+            "VACC_BOOST": 994876
+        },
+        {
+            "DATE": "2021-11-13",
+            "CONFIRMED": 13460,
+            "ISOLATED": 105,
+            "DESEASED": 759,
+            "RECOVERED": 603,
+            "VACC_ONCE": 41981386,
+            "VACC_FULLY": 38626394,
+            "VACC_BOOST": 1045694
+        },
+        {
+            "DATE": "2021-11-14",
+            "CONFIRMED": 12300,
+            "ISOLATED": 232,
+            "DESEASED": 774,
+            "RECOVERED": 851,
+            "VACC_ONCE": 41983682,
+            "VACC_FULLY": 38629684,
+            "VACC_BOOST": 1047932
+        },
+        {
+            "DATE": "2021-11-15",
+            "CONFIRMED": 13535,
+            "ISOLATED": 111,
+            "DESEASED": 877,
+            "RECOVERED": 821,
+            "VACC_ONCE": 42046223,
+            "VACC_FULLY": 38718305,
+            "VACC_BOOST": 1213120
+        },
+        {
+            "DATE": "2021-11-16",
+            "CONFIRMED": 12811,
+            "ISOLATED": -258,
+            "DESEASED": 1013,
+            "RECOVERED": 706,
+            "VACC_ONCE": 42080212,
+            "VACC_FULLY": 38765550,
+            "VACC_BOOST": 1354746
+        },
+        {
+            "DATE": "2021-11-17",
+            "CONFIRMED": 13479,
+            "ISOLATED": 118,
+            "DESEASED": 816,
+            "RECOVERED": 833,
+            "VACC_ONCE": 42126146,
+            "VACC_FULLY": 38831969,
+            "VACC_BOOST": 1490341
+        },
+        {
+            "DATE": "2021-11-18",
+            "CONFIRMED": 12648,
+            "ISOLATED": -170,
+            "DESEASED": 650,
+            "RECOVERED": 758,
+            "VACC_ONCE": 42171533,
+            "VACC_FULLY": 38892270,
+            "VACC_BOOST": 1620897
+        },
+        {
+            "DATE": "2021-11-19",
+            "CONFIRMED": 13695,
+            "ISOLATED": 1,
+            "DESEASED": 570,
+            "RECOVERED": 787,
+            "VACC_ONCE": 42221339,
+            "VACC_FULLY": 38969640,
+            "VACC_BOOST": 1776327
+        },
+        {
+            "DATE": "2021-11-20",
+            "CONFIRMED": 12824,
+            "ISOLATED": 373,
+            "DESEASED": 833,
+            "RECOVERED": 875,
+            "VACC_ONCE": 42248414,
+            "VACC_FULLY": 39008550,
+            "VACC_BOOST": 1818527
+        },
+        {
+            "DATE": "2021-11-21",
+            "CONFIRMED": 12048,
+            "ISOLATED": -837,
+            "DESEASED": 755,
+            "RECOVERED": 674,
+            "VACC_ONCE": 42249818,
+            "VACC_FULLY": 39010652,
+            "VACC_BOOST": 1820500
+        },
+        {
+            "DATE": "2021-11-22",
+            "CONFIRMED": 13052,
+            "ISOLATED": 37,
+            "DESEASED": 760,
+            "RECOVERED": 818,
+            "VACC_ONCE": 42299503,
+            "VACC_FULLY": 39098612,
+            "VACC_BOOST": 1970851
+        },
+        {
+            "DATE": "2021-11-23",
+            "CONFIRMED": 12497,
+            "ISOLATED": -234,
+            "DESEASED": 931,
+            "RECOVERED": 906,
+            "VACC_ONCE": 42328293,
+            "VACC_FULLY": 39142533,
+            "VACC_BOOST": 2116725
+        },
+        {
+            "DATE": "2021-11-24",
+            "CONFIRMED": 13377,
+            "ISOLATED": -206,
+            "DESEASED": 702,
+            "RECOVERED": 885,
+            "VACC_ONCE": 42375505,
+            "VACC_FULLY": 39204042,
+            "VACC_BOOST": 2277101
+        },
+        {
+            "DATE": "2021-11-25",
+            "CONFIRMED": 12759,
+            "ISOLATED": -89,
+            "DESEASED": 782,
+            "RECOVERED": 860,
+            "VACC_ONCE": 42423892,
+            "VACC_FULLY": 39271382,
+            "VACC_BOOST": 2481806
+        },
+        {
+            "DATE": "2021-11-26",
+            "CONFIRMED": 12348,
+            "ISOLATED": 291,
+            "DESEASED": 1105,
+            "RECOVERED": 881,
+            "VACC_ONCE": 42479980,
+            "VACC_FULLY": 39358718,
+            "VACC_BOOST": 2777045
+        },
+        {
+            "DATE": "2021-11-27",
+            "CONFIRMED": 12865,
+            "ISOLATED": 174,
+            "DESEASED": 729,
+            "RECOVERED": 659,
+            "VACC_ONCE": 42512585,
+            "VACC_FULLY": 39404579,
+            "VACC_BOOST": 2849262
+        },
+        {
+            "DATE": "2021-11-28",
+            "CONFIRMED": 12862,
+            "ISOLATED": -175,
+            "DESEASED": 746,
+            "RECOVERED": 841,
+            "VACC_ONCE": 42513564,
+            "VACC_FULLY": 39406349,
+            "VACC_BOOST": 2851899
+        },
+        {
+            "DATE": "2021-11-29",
+            "CONFIRMED": 12874,
+            "ISOLATED": -335,
+            "DESEASED": 680,
+            "RECOVERED": 888,
+            "VACC_ONCE": 42544682,
+            "VACC_FULLY": 39512382,
+            "VACC_BOOST": 3029224
+        },
+        {
+            "DATE": "2021-11-30",
+            "CONFIRMED": 13603,
+            "ISOLATED": -110,
+            "DESEASED": 914,
+            "RECOVERED": 750,
+            "VACC_ONCE": 42567865,
+            "VACC_FULLY": 39562213,
+            "VACC_BOOST": 3219138
+        }
+    ]
+}
