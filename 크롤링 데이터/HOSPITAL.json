@@ -1,0 +1,3154 @@
+﻿{
+    "HOSPITAL": [
+        {
+            "AREA": "서울",
+            "DISTRICT": "강남구",
+            "NAME": "강남구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "강남구",
+            "NAME": "삼성서울병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "강남구",
+            "NAME": "강남세브란스병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "강동구",
+            "NAME": "강동구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "강동구",
+            "NAME": "중앙보훈병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "강동구",
+            "NAME": "강동경희대병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "강동구",
+            "NAME": "강동성심병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "강북구",
+            "NAME": "강북구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "강서구",
+            "NAME": "강서구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "관악구",
+            "NAME": "관악구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "관악구",
+            "NAME": "에이치플러스양지병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "광진구",
+            "NAME": "광진구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "광진구",
+            "NAME": "건국대학교병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "구로구",
+            "NAME": "구로구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "구로구",
+            "NAME": "고대구로병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "구로구",
+            "NAME": "구로성심병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "금천구",
+            "NAME": "금천구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "금천구",
+            "NAME": "희명병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "노원구",
+            "NAME": "노원구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "노원구",
+            "NAME": "노원을지대학교병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "노원구",
+            "NAME": "상계백병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "도봉구",
+            "NAME": "도봉구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "도봉구",
+            "NAME": "한일병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "동대문구",
+            "NAME": "동대문구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "동대문구",
+            "NAME": "삼육서울병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "동대문구",
+            "NAME": "서울특별시동부병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "동대문구",
+            "NAME": "서울성심병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "동대문구",
+            "NAME": "경희의료원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "동작구",
+            "NAME": "동작구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "동작구",
+            "NAME": "서울특별시 보라매병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "동작구",
+            "NAME": "서울특별시 중앙대학교 병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "마포구",
+            "NAME": "마포구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "서대문구",
+            "NAME": "서대문구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "서대문구",
+            "NAME": "세브란스병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "중구",
+            "NAME": "서울중구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "중구",
+            "NAME": "인제대학교서울백병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "중구",
+            "NAME": "국립중앙의료원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "서초구",
+            "NAME": "서초구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "서초구",
+            "NAME": "가톨릭대학교 서울성모병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "서초구",
+            "NAME": "서울특별시 어린이병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "성동구",
+            "NAME": "성동구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "성동구",
+            "NAME": "한양대학교병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "성동구",
+            "NAME": "성동군자의원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "성북구",
+            "NAME": "성북구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "성북구",
+            "NAME": "고려대학교의료원안암병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "송파구",
+            "NAME": "송파구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "송파구",
+            "NAME": "서울아산병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "송파구",
+            "NAME": "경찰병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "양천구",
+            "NAME": "양천구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "양천구",
+            "NAME": "이화여자대학교의과대학부속목동병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "양천구",
+            "NAME": "서울특별시 서남병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "양천구",
+            "NAME": "홍익병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "영등포구",
+            "NAME": "영등포구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "영등포구",
+            "NAME": "한림대학교 강남성심병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "영등포구",
+            "NAME": "의료법인 성애병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "영등포구",
+            "NAME": "가톨릭대학교 여의도성모병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "영등포구",
+            "NAME": "인봉의료재단 영등포병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "용산구",
+            "NAME": "용산구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "용산구",
+            "NAME": "순천향대학교서울병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "은평구",
+            "NAME": "은평구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "은평구",
+            "NAME": "가톨릭대학교 은평성모병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "은평구",
+            "NAME": "서울특별시서북병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "은평구",
+            "NAME": "서울특별시은평병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "은평구",
+            "NAME": "의료법인 청구성심병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "종로구",
+            "NAME": "종로구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "종로구",
+            "NAME": "강북삼성병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "종로구",
+            "NAME": "서울적십자병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "종로구",
+            "NAME": "서울대학교병원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "중랑구",
+            "NAME": "중랑구보건소"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "중랑구",
+            "NAME": "서울의료원"
+        },
+        {
+            "AREA": "서울",
+            "DISTRICT": "중랑구",
+            "NAME": "녹색병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "강서구",
+            "NAME": "부산강서구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "강서구",
+            "NAME": "의료법인 갑을녹산재단 갑을녹산병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "금정구",
+            "NAME": "금정구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "금정구",
+            "NAME": "세웅병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "기장군",
+            "NAME": "기장군보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "기장군",
+            "NAME": "동남권원자력의학원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "기장군",
+            "NAME": "기장병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "동래구",
+            "NAME": "동래구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "동래구",
+            "NAME": "대동병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "동래구",
+            "NAME": "봉생병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "동래구",
+            "NAME": "광혜병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "남구",
+            "NAME": "부산남구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "남구",
+            "NAME": "부산성모병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "동구",
+            "NAME": "부산동구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "동구",
+            "NAME": "좋은문화병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "동구",
+            "NAME": "김원묵기념봉생병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "북구",
+            "NAME": "부산북구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "북구",
+            "NAME": "부민병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "북구",
+            "NAME": "구포성심병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "서구",
+            "NAME": "부산서구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "서구",
+            "NAME": "부산대학교병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "서구",
+            "NAME": "동아대학교병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "서구",
+            "NAME": "고신대학교복음병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "서구",
+            "NAME": "삼육부산병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "중구",
+            "NAME": "부산중구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "중구",
+            "NAME": "메리놀병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "부산진구",
+            "NAME": "부산진구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "부산진구",
+            "NAME": "인제대학교부산백병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "부산진구",
+            "NAME": "온종합병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "부산진구",
+            "NAME": "동의병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "부산진구",
+            "NAME": "춘해병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "사상구",
+            "NAME": "사상구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "사상구",
+            "NAME": "부산보훈병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "사상구",
+            "NAME": "좋은삼선병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "사하구",
+            "NAME": "사하구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "수영구",
+            "NAME": "수영구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "수영구",
+            "NAME": "좋은강안병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "수영구",
+            "NAME": "BHS한서병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "연제구",
+            "NAME": "연제구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "연제구",
+            "NAME": "부산광역시의료원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "영도구",
+            "NAME": "영도구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "영도구",
+            "NAME": "영도병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "영도구",
+            "NAME": "해동병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "해운대구",
+            "NAME": "해운대구보건소"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "해운대구",
+            "NAME": "해운대백병원"
+        },
+        {
+            "AREA": "부산",
+            "DISTRICT": "해운대구",
+            "NAME": "해운대부민병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "달서구",
+            "NAME": "달서구보건소"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "달서구",
+            "NAME": "계명대학교 동산병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "달서구",
+            "NAME": "삼일병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "달서구",
+            "NAME": "구병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "달서구",
+            "NAME": "세강병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "달서구",
+            "NAME": "W병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "달서구",
+            "NAME": "대구보훈병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "달성군",
+            "NAME": "달성군 보건소"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "남구",
+            "NAME": "대구광역시 남구보건소"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "남구",
+            "NAME": "영남대학교 병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "남구",
+            "NAME": "대구가톨릭대학교 병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "남구",
+            "NAME": "드림병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "동구",
+            "NAME": "대구광역시 동구보건소"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "동구",
+            "NAME": "대구파티마병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "북구",
+            "NAME": "대구광역시 북구보건소"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "북구",
+            "NAME": "대구가톨릭대학교 칠곡가톨릭병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "서구",
+            "NAME": "대구광역시 서구보건소"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "서구",
+            "NAME": "대구의료원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "중구",
+            "NAME": "대구광역시 중구보건소"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "중구",
+            "NAME": "경북대학교병원"
+        },
+        {
+            "AREA": "대구",
+            "DISTRICT": "수성구",
+            "NAME": "수성구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "강화군",
+            "NAME": "강화군보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "강화군",
+            "NAME": "비에스종합병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "계양구",
+            "NAME": "계양구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "계양구",
+            "NAME": "인성의료재단 한림병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "계양구",
+            "NAME": "인천세종병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "남동구",
+            "NAME": "인천광역시남동구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "남동구",
+            "NAME": "길의료재단 길병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "부평구",
+            "NAME": "인천광역시부평구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "부평구",
+            "NAME": "부평세림병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "부평구",
+            "NAME": "가톨릭대학교 인천성모병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "부평구",
+            "NAME": "근로복지공단 인천병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "연수구",
+            "NAME": "연수구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "연수구",
+            "NAME": "나사렛국제병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "연수구",
+            "NAME": "인천적십자병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "옹진군",
+            "NAME": "백령병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "미추홀구",
+            "NAME": "인천광역시미추홀구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "미추홀구",
+            "NAME": "인천사랑병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "미추홀구",
+            "NAME": "현대유비스병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "동구",
+            "NAME": "인천광역시동구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "동구",
+            "NAME": "인천백병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "동구",
+            "NAME": "인천광역시의료원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "서구",
+            "NAME": "인천광역시서구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "서구",
+            "NAME": "국제성모병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "서구",
+            "NAME": "검단탑병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "서구",
+            "NAME": "나은병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "서구",
+            "NAME": "뉴 성민병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "서구",
+            "NAME": "온누리병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "중구",
+            "NAME": "인천광역시중구보건소"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "중구",
+            "NAME": "인하대병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "중구",
+            "NAME": "인천기독병원"
+        },
+        {
+            "AREA": "인천",
+            "DISTRICT": "중구",
+            "NAME": "영종 국제도시보건과"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "광산구",
+            "NAME": "광산구보건소"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "광산구",
+            "NAME": "첨단종합병원"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "광산구",
+            "NAME": "KS병원"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "남구",
+            "NAME": "광주남구보건소"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "남구",
+            "NAME": "광주기독병원"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "동구",
+            "NAME": "광주동구보건소"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "동구",
+            "NAME": "전남대학교병원"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "동구",
+            "NAME": "조선대학교병원"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "북구",
+            "NAME": "광주북구보건소"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "북구",
+            "NAME": "광주일곡병원"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "서구",
+            "NAME": "광주서구보건소"
+        },
+        {
+            "AREA": "광주",
+            "DISTRICT": "서구",
+            "NAME": "서광병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "대덕구",
+            "NAME": "대덕구보건소"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "대덕구",
+            "NAME": "근로복지공단 대전병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "대덕구",
+            "NAME": "대전보훈병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "동구",
+            "NAME": "대전광역시 동구보건소"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "동구",
+            "NAME": "대전한국병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "서구",
+            "NAME": "대전광역시 서구보건소"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "서구",
+            "NAME": "을지대학교병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "서구",
+            "NAME": "건양대학교병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "중구",
+            "NAME": "대전광역시 중구보건소"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "중구",
+            "NAME": "대전성모병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "중구",
+            "NAME": "대전선병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "중구",
+            "NAME": "충남대학교병원"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "유성구",
+            "NAME": "대전광역시 유성구보건소"
+        },
+        {
+            "AREA": "대전",
+            "DISTRICT": "유성구",
+            "NAME": "유성선병원"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "남구",
+            "NAME": "울산남구보건소"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "남구",
+            "NAME": "의)정안의료재단 중앙병원"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "남구",
+            "NAME": "울산병원"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "남구",
+            "NAME": "좋은삼정병원"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "동구",
+            "NAME": "울산동구보건소"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "동구",
+            "NAME": "울산대학교병원"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "북구",
+            "NAME": "울산북구보건소"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "북구",
+            "NAME": "울산시티병원"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "중구",
+            "NAME": "울산중구보건소"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "중구",
+            "NAME": "동강병원"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "울주군",
+            "NAME": "울주군보건소"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "울주군",
+            "NAME": "서울산보람병원"
+        },
+        {
+            "AREA": "울산",
+            "DISTRICT": "울주군",
+            "NAME": "KTX역 선별진료소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "가평군",
+            "NAME": "가평군보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "가평군",
+            "NAME": "HJ매그놀리아국제병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "고양시",
+            "NAME": "고양시덕양구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "고양시",
+            "NAME": "의료법인명지의료재단명지병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "과천시",
+            "NAME": "과천시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "광명시",
+            "NAME": "광명시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "광명시",
+            "NAME": "광명성애병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "광주시",
+            "NAME": "광주시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "광주시",
+            "NAME": "참조은병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "구리시",
+            "NAME": "구리시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "구리시",
+            "NAME": "한양대학교구리병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "구리시",
+            "NAME": "원진녹색병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "군포시",
+            "NAME": "원광대학교의과대학 산본병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "군포시",
+            "NAME": "효산의료재단법인 지샘병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "용인시",
+            "NAME": "기흥구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "용인시",
+            "NAME": "강남병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "용인시",
+            "NAME": "용인세브란스병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "김포시",
+            "NAME": "김포시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "김포시",
+            "NAME": "김포우리병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "김포시",
+            "NAME": "뉴고려병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "김포시",
+            "NAME": "히즈메디병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "남양주시",
+            "NAME": "남양주보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "남양주시",
+            "NAME": "남양주보건소 동부보건센터"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "동두천시",
+            "NAME": "동두천시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안양시",
+            "NAME": "안양시 만안구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안양시",
+            "NAME": "샘안양병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "성남시",
+            "NAME": "성남시분당구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "성남시",
+            "NAME": "분당차병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "성남시",
+            "NAME": "분당제생병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "성남시",
+            "NAME": "성남시수정구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "성남시",
+            "NAME": "성남시의료원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "성남시",
+            "NAME": "순천의료재단 정병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "수원시",
+            "NAME": "수원시권선구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "시흥시",
+            "NAME": "시흥시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "시흥시",
+            "NAME": "시흥시화병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "시흥시",
+            "NAME": "신천연합병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "시흥시",
+            "NAME": "센트럴병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "시흥시",
+            "NAME": "정왕보건지소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안산시",
+            "NAME": "안산시단원보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안산시 단원구",
+            "NAME": "고려대학교안산병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안산시 단원구",
+            "NAME": "의료법인대아의료재단한도병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안산시",
+            "NAME": "안산시상록수보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안산시",
+            "NAME": "근로복지공단안산병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안성시",
+            "NAME": "안성시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안성시",
+            "NAME": "경기도의료원 안성병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안성시",
+            "NAME": "안성성모병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안양시",
+            "NAME": "안양시 동안구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "안양시",
+            "NAME": "한림대학교성심병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "양주시",
+            "NAME": "양주시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "양평군",
+            "NAME": "양평군보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "양평군",
+            "NAME": "양평병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "여주시",
+            "NAME": "여주시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "여주시",
+            "NAME": "세종여주병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "오산시",
+            "NAME": "오산시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "오산시",
+            "NAME": "오산한국병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "부천시",
+            "NAME": "순천향대학교부속부천병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "부천시",
+            "NAME": "가톨릭대학교부천성모병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "부천시",
+            "NAME": "부천세종병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "부천시",
+            "NAME": "부천시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "의왕시",
+            "NAME": "의왕시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "의왕시",
+            "NAME": "아가페의료재단 시티병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "의정부시",
+            "NAME": "의정부시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "의정부시",
+            "NAME": "경기도의료원의정부병원(응급실)"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "의정부시",
+            "NAME": "가톨릭대학교 의정부 성모병원 "
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "의정부시",
+            "NAME": "추병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "의정부시",
+            "NAME": "의정부백병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "의정부시",
+            "NAME": "의정부을지대학교병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "이천시",
+            "NAME": "이천시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "이천시",
+            "NAME": "경기도의료원이천병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "고양시",
+            "NAME": "일산서구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "고양시",
+            "NAME": "인제대학교일산백병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "수원시",
+            "NAME": "장안구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "수원시",
+            "NAME": "경기도의료원 수원병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "성남시",
+            "NAME": "성남시중원구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "성남시",
+            "NAME": "성남중앙병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "용인시",
+            "NAME": "처인구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "용인시",
+            "NAME": "영문의료재단 다보스병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "용인시",
+            "NAME": "용인서울병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "파주시",
+            "NAME": "파주시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "파주시",
+            "NAME": "경기도의료원 파주병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "파주시",
+            "NAME": "메디인병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "수원시",
+            "NAME": "팔달구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "수원시",
+            "NAME": "성빈센트 병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "수원시",
+            "NAME": "동수원 병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "평택시",
+            "NAME": "평택시평택보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "평택시",
+            "NAME": "의료법인 백송의료재단 굿모닝병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "평택시",
+            "NAME": "의료법인 박애의료재단 박애병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "평택시",
+            "NAME": "의료법인 양진의료재단 평택성모병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "평택시",
+            "NAME": "평택시안중보건지소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "포천시",
+            "NAME": "포천시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "포천시",
+            "NAME": "경기도의료원 포천병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "포천시",
+            "NAME": "일심재단우리병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "하남시",
+            "NAME": "하남시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "화성시",
+            "NAME": "화성시보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "화성시",
+            "NAME": "원광종합병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "화성시",
+            "NAME": "화성중앙종합병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "화성시",
+            "NAME": "한림대학교동탄성심병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "화성시",
+            "NAME": "화성디에스병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "화성시",
+            "NAME": "화성시보건소(동탄글로브월)"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "화성시",
+            "NAME": "화성유일병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "수원시",
+            "NAME": "영통구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "수원시",
+            "NAME": "아주대학교병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "평택시",
+            "NAME": "평택시송탄보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "평택시",
+            "NAME": "박병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "고양시",
+            "NAME": "일산동구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "고양시",
+            "NAME": "국민건강보험공단일산병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "고양시",
+            "NAME": "동국대학교일산불교병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "고양시",
+            "NAME": "일산복음병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "용인시",
+            "NAME": "수지구보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "남양주시",
+            "NAME": "남양주풍양보건소"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "남양주시",
+            "NAME": "남양주한양병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "남양주시",
+            "NAME": "현대병원"
+        },
+        {
+            "AREA": "경기",
+            "DISTRICT": "연천군",
+            "NAME": "연천군보건의료원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "강릉시",
+            "NAME": "강릉시보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "강릉시",
+            "NAME": "강릉아산병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "강릉시",
+            "NAME": "강릉동인병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "강릉시",
+            "NAME": "강릉고려병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "강릉시",
+            "NAME": "강릉의료원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "고성군",
+            "NAME": "고성군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "동해시",
+            "NAME": "동해시보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "동해시",
+            "NAME": "의료법인 동해동인병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "동해시",
+            "NAME": "근로복지공단 동해병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "삼척시",
+            "NAME": "삼척시보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "삼척시",
+            "NAME": "강원도 삼척의료원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "속초시",
+            "NAME": "속초시보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "속초시",
+            "NAME": "강원도속초의료원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "속초시",
+            "NAME": "속초보광병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "양구군",
+            "NAME": "양구군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "양구군",
+            "NAME": "양구성심병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "양양군",
+            "NAME": "양양군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "영월군",
+            "NAME": "영월군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "영월군",
+            "NAME": "영월의료원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "원주시",
+            "NAME": "원주시보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "원주시",
+            "NAME": "연세대학교 원주세브란스기독병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "원주시",
+            "NAME": "원주의료원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "인제군",
+            "NAME": "인제군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "정선군",
+            "NAME": "정선군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "정선군",
+            "NAME": "근로복지공단정선병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "정선군",
+            "NAME": "정선군립병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "철원군",
+            "NAME": "철원군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "철원군",
+            "NAME": "철원병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "춘천시",
+            "NAME": "춘천시보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "춘천시",
+            "NAME": "강원대학교병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "춘천시",
+            "NAME": "한림대학교춘천성심병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "태백시",
+            "NAME": "태백시보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "태백시",
+            "NAME": "근로복지공단태백병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "홍천군",
+            "NAME": "홍천군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "홍천군",
+            "NAME": "홍천아산병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "횡성군",
+            "NAME": "횡성군보건소"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "횡성군",
+            "NAME": "횡성대성병원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "평창군",
+            "NAME": "평창군보건의료원"
+        },
+        {
+            "AREA": "강원",
+            "DISTRICT": "화천군",
+            "NAME": "화천군보건의료원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "괴산군",
+            "NAME": "괴산군보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "괴산군",
+            "NAME": "괴산성모병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "단양군",
+            "NAME": "단양군보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "단양군",
+            "NAME": "단양군립노인요양병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "보은군",
+            "NAME": "보은군보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "보은군",
+            "NAME": "보은한양병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "영동군",
+            "NAME": "영동군보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "영동군",
+            "NAME": "영동병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "옥천군",
+            "NAME": "옥천군보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "옥천군",
+            "NAME": "옥천성모병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "음성군",
+            "NAME": "음성군보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "음성군",
+            "NAME": "금왕태성병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "제천시",
+            "NAME": "제천시보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "제천시",
+            "NAME": "제천 서울병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "제천시",
+            "NAME": "명지병원(제천)"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "증평군",
+            "NAME": "증평군보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "진천군",
+            "NAME": "진천군보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "진천군",
+            "NAME": "건명의료재단 진천성모병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "청주시상당보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "청주한국병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "청주효성병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "청주시흥덕보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "한마음의료재단하나병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "베스티안병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "청주시서원보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "충청북도 청주의료원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "충주시",
+            "NAME": "충주시보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "충주시",
+            "NAME": "건국대학교충주병원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "충주시",
+            "NAME": "충주의료원"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "청주시청원보건소"
+        },
+        {
+            "AREA": "충북",
+            "DISTRICT": "청주시",
+            "NAME": "청주성모병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "계룡시",
+            "NAME": "계룡시보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "공주시",
+            "NAME": "공주시보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "공주시",
+            "NAME": "공주의료원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "금산군",
+            "NAME": "금산군보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "논산시",
+            "NAME": "논산시보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "논산시",
+            "NAME": "의료법인백제병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "당진시",
+            "NAME": "당진시보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "당진시",
+            "NAME": "당진종합병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "보령시",
+            "NAME": "보령시보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "보령시",
+            "NAME": "보령아산병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "부여군",
+            "NAME": "부여군보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "부여군",
+            "NAME": "건양대학교 부여병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "부여군",
+            "NAME": "성요셉연합의원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "서산시",
+            "NAME": "서산시보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "서산시",
+            "NAME": "충청남도서산의료원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "서천군",
+            "NAME": "서천군보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "서천군",
+            "NAME": "서해병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "아산시",
+            "NAME": "아산시보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "아산시",
+            "NAME": "아산충무병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "아산시",
+            "NAME": "현대병원"
+        },
+        {
+            "AREA": "세종",
+            "DISTRICT": "세종특별자치시",
+            "NAME": "세종특별자치시보건소"
+        },
+        {
+            "AREA": "세종",
+            "DISTRICT": "세종특별자치시",
+            "NAME": "세종 충남대학교병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "예산군",
+            "NAME": "예산군보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "예산군",
+            "NAME": "예산종합병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "천안시",
+            "NAME": "천안시서북구보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "천안시",
+            "NAME": "의료법인 영서의료재단 천안충무병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "천안시",
+            "NAME": "학교법인동은학원 순천향대학교부속천안병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "천안시",
+            "NAME": "충청남도천안의료원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "천안시",
+            "NAME": "단국대학교의과대학부속병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "천안시",
+            "NAME": "천안우리병원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "천안시",
+            "NAME": "천안시동남구보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "홍성군",
+            "NAME": "홍성군보건소"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "홍성군",
+            "NAME": "홍성의료원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "청양군",
+            "NAME": "청양군보건의료원"
+        },
+        {
+            "AREA": "충남",
+            "DISTRICT": "태안군",
+            "NAME": "태안군보건의료원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "고창군",
+            "NAME": "고창군보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "고창군",
+            "NAME": "고창병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "군산시",
+            "NAME": "군산시보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "군산시",
+            "NAME": "군산의료원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "군산시",
+            "NAME": "동군산병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "김제시",
+            "NAME": "김제시보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "남원시",
+            "NAME": "남원시보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "남원시",
+            "NAME": "남원의료원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "부안군",
+            "NAME": "부안군보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "부안군",
+            "NAME": "부안성모병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "완주군",
+            "NAME": "완주군보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "익산시",
+            "NAME": "익산시보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "익산시",
+            "NAME": "원광대학교병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "익산시",
+            "NAME": "익산병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "전주시",
+            "NAME": "대자인병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "전주시",
+            "NAME": "전주병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "전주시",
+            "NAME": "호성전주병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "전주시",
+            "NAME": "덕진선별진료소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "전주시",
+            "NAME": "화산선별진료소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "정읍시",
+            "NAME": "정읍시보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "정읍시",
+            "NAME": "정읍아산병원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "진안군",
+            "NAME": "진안군보건소"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "진안군",
+            "NAME": "진안군의료원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "무주군",
+            "NAME": "무주군보건의료원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "순창군",
+            "NAME": "순창군보건의료원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "임실군",
+            "NAME": "임실군보건의료원"
+        },
+        {
+            "AREA": "전북",
+            "DISTRICT": "장수군",
+            "NAME": "장수군보건의료원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "강진군",
+            "NAME": "강진군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "강진군",
+            "NAME": "강진의료원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "고흥군",
+            "NAME": "고흥군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "고흥군",
+            "NAME": "고흥종합병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "고흥군",
+            "NAME": "녹동현대병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "광양시",
+            "NAME": "광양시보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "광양시",
+            "NAME": "광양사랑병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "나주시",
+            "NAME": "나주시보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "나주시",
+            "NAME": "나주종합병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "담양군",
+            "NAME": "담양군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "담양군",
+            "NAME": "담양 사랑병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "목포시",
+            "NAME": "목포시보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "목포시",
+            "NAME": "목포한국병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "목포시",
+            "NAME": "목포기독병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "목포시",
+            "NAME": "목포중앙병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "목포시",
+            "NAME": "목포시의료원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "목포시",
+            "NAME": "세안종합병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "목포시",
+            "NAME": "전남중앙병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "무안군",
+            "NAME": "무안군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "무안군",
+            "NAME": "대송의료재단 무안병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "보성군",
+            "NAME": "보성군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "보성군",
+            "NAME": "보성아산병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "보성군",
+            "NAME": "벌교삼호병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "순천시",
+            "NAME": "순천시보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "순천시",
+            "NAME": "순천 성가롤로병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "순천시",
+            "NAME": "순천의료원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "순천시",
+            "NAME": "순천병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "신안군",
+            "NAME": "신안군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "여수시",
+            "NAME": "여수시보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "여수시",
+            "NAME": "여천전남병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "여수시",
+            "NAME": "여수전남병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "여수시",
+            "NAME": "여수한국병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "여수시",
+            "NAME": "여수제일병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "영광군",
+            "NAME": "영광군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "영광군",
+            "NAME": "영광종합병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "영광군",
+            "NAME": "영광기독병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "영암군",
+            "NAME": "영암군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "장흥군",
+            "NAME": "장흥군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "장흥군",
+            "NAME": "장흥종합병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "진도군",
+            "NAME": "진도군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "진도군",
+            "NAME": "진도한국병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "함평군",
+            "NAME": "함평군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "함평군",
+            "NAME": "함평성심병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "해남군",
+            "NAME": "해남군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "해남군",
+            "NAME": "해남종합병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "해남군",
+            "NAME": "해남우리종합병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "화순군",
+            "NAME": "화순군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "화순군",
+            "NAME": "전남화순대학교병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "화순군",
+            "NAME": "화순성심병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "곡성군",
+            "NAME": "곡성군보건의료원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "곡성군",
+            "NAME": "곡성사랑병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "구례군",
+            "NAME": "구례군보건의료원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "구례군",
+            "NAME": "구례병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "완도군",
+            "NAME": "완도군보건의료원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "완도군",
+            "NAME": "대성병원"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "장성군",
+            "NAME": "장성군보건소"
+        },
+        {
+            "AREA": "전남",
+            "DISTRICT": "장성군",
+            "NAME": "장성병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "경산시",
+            "NAME": "경산시보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "경산시",
+            "NAME": "경산중앙병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "경산시",
+            "NAME": "세명병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "경주시",
+            "NAME": "경주시보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "경주시",
+            "NAME": "동국대 경주병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "고령군",
+            "NAME": "고령군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "고령군",
+            "NAME": "고령영생병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "구미시",
+            "NAME": "구미보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "구미시",
+            "NAME": "순천향대학교구미병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "구미시",
+            "NAME": "구미차병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "구미시",
+            "NAME": "구미강동병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "군위군",
+            "NAME": "군위군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "김천시",
+            "NAME": "김천시보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "김천시",
+            "NAME": "김천제일병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "김천시",
+            "NAME": "김천의료원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "문경시",
+            "NAME": "문경시보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "문경시",
+            "NAME": "문경제일병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "문경시",
+            "NAME": "문경중앙병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "봉화군",
+            "NAME": "봉화군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "봉화군",
+            "NAME": "봉화해성병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "상주시",
+            "NAME": "상주시보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "상주시",
+            "NAME": "상주적십자병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "상주시",
+            "NAME": "상주성모병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "구미시",
+            "NAME": "구미시선산보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "성주군",
+            "NAME": "성주군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "안동시",
+            "NAME": "안동시보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "안동시",
+            "NAME": "안동병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "안동시",
+            "NAME": "안동성소병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "안동시",
+            "NAME": "경상북도안동의료원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "영덕군",
+            "NAME": "영덕군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "영덕군",
+            "NAME": "영덕아산병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "영양군",
+            "NAME": "영양군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "영주시",
+            "NAME": "영주시보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "영주시",
+            "NAME": "영주적십자병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "영천시",
+            "NAME": "영천시보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "영천시",
+            "NAME": "영남대학교 영천병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "예천군",
+            "NAME": "예천군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "예천군",
+            "NAME": "예천권병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "의성군",
+            "NAME": "의성군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "의성군",
+            "NAME": "공생병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "청도군",
+            "NAME": "청도군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "칠곡군",
+            "NAME": "칠곡군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "포항시",
+            "NAME": "포항시남구보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "포항시",
+            "NAME": "세명기독병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "포항시",
+            "NAME": "포항성모병원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "포항시",
+            "NAME": "포항시북구보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "포항시",
+            "NAME": "포항의료원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "울릉군",
+            "NAME": "울릉군보건의료원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "울진군",
+            "NAME": "울진군보건소"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "청송군",
+            "NAME": "청송군보건의료원"
+        },
+        {
+            "AREA": "경북",
+            "DISTRICT": "청송군",
+            "NAME": "경북북부제2교도소 부속의원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "거제시",
+            "NAME": "거제시보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "거제시",
+            "NAME": "거붕백병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "거제시",
+            "NAME": "대우병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "거제시",
+            "NAME": "맑은샘병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "거창군",
+            "NAME": "거창군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "거창군",
+            "NAME": "거창적십자병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "고성군",
+            "NAME": "고성군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "김해시",
+            "NAME": "김해시보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "김해시",
+            "NAME": "김해중앙병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "김해시",
+            "NAME": "갑을장유병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "김해시",
+            "NAME": "조은금강병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "남해군",
+            "NAME": "남해군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "남해군",
+            "NAME": "이도의료재단 남해병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "창원시 마산보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "삼성창원병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "경상남도마산의료원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "SMG연세병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "밀양시",
+            "NAME": "밀양시보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "밀양시",
+            "NAME": "밀양윤병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "사천시",
+            "NAME": "사천시보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "사천시",
+            "NAME": "의료법인승연의료재단 삼천포서울병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "사천시",
+            "NAME": "삼천포제일병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "양산시",
+            "NAME": "양산시보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "양산시",
+            "NAME": "베데스다병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "양산시",
+            "NAME": "양산부산대학교병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "양산시",
+            "NAME": "웅상중앙병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "의령군",
+            "NAME": "의령군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "의령군",
+            "NAME": "의령병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "진주시",
+            "NAME": "진주시보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "진주시",
+            "NAME": "제일병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "진주시",
+            "NAME": "고려병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "진주시",
+            "NAME": "반도병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "진주시",
+            "NAME": "진주복음병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "진주시",
+            "NAME": "진주세란병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "진주시",
+            "NAME": "경상국립대학교병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "진주시",
+            "NAME": "한일병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "창원시 진해보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "연세에스병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "세광병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창녕군",
+            "NAME": "창녕군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창녕군",
+            "NAME": "태황의료재단한성병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "창원시 창원보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "창원경상국립대학교병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "창원파티마병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "창원시",
+            "NAME": "창원한마음병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "통영시",
+            "NAME": "통영시보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "통영시",
+            "NAME": "통영적십자병원 "
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "하동군",
+            "NAME": "하동군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "하동군",
+            "NAME": "새하동병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "함안군",
+            "NAME": "함안군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "함안군",
+            "NAME": "영동병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "함안군",
+            "NAME": "아라한국병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "함양군",
+            "NAME": "함양군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "함양군",
+            "NAME": "함양성심병원"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "합천군",
+            "NAME": "합천군보건소"
+        },
+        {
+            "AREA": "경남",
+            "DISTRICT": "산청군",
+            "NAME": "산청군보건의료원"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "서귀포시",
+            "NAME": "서귀포시(서귀포보건소)"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "서귀포시",
+            "NAME": "서귀포열린병원"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "서귀포시",
+            "NAME": "서귀포의료원"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "서귀포시",
+            "NAME": "서귀포시(동부보건소)"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "서귀포시",
+            "NAME": "서귀포시(서부보건소)"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "제주시",
+            "NAME": "제주시제주보건소"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "제주시",
+            "NAME": "제주대학교병원"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "제주시",
+            "NAME": "제주한라병원"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "제주시",
+            "NAME": "한마음병원"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "제주시",
+            "NAME": "한국병원"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "제주시",
+            "NAME": "중앙병원"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "제주시",
+            "NAME": "제주시(동부보건소)"
+        },
+        {
+            "AREA": "제주",
+            "DISTRICT": "제주시",
+            "NAME": "제주시(서부보건소)"
+        }
+    ]
+}
