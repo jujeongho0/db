@@ -27,20 +27,20 @@ const fs = require("fs");
 // VALUES('${v.DATE}','${v.AREA}','${v.DISTRICT}',${v.CONFIRMED});`).join('\n');
 // // console.log(district_result);
 
-// DISTRCT TABLE
-const District_jsonFile = fs.readFileSync(
-  "../크롤링 데이터/DISTRICT_FINAL.json",
-  "utf8"
-);
-// console.log(District_jsonFile);
-const District_jsonData = JSON.parse(District_jsonFile.toString().trim());
-// console.log(District_jsonData);
-const district_final_result = District_jsonData.DISTRICT.map(
-  (
-    v
-  ) => `INSERT INTO district(update_date, area_name, district, district_confirmed)
-VALUES('${v.DATE}','${v.AREA}','${v.DISTRICT}',${v.CONFIRMED});`
-).join("\n");
+// // DISTRCT TABLE
+// const District_jsonFile = fs.readFileSync(
+//   "../크롤링 데이터/DISTRICT_FINAL.json",
+//   "utf8"
+// );
+// // console.log(District_jsonFile);
+// const District_jsonData = JSON.parse(District_jsonFile.toString().trim());
+// // console.log(District_jsonData);
+// const district_final_result = District_jsonData.DISTRICT.map(
+//   (
+//     v
+//   ) => `INSERT INTO district(update_date, area_name, district, district_confirmed)
+// VALUES('${v.DATE}','${v.AREA}','${v.DISTRICT}',${v.CONFIRMED});`
+// ).join("\n");
 // console.log(district_result);
 
 // // VACCINE TABLE
@@ -61,7 +61,16 @@ VALUES('${v.DATE}','${v.AREA}','${v.DISTRICT}',${v.CONFIRMED});`
 // VALUES('${v.DIST_LEVEL}','${v.DIST_INFO}','${v.STANDARD}',${v.GATHERING});`).join('\n');
 // // console.log(social_dist_result);
 
+// HOSPITAL TABLE
+const Hospital_jsonFile = fs.readFileSync('../크롤링 데이터/Hospital.json', 'utf8');
+// console.log(Hospital_jsonFile);
+const Hospital_jsonData = JSON.parse(Hospital_jsonFile.toString().trim());
+// console.log(Social_Dist_jsonData);
+const hospital_result = Hospital_jsonData.HOSPITAL.map(v => `INSERT INTO hospital(hospital_area, hospital_district, hospital_name)
+VALUES('${v.AREA}','${v.DISTRICT}','${v.NAME}');`).join('\n');
+// console.log(social_dist_result);
+
 // // Fianl_DATA
 // final_result = daily_result + '\n' + area_result + '\n' + district_result + '\n' + vaccine_result + '\n' + social_dist_result;
 
-fs.writeFileSync("result.txt", district_final_result, { encoding: "utf8" });
+fs.writeFileSync("hospital.txt", hospital_result, { encoding: "utf8" });
