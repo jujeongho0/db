@@ -91,6 +91,7 @@ function UserPage() {
                 {userInfo.user_area} {userInfo.user_district}
               </p>
             </div>
+
             <div className="info" style={{ fontSize: "1.2rem" }}>
               오늘 {userInfo.user_area} 확진자 수 {userInfo.user_area_confirmed}
               명

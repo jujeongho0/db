@@ -15,7 +15,6 @@ const StyleLogin = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-top: 300px;
   h1 {
     font-size: 2rem;
@@ -57,11 +56,17 @@ function LoginPage() {
             .format(dateFormat),
         },
       });
+      const nearHospital = await axios.get("/api/user/nearHospital", {
+        params: {
+          rrn: RRN,
+        },
+      });
 
       setLogin({
         ...response.data.result,
         ...todayArea.data,
         ...todayDistrict.data,
+        ...nearHospital.data,
       });
     }
   };

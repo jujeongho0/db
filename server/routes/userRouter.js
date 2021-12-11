@@ -9,9 +9,31 @@ router.patch("/state", modifyUserState); //유저 상태 변화
 router.patch("/boost", modifyUserBoost); //부스터샷 변화
 router.post("/login", login);
 router.delete("/withdrawal", withdrawal);
-
+router.get("/nearHospital", nearHospital);
 router.get("/todayDistrictInfo", todayDistrictInfo);
 router.get("/todayAreaInfo", todayAreaInfo);
+
+function nearHospital(req, res, next) {
+  const rrn = req.query.rrn;
+  pool.getConnection(function (err, conn) {
+    if (err) {
+      err.code = 500;
+      return next(err);
+    }
+    let sql;
+    sql =
+      "SELECT hospital_name FROM user INNER JOIN hospital ON user_district = hospital_district AND hospital_area = user_area";
+    conn.query(sql, rrn, function (err, result) {
+      if (err) {
+        err.code = 500;
+        return next(err);
+      }
+      res.json({
+        ...result[0],
+      });
+    });
+  });
+}
 
 function todayAreaInfo(req, res, next) {
   const rrn = req.query.rrn;
