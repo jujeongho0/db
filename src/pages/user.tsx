@@ -23,7 +23,7 @@ const StyleUser = styled.div`
     position: relative;
     margin-top: 50px;
     width: 400px;
-    height: 650px;
+    height: 680px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
