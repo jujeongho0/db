@@ -1,0 +1,28 @@
+﻿{
+    "SOCIAL_DIST": [
+        {
+            "DIST_LEVEL": 4,
+            "DIST_INFO": "대유행(외출 금지)",
+            "STANDARD": "인구 10만명당 4명 이상",
+            "GATHERING": 4
+        },
+        {
+            "DIST_LEVEL": 3,
+            "DIST_INFO": "권역 유행(모임 금지)",
+            "STANDARD": "인구 10만명당 2명 이상",
+            "GATHERING": 4
+        },
+        {
+            "DIST_LEVEL": 2,
+            "DIST_INFO": "지역 유행(인원 제한)",
+            "STANDARD": "인구 10만명당 1명 이상",
+            "GATHERING": 8
+        },
+        {
+            "DIST_LEVEL": 1,
+            "DIST_INFO": "지속적 억제상태 유지",
+            "STANDARD": "인구 10만명당 1명 미만",
+            "GATHERING": null
+        }
+    ]
+}
