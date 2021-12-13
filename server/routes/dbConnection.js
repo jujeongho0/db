@@ -66,7 +66,7 @@ pool.getConnection(function (err, conn) {
                   io.emit("realtime", {
                     area: result[0].today_area,
                     district: result[0].today_district,
-                    num: sql.num - result[0].today_confirmed,
+                    num: result[0].today_confirmed - sql.num,
                   });
                 }
                 conn.query(sql.update);
@@ -81,7 +81,7 @@ pool.getConnection(function (err, conn) {
     } catch (e) {
       console.log(e);
     }
-  }, 60000);
+  }, 5000);
 }); //node dbConnection.js로 확인
 
 module.exports = pool;
