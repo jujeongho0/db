@@ -5,8 +5,8 @@ const pool = require("./dbConnection");
 
 router.post("/addUser", addUser); //정보 등록
 router.put("/infoEdit", modifyUser); //정보 전체 수정
-router.patch("/state", modifyUserState); //유저 상태 변화
-router.patch("/boost", modifyUserBoost); //부스터샷 변화
+router.patch("/userVaccine", modifyUserVacc); //회원 백신 접종 정보 변경(user)
+// router.patch("/boost", modifyUserBoost); 
 router.post("/login", login);
 router.delete("/withdrawal", withdrawal);
 router.get("/nearHospital", nearHospital);
@@ -183,10 +183,10 @@ function modifyUser(req, res, next) {
   const sex = req.body.sex;
   const area = req.body.area;
   const vacc_name = req.body.vacc_name;
-  const vacc_boost_name = req.body.vacc_boost_name;
+  //const vacc_boost_name = req.body.vacc_boost_name;
   const vaccinated = req.body.vaccinated;
   const vaccinated_date = req.body.vaccinated_date;
-  const state = req.body.state;
+  //const state = req.body.state;
 
   const info = {};
   if (name) {
@@ -204,18 +204,18 @@ function modifyUser(req, res, next) {
   if (vacc_name) {
     info.user_vacc_name = vacc_name;
   }
-  if (vacc_boost_name) {
-    info.user_vacc_boost_name = vacc_boost_name;
-  }
+  // if (vacc_boost_name) {
+  //   info.user_vacc_boost_name = vacc_boost_name;
+  // }
   if (vaccinated) {
     info.user_vaccinated = vaccinated;
   }
   if (vaccinated_date) {
     info.user_vaccinated_date = vaccinated_date;
   }
-  if (state) {
-    info.user_state = state;
-  }
+  // if (state) {
+  //   info.user_state = state;
+  // }
 
   pool.getConnection(function (err, conn) {
     if (err) {
@@ -235,20 +235,24 @@ function modifyUser(req, res, next) {
   });
 }
 
-//유저 상태 변화
-function modifyUserState(req, res, next) {
+//회원 백신 접종 정보 변경(user)
+function  modifyUserVacc(req, res, next) {
   const id = req.body.id;
-  const state = req.body.state;
+  const v_name = req.body.user_vacc_name;
+  const v_step = req.body.user_vaccinated; 
+  const v_date = req.body.user_vaccinated_date;
+ 
+  
 
   const info = {
-    user_state: state,
+    user_vacc_name: v_name ,
+    user_vaccinated: v_step,
+    user_vaccinated_date: v_date,
   };
 
   pool.getConnection(function (err, conn) {
-    if (err) {
-      err.code = 500;
-      return next(err);
-    }
+    if (err) { err.code = 500; return next(err); }
+    
     const sql = "UPDATE user SET ? WHERE user_rrn = ?";
     conn.query(sql, [info, id], function (err, results) {
       if (err) {
@@ -257,34 +261,34 @@ function modifyUserState(req, res, next) {
       }
       res.json({ msg: "success" });
     });
-    //const sql2 = 'UPDATE realtime SET ? WHERE area = ?';
   });
 }
+
 
 //부스터샷 변화
-function modifyUserBoost(req, res, next) {
-  const id = req.body.id;
-  const boost = req.body.boost;
+// function modifyUserBoost(req, res, next) {
+//   const id = req.body.id;
+//   const boost = req.body.boost;
 
-  const info = {
-    user_vacc_boost_name: boost,
-  };
+//   const info = {
+//     user_vacc_boost_name: boost,
+//   };
 
-  pool.getConnection(function (err, conn) {
-    if (err) {
-      err.code = 500;
-      return next(err);
-    }
-    const sql = "UPDATE user SET ? WHERE user_rrn = ?";
-    conn.query(sql, [info, id], function (err) {
-      if (err) {
-        err.code = 500;
-        return next(err);
-      }
-      res.send({ msg: "success" });
-      conn.release();
-    });
-  });
-}
+//   pool.getConnection(function (err, conn) {
+//     if (err) {
+//       err.code = 500;
+//       return next(err);
+//     }
+//     const sql = "UPDATE user SET ? WHERE user_rrn = ?";
+//     conn.query(sql, [info, id], function (err) {
+//       if (err) {
+//         err.code = 500;
+//         return next(err);
+//       }
+//       res.send({ msg: "success" });
+//       conn.release();
+//     });
+//   });
+// }
 
 module.exports = router;
