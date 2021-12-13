@@ -81,7 +81,7 @@ pool.getConnection(function (err, conn) {
     } catch (e) {
       console.log(e);
     }
-  }, 5000);
+  }, 60000);
 }); //node dbConnection.js로 확인
 
 module.exports = pool;
