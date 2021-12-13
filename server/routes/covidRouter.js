@@ -96,7 +96,7 @@ function covidDistrict_list(req, res, next) {
     let sql;
     if (end_date == undefined || start_date == end_date)
       sql = mysql.format(
-        "SELECT district, district_confirmed FROM district WHERE update_date = ? AND area_name = ?",
+        "SELECT district, district_confirmed FROM district WHERE update_date = ? AND area_name = ? ORDER BY district_confirmed DESC",
         [start_date, area]
       );
     else {
