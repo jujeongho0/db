@@ -1,0 +1,136 @@
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-01','아스트라제네카',11132475,11046493, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-01','얀센',1501846,null, 14909);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-01','화이자',23297727,22208617, 2593185);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-01','모더나',6701254,6413919, 791965);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-02','아스트라제네카',11132487,11047449, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-02','얀센',1502013,null, 15335);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-02','화이자',23318604,22261709, 2742376);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-02','모더나',6703133,6420970, 825942);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-03','아스트라제네카',11132494,11048573, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-03','얀센',1502324,null, 15917);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-03','화이자',23349269,22338611, 2964181);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-03','모더나',6706791,6434060, 885721);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-04','아스트라제네카',11132494,11048843, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-04','얀센',1502383,null, 15932);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-04','화이자',23368953,22386031, 3034307);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-04','모더나',6708745,6439575, 912463);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-05','아스트라제네카',11132494,11048858, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-05','얀센',1502415,null, 16062);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-05','화이자',23370451,22387670, 3036728);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-05','모더나',6708964,6439895, 913631);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-06','아스트라제네카',11132501,11049592, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-06','얀센',1502678,null, 16331);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-06','화이자',23417672,22442533, 3249998);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-06','모더나',6714233,6450560, 989368);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-07','아스트라제네카',11132501,11050438, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-07','얀센',1502920,null, 16708);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-07','화이자',23417672,22442533, 3466942);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-07','모더나',6718242,6459858, 1066928);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-08','아스트라제네카',11132501,11051354, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-08','얀센',1503249,null, 17350);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-08','화이자',23494134,22517201, 3681240);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-08','모더나',6722043,6468286, 1157996);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-09','아스트라제네카',11132502,11052241, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-09','얀센',1503589,null, 17831);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-09','화이자',23536476,22562986, 3945515);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-09','모더나',6725224,6476798, 1341276);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-10','아스트라제네카',11132511,11053501, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-10','얀센',1503981,null, 18466);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-10','화이자',23583989,22623551, 4310906);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-10','모더나',6729208,6490080, 1747491);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-11','아스트라제네카',11132511,11053760, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-11','얀센',1504047,null, 18490);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-11','화이자',23608342,22652572, 4439396);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-11','모더나',6731023,6495428, 1898971);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-12','아스트라제네카',11132511,11053772, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-12','얀센',1504047,null, 18490);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-12','화이자',23610250,22653719, 4443983);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-12','모더나',6731225,6495759, 1902896);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-13','아스트라제네카',11132513,11054971, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-13','얀센',1504402,null, 18889);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-13','화이자',23680701,22704045, 4784267);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-13','모더나',6737881,6507208, 2349428);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-14','아스트라제네카',11132513,11056212, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-14','얀센',1504658,null, 19245);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-14','화이자',23731001,22736283, 5135353);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-14','모더나',6742952,6517628, 2803848);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-15','아스트라제네카',11132516,11057459, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-15','얀센',1505000,null, 19807);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-15','화이자',23813643,22783535, 5599151);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-15','모더나',6746396,6525542, 3247940);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-16','아스트라제네카',11132616,11057559, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-16','얀센',1506000,null, 20807);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-16','화이자',23823643,22793535, 5609151);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-16','모더나',6756396,6535542, 3257940);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-17','아스트라제네카',11132716,11057659, null);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-17','얀센',1507000,null, 21807);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-17','화이자',23833643,22803535, 5620151);
+INSERT INTO vaccine(update_date, vacc_name, vacc_once, vacc_fully, vacc_boost)
+VALUES('2021-12-17','모더나',6766396,6545542, 3267940);

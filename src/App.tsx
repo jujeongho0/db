@@ -26,7 +26,7 @@ import moment from "moment";
 const socket = io("/", {
   path: "/api/socket.io/",
 }).connect();
-export const todayStr = "2021-11-30";
+export const todayStr = "2021-12-17";
 export const dateFormat = "YYYY-MM-DD";
 
 const { Header, Content, Footer } = Layout;

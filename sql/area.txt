@@ -1,0 +1,578 @@
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','서울',1542,10,93,60,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','부산',917,74,20,99,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','대구',487,89,39,26,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','인천',486,-79,70,65,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','광주',241,-87,64,92,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','대전',221,36,63,90,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','울산',295,-83,55,30,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','세종',98,-54,62,17,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','경기',1749,-97,62,22,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','강원',756,-99,51,84,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','충북',558,86,43,25,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','충남',823,86,75,49,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','전북',694,6,94,52,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','전남',1189,41,36,5,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','경북',1072,3,34,4,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','경남',674,-100,6,66,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-01','제주',86,-34,17,81,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','서울',1079,-75,5,41,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','부산',794,53,86,67,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','대구',470,-42,94,27,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','인천',402,-38,39,72,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','광주',242,22,10,61,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','대전',350,67,56,78,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','울산',265,1,25,27,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','세종',85,83,19,75,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','경기',1393,14,85,84,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','강원',930,13,74,36,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','충북',666,-84,30,21,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','충남',773,35,84,21,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','전북',744,6,84,83,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','전남',1127,-11,29,96,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','경북',1097,-36,36,9,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','경남',874,-49,25,19,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-02','제주',41,-3,44,72,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','서울',1375,-95,42,23,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','부산',835,97,89,34,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','대구',339,64,3,30,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','인천',390,-59,89,1,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','광주',219,76,84,45,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','대전',207,64,90,7,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','울산',238,90,6,33,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','세종',99,97,15,74,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','경기',1737,-79,37,90,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','강원',869,-10,47,24,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','충북',586,-68,11,96,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','충남',722,-53,24,15,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','전북',756,36,15,99,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','전남',1055,-16,76,36,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','경북',1007,6,68,49,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','경남',965,-95,35,29,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-03','제주',63,-35,66,85,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','서울',1038,-95,27,88,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','부산',737,3,21,32,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','대구',507,74,77,31,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','인천',415,89,25,82,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','광주',242,-71,1,44,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','대전',185,-59,28,95,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','울산',179,-48,49,97,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','세종',47,-97,49,67,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','경기',1570,0,97,3,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','강원',933,50,27,79,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','충북',546,3,67,54,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','충남',769,19,98,75,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','전북',543,-85,46,25,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','전남',1261,-31,13,18,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','경북',1332,-43,73,5,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','경남',811,-71,34,70,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-04','제주',95,34,19,19,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','서울',1193,59,68,85,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','부산',656,95,67,62,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','대구',565,-25,11,46,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','인천',477,63,10,76,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','광주',286,35,10,79,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','대전',257,-58,89,69,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','울산',155,-18,90,45,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','세종',36,68,89,30,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','경기',1617,19,87,94,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','강원',994,-44,11,92,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','충북',390,96,26,11,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','충남',901,-62,98,65,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','전북',674,-14,95,37,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','전남',1178,46,47,23,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','경북',1107,68,39,71,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','경남',1039,-25,57,78,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-05','제주',11,-18,18,47,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','서울',1087,37,35,33,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','부산',724,66,6,28,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','대구',328,30,7,82,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','인천',479,84,17,82,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','광주',297,-13,17,30,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','대전',178,86,3,55,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','울산',302,28,56,38,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','세종',22,-14,50,89,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','경기',1253,42,95,33,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','강원',927,43,31,58,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','충북',392,28,87,29,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','충남',777,39,92,9,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','전북',752,-91,38,19,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','전남',1129,-92,43,48,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','경북',1136,44,64,34,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','경남',1052,-31,0,17,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-06','제주',71,86,94,18,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','서울',1458,22,50,53,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','부산',835,39,31,40,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','대구',330,-53,15,66,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','인천',584,15,60,82,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','광주',267,-4,27,47,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','대전',122,76,69,73,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','울산',268,-83,88,58,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','세종',0,25,29,70,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','경기',1754,68,20,11,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','강원',779,-98,19,19,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','충북',549,82,61,77,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','충남',747,-96,96,62,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','전북',941,-51,73,40,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','전남',1090,-11,31,77,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','경북',1139,87,32,17,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','경남',778,-84,30,85,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-07','제주',3,55,6,9,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','서울',1104,-92,2,84,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','부산',857,-100,8,91,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','대구',377,27,77,1,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','인천',483,-42,91,4,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','광주',197,23,75,27,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','대전',267,25,75,68,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','울산',89,96,51,3,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','세종',77,-41,19,90,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','경기',1690,-8,31,25,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','강원',1120,53,49,56,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','충북',603,36,59,36,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','충남',619,-48,42,65,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','전북',566,-67,7,32,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','전남',1412,-20,9,51,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','경북',1195,-39,33,51,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','경남',571,-99,97,5,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-08','제주',86,47,30,71,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','서울',1035,-72,47,67,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','부산',827,-69,78,49,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','대구',321,26,95,6,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','인천',631,98,58,85,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','광주',181,39,27,50,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','대전',201,16,39,81,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','울산',192,-50,25,15,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','세종',42,-3,59,92,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','경기',1300,-64,55,62,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','강원',843,63,7,42,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','충북',431,17,9,58,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','충남',682,11,82,60,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','전북',676,94,60,31,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','전남',941,-72,58,17,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','경북',1085,-96,72,56,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','경남',826,16,77,60,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-09','제주',76,-67,96,86,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','서울',1281,60,94,81,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','부산',969,38,40,5,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','대구',233,-44,42,41,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','인천',786,55,28,0,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','광주',305,1,0,92,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','대전',58,57,33,36,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','울산',216,2,39,5,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','세종',55,11,46,16,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','경기',1611,88,48,35,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','강원',747,-1,97,55,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','충북',523,12,34,91,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','충남',677,-15,89,70,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','전북',754,-98,55,9,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','전남',789,-61,55,0,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','경북',1377,21,2,24,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','경남',890,-41,35,87,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-10','제주',8,50,94,19,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','서울',1275,-41,50,32,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','부산',819,-33,80,74,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','대구',458,35,27,49,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','인천',450,58,97,21,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','광주',266,-36,50,33,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','대전',199,-2,9,7,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','울산',191,14,88,46,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','세종',43,-24,69,84,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','경기',1576,64,38,59,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','강원',952,34,51,66,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','충북',338,91,99,57,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','충남',641,-49,3,79,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','전북',372,-17,4,60,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','전남',985,72,57,13,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','경북',1117,-24,51,48,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','경남',1006,-88,47,20,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-11','제주',83,-66,24,5,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','서울',1298,-51,68,5,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','부산',701,58,27,85,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','대구',452,22,94,52,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','인천',479,14,93,29,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','광주',211,-94,40,14,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','대전',267,-10,76,57,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','울산',136,97,66,71,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','세종',20,-80,82,97,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','경기',1610,-100,16,63,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','강원',975,8,66,68,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','충북',466,90,63,53,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','충남',660,79,53,76,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','전북',632,6,22,20,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','전남',1062,-64,53,46,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','경북',1396,50,96,2,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','경남',1113,70,30,59,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-12','제주',39,-32,67,14,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','서울',1116,-57,97,20,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','부산',889,40,24,53,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','대구',451,36,51,78,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','인천',524,-82,24,94,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','광주',234,-5,73,35,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','대전',354,7,18,74,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','울산',174,52,97,18,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','세종',44,-65,58,47,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','경기',1567,82,90,75,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','강원',1091,-80,53,68,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','충북',657,-45,80,43,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','충남',756,-47,69,49,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','전북',579,1,84,29,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','전남',1481,-46,81,87,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','경북',1219,-61,8,86,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','경남',961,-85,97,67,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-13','제주',85,-37,27,21,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','서울',1223,-83,59,22,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','부산',713,23,24,15,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','대구',316,-36,8,83,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','인천',468,82,18,91,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','광주',153,33,74,3,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','대전',141,66,93,47,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','울산',254,45,63,19,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','세종',64,-48,60,94,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','경기',1543,-99,49,34,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','강원',1041,-100,32,37,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','충북',757,-1,61,21,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','충남',776,-51,76,23,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','전북',774,40,80,69,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','전남',973,44,52,56,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','경북',1317,-91,97,38,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','경남',929,32,51,66,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-14','제주',0,66,62,2,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','서울',1382,-24,50,25,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','부산',696,95,28,72,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','대구',373,-68,56,74,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','인천',460,-16,43,85,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','광주',246,-98,79,80,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','대전',123,-56,66,83,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','울산',250,62,77,32,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','세종',54,71,85,4,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','경기',1560,15,86,72,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','강원',765,29,16,58,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','충북',449,13,55,97,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','충남',940,-63,90,23,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','전북',592,89,53,78,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','전남',1196,39,68,20,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','경북',1548,69,29,4,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','경남',1047,-11,93,11,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-15','제주',30,-94,45,20,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','서울',1314,29,79,68,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','부산',811,-40,51,19,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','대구',298,-21,64,56,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','인천',485,-70,75,29,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','광주',212,38,78,87,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','대전',334,58,47,22,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','울산',352,80,82,97,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','세종',4,-16,70,56,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','경기',1732,-59,42,81,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','강원',1017,-56,94,50,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','충북',483,71,88,37,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','충남',685,64,74,0,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','전북',777,-91,51,18,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','전남',665,-37,25,14,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','경북',1210,-26,10,62,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','경남',823,-62,34,56,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-16','제주',57,14,15,35,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','서울',1091,-28,26,52,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','부산',827,54,38,5,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','대구',411,-28,85,53,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','인천',398,-44,76,84,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','광주',107,-36,30,4,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','대전',326,29,6,52,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','울산',163,41,63,86,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','세종',26,7,64,98,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','경기',1616,-45,74,86,4);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','강원',662,60,29,72,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','충북',695,41,48,84,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','충남',783,33,16,41,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','전북',690,21,74,29,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','전남',879,93,52,11,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','경북',1091,3,12,19,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','경남',1108,-64,92,87,3);
+INSERT INTO area(update_date, area_name, area_confirmed, area_isolated, area_deseased, area_recovered, area_dist_level)
+VALUES('2021-12-17','제주',58,-99,41,88,3);
