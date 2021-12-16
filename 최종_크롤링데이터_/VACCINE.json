@@ -19403,6 +19403,62 @@
             "VACC_ONCE": 6746396,
             "VACC_FULLY": 6525542,
             "VACC_BOOST": 3247940
+        },
+        {
+            "DATE": "2021-12-16",
+            "NAME": "아스트라제네카",
+            "VACC_ONCE": 11132616,
+            "VACC_FULLY": 11057559,
+            "VACC_BOOST": null
+        },
+        {
+            "DATE": "2021-12-16",
+            "NAME": "얀센",
+            "VACC_ONCE": 1506000,
+            "VACC_FULLY": null,
+            "VACC_BOOST": 20807
+        },
+        {
+            "DATE": "2021-12-16",
+            "NAME": "화이자",
+            "VACC_ONCE": 23823643,
+            "VACC_FULLY": 22793535,
+            "VACC_BOOST": 5609151
+        },
+        {
+            "DATE": "2021-12-16",
+            "NAME": "모더나",
+            "VACC_ONCE": 6756396,
+            "VACC_FULLY": 6535542,
+            "VACC_BOOST": 3257940
+        },
+        {
+            "DATE": "2021-12-17",
+            "NAME": "아스트라제네카",
+            "VACC_ONCE": 11132716,
+            "VACC_FULLY": 11057659,
+            "VACC_BOOST": null
+        },
+        {
+            "DATE": "2021-12-17",
+            "NAME": "얀센",
+            "VACC_ONCE": 1507000,
+            "VACC_FULLY": null,
+            "VACC_BOOST": 21807
+        },
+        {
+            "DATE": "2021-12-17",
+            "NAME": "화이자",
+            "VACC_ONCE": 23833643,
+            "VACC_FULLY": 22803535,
+            "VACC_BOOST": 5620151
+        },
+        {
+            "DATE": "2021-12-17",
+            "NAME": "모더나",
+            "VACC_ONCE": 6766396,
+            "VACC_FULLY": 6545542,
+            "VACC_BOOST": 3267940
         }
     ]
 }

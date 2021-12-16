@@ -1,16 +1,16 @@
 import json
 import random
 
-with open('F_area.json', "r", encoding='UTF-8-sig') as json_file:
+with open('FF_area.json', "r", encoding='UTF-8-sig') as json_file:
     area_data = json.load(json_file)
 
 with open('VACCINE.json', "r", encoding='UTF-8-sig') as json_file:
     vaccine_data = json.load(json_file)
 
-with open('DAILY.json', "r", encoding='UTF-8-sig') as json_file:
+with open('F_DAILY.json', "r", encoding='UTF-8-sig') as json_file:
     daily_data = json.load(json_file)
 
-dates = ['2021-12-01','2021-12-02','2021-12-03','2021-12-04','2021-12-05','2021-12-06','2021-12-07','2021-12-08','2021-12-09','2021-12-10','2021-12-11','2021-12-12','2021-12-13','2021-12-14','2021-12-15']
+dates = ['2021-12-16','2021-12-17']
 
 for date in dates:
     confirmed = 0
@@ -45,7 +45,7 @@ for date in dates:
             "VACC_BOOST": vacc_boost
         })
 
-with open('F_daily.json', 'w', encoding='UTF-8-sig') as outfile:
+with open('FF_daily.json', 'w', encoding='UTF-8-sig') as outfile:
     json.dump(daily_data, outfile, indent=4, ensure_ascii=False)
 
 
